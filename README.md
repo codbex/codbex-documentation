@@ -15,7 +15,7 @@ pip3 install mkdocs
 Start a local server
 
 ```
-python3 -m mkdocs serv
+python3 -m mkdocs serve
 ```
 
 ### Docker
