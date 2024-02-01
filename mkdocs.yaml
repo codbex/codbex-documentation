@@ -1,0 +1,112 @@
+site_name: Documentation
+site_url: https://www.codbex.com/
+
+nav:
+  - Home: 
+    - 'index.md'
+    - Getting Started: 'getting-started.md'
+    - FAQ: 'faq.md'
+  - Features:
+    - 'features/index.md'
+    - Coding: 'features/coding.md'
+    - Database: 'features/database.md'
+    - Documents: 'features/documents.md'
+    - Processes: 'features/processes.md'
+    - Integrations: 'features/integrations.md'
+    - Modeling: 'features/modeling.md'
+    - Extensibility: 'features/extensibility.md'
+    - Compatibility: 'features/compatibility.md'
+    - Hacking: 'features/hacking.md'
+  - Technologies:
+    - 'technologies/index.md'
+    - Engines: 
+      - 'technologies/engines/index.md'
+      - JavaScript: 'technologies/engines/javascript.md'
+      - TypeScript: 'technologies/engines/typescript.md'
+      - Python: 'technologies/engines/python.md'
+      - Command: 'technologies/engines/command.md'
+      - Jobs: 'technologies/engines/jobs.md'
+      - Listeners: 'technologies/engines/listeners.md'
+      - Web: 'technologies/engines/web.md'
+      - Wiki: 'technologies/engines/wiki.md'
+      - WebSockets: 'technologies/engines/websockets.md'
+      - Security: 'technologies/engines/security.md'
+      - OpenAPI: 'technologies/engines/openapi.md'
+      - OData: 'technologies/engines/odata.md'
+      - Templates: 'technologies/engines/templates.md'
+      - CMS: 'technologies/engines/cms.md'
+      - BPM: 'technologies/engines/bpm.md'
+      - Integrations: 'technologies/engines/integrations.md'
+      - FTP: 'technologies/engines/ftp.md'
+      - SFTP: 'technologies/engines/sftp.md'
+    - Artefacts: 'technologies/artefacts/index.md'
+    - Languages: 'technologies/languages/index.md'
+    - Templates: 'technologies/templates/index.md'
+    - Widgets: 'technologies/widgets/index.md'
+  - Tooling: 'tooling/index.md'
+  - API: 'api/index.md'
+
+theme:
+  name: material
+  favicon: logo/favicon.png
+  logo: logo/logo.svg
+  palette: 
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+
+extra_css:
+  - stylesheets/custom.css
+  - stylesheets/homepage.css
+  - stylesheets/extra.css
+
+markdown_extensions:
+    - attr_list
+    - pymdownx.snippets
+    - pymdownx.highlight:
+        linenums: false
+    - pymdownx.keys
+    - pymdownx.inlinehilite
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.emoji
+    - meta
+    - footnotes
+    - admonition
+    - pymdownx.details
+
+copyright: Copyright © 2023 codbex ltd
+
+extra:
+  homepage: https://www.codbex.com/
+  analytics:
+    provider: google
+    property: G-QWPZ5B9RH8
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/codbex/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/codbex/
+    - icon: fontawesome/brands/github
+      link: https://github.com/codbex/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCbxnGOhmcDvBIrafDeyCU7Q/videos/
+    - icon: fontawesome/brands/slack
+      link: https://slack.dirigible.io

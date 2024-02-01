@@ -1,0 +1,554 @@
+<!-- Custom HTML site displayed as the Home chapter -->
+
+{% extends "base.html" %}
+{% block tabs %}
+{{ super() }}
+<style>
+    .md-main {
+        flex-grow: 0
+    }
+
+    .md-main__inner {
+        display: flex;
+        height: 100%;
+    }
+
+    .tx-container {
+        padding-top: .0rem;
+        background: conic-gradient(from 225deg at 60% 50%, rgb(255, 255, 255), rgba(0, 0, 0, 0.1), #e5890536, rgb(206, 206, 206, 0.15));
+    }
+
+    .tx-hero {
+        margin: 32px 2.8rem;
+        justify-content: center;
+    }
+
+    .tx-hero h1 {
+        margin-bottom: 1rem;
+        font-weight: 700
+    }
+
+    .tx-hero__content {
+        padding-bottom: 1rem;
+        margin: 0 auto;
+    }
+
+    .tx-hero__image {
+        width: 30rem;
+        order: 1;
+    }
+
+    .tx-hero__image-features {
+        width: 32rem;
+        height: 18rem;
+    }
+
+    .tx-hero__image-features-reverse {
+        width: 32rem;
+        height: 18rem;
+        order: 0;
+    }
+
+    .tx-hero .md-button {
+        margin-top: .5rem;
+        margin-right: .5rem;
+    }
+
+    .feature-item h2 svg {
+        height: 30px;
+        float: left;
+        margin-right: 10px;
+        transform: translateY(10%);
+    }
+
+    .top-hr {
+        margin-top: 42px;
+    }
+
+    .feature-item {
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        box-sizing: border-box;
+        padding: 0 15px;
+        word-break: break-word
+    }
+
+    .feature-item h2 {
+        font-weight: 300;
+        font-size: 25px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: normal;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: inherit;
+    }
+
+    .feature-item p {
+        font-size: 16px;
+        line-height: 1.8em;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        margin: 0 0 10px;
+        display: block;
+    }
+
+    @media screen and (max-width:30em) {
+        .tx-hero h1 {
+            font-size: 1.4rem
+        }
+    }
+
+    @media screen and (min-width:60em) {
+        .md-sidebar--secondary {
+            display: none
+        }
+
+        .tx-hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tx-hero__content {
+            max-width: 22rem;
+            margin-top: 3.5rem;
+            margin-bottom: 3.5rem;
+            margin-left: 1.0rem;
+            margin-right: 4.0rem;
+            align-items: center;
+        }
+    }
+
+    @media screen and (min-width:76.25em) {
+        .md-sidebar--primary {
+            display: none
+        }
+
+        .top-hr {
+            width: 100%;
+            display: flex;
+            max-width: 61rem;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 0 .2rem;
+        }
+
+        .bottom-hr {
+            margin-top: 10px;
+            width: 100%;
+            display: flex;
+            max-width: 61rem;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 0 .2rem;
+        }
+
+        .feature-item {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .feature-item:hover {
+            border-radius: 3px;
+        }
+    }
+
+    .hr {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .text-center {
+        text-align: center;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 15px;
+        font-family: 'Lato', sans-serif;
+        font-size: 23px;
+        font-weight: 300;
+        padding-bottom: 10px;
+    }
+
+    .logos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+        margin: 0 auto;
+    }
+
+    .logos img {
+        flex: 1 1 auto;
+        padding: 25px;
+        max-height: 130px;
+        vertical-align: middle;
+    }
+
+    .hr-logos {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .md-footer-meta__inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 1.0rem;
+    }
+
+    .md-footer-social {
+        padding-top: 20px;
+    }
+
+    .md-button {
+        background-color: #fff;
+        color: #333;
+        border-color: #ccc;
+    }
+
+    .md-button:hover {
+        background-color: #ebebeb;
+        color: #333;
+        border-color: #adadad;
+    }
+
+    .tx-hero .md-button {
+        background-color: #fff;
+        color: #333;
+        border-color: #ccc;
+    }
+
+    .tx-hero .md-button:hover {
+        background-color: #ebebeb;
+        color: #333;
+        border-color: #adadad;
+    }
+
+    .md-typeset .md-button--primary {
+        background-color: #313131;
+        color: #f7fafd;
+        border-color: #313131;
+    }
+
+    .md-typeset .md-button--primary:hover {
+        background-color: #414141;
+        color: #fff;
+        border-color: #515151;
+    }
+
+    .post-link {
+        color: #2c7bb9
+    }
+
+    #gdpr-cookie-message {
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        max-width: 375px;
+        background-color: #313131;
+        color: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+        margin-left: 30px;
+        font-family: system-ui;
+    }
+
+    #gdpr-cookie-message h4 {
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    #gdpr-cookie-message p {
+        color: white;
+        font-size: 15px;
+        line-height: 1.5em;
+    }
+
+    #gdpr-cookie-message p:last-child {
+        margin-bottom: 0;
+        text-align: right;
+    }
+
+    #gdpr-cookie-message a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        padding-bottom: 2px;
+        border-bottom: 1px dotted rgba(255, 255, 255, 0.75);
+        transition: all 0.3s ease-in;
+    }
+
+    #gdpr-cookie-message a:hover {
+        color: white;
+        border-bottom-color: var(--red);
+        transition: all 0.3s ease-in;
+    }
+
+    #gdpr-cookie-message button {
+        border: none;
+        background: #357ebd;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+        padding: 7px;
+        border-radius: 3px;
+        margin-left: 15px;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+    }
+
+    #gdpr-cookie-message button:hover {
+        background: #559edd;
+        color: white;
+        transition: all 0.3s ease-in;
+    }
+
+    .tx-hero__image-shadow {
+        box-shadow: 3px 3px 15px 0px;
+    }
+
+    .md-code-snippets {
+        margin: auto;
+        width: 50rem;
+    }
+
+    .blog-post-title {
+        display: -webkit-box !important;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .blog-post-content {
+        display: -webkit-box !important;
+        overflow: hidden;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+    }
+</style>
+
+<!-- Main site Entry button descriptions -->
+<section>
+    <div class="md-grid md-typeset">
+        <div class="tx-hero">
+            <div class="tx-hero__image">
+                <img src="images/dashboard.png" draggable="false">
+            </div>
+            <div class="tx-hero__content">
+                <h1>High-Productivity Application Platform</h1>
+                <h5>for Developers, Software Vendors and Enterprises</h5>
+                <p>to design, develop and deliver their industry solutions</p>
+                <a href="/help/development/" title="Get started" class="md-button">Get started</a>
+                <a href="https://trial.apps.dirigible.io" title="Try it out" class="md-button md-button--primary">Try it
+                    out</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mdx-parallax__group">
+    <div class="md-content md-grid">
+        <div class="md-content__inner">
+            <header class="md-typeset">
+                <h1> Everything you would expect</h1>
+            </header>
+            <div class="mdx-expect">
+                <ul class="mdx-expect__list">
+                    <li class="mdx-expect__item md-typeset">
+                        <div class="mdx-expect__description">
+                            <h2>Who we are?</h2>
+                            <p>We at codbex provide an innovative approach for building, deploying, selling and
+                                operating open source business applications in the cloud.</p>
+                        </div>
+                    </li>
+                    <li class="mdx-expect__item md-typeset">
+                        <div class="mdx-expect__description">
+                            <h2>What do we provide?</h2>
+                            <p>We at codbex offer an unique high-productivity application platform foundation for our
+                                partner’s network to design and develop vertical industry solutions based on the variety
+                                of open source technologies and open standards, and deliver them to customers on any
+                                hyperscaler as well as on-premises.</p>
+                        </div>
+                    </li>
+                    <li class="mdx-expect__item md-typeset">
+                        <div class="mdx-expect__description">
+                            <h2>Developers</h2>
+                            <p>Developers need a platform providing powerful tooling, scallable infrastructure and a
+                                huge number of reusable components.</p>
+                        </div>
+                    </li>
+                    <li class="mdx-expect__item md-typeset">
+                        <div class="mdx-expect__description">
+                            <h2>Enterprises</h2>
+                            <p>Enterprises looking for a modern, extendable and secure cloud applications for their
+                                specific business needs.</p>
+                        </div>
+                    </li>
+                    <li class="mdx-expect__item md-typeset">
+                        <div class="mdx-expect__description">
+                            <h2>Vendors</h2>
+                            <p>Vendors want to build solutions tailored for specific customer’s needs by combining ready
+                                to use components.</p>
+                        </div>
+                    </li>
+                    <li class="mdx-expect__item md-typeset">
+                        <div class="mdx-expect__description">
+                            <h2>Resellers</h2>
+                            <p>Resellers want to expand their products and services portfolio by promoting and reselling
+                                vertical industry solutions</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mdx-parallax__group">
+    <div class="md-content md-grid">
+        <div class="md-content__inner">
+            <header class="md-typeset">
+                <h1>More than just a Web IDE</h1>
+            </header>
+            <div class="mdx-spotlight">
+                <figure class="mdx-spotlight__feature">
+                    <a href="products/" tabindex="-1" title="Model Driven Architecture">
+                        <img src="images/ide-mda.png" alt="Model Driven Architecture">
+                    </a>
+                    <figcaption class="md-typeset">
+                        <h2>Model Driven Architecture</h2>
+                        <p>Our solution provides <strong>visual designer</strong> for model driven development (entity
+                            domain model).</p>
+                        <p>With this editor, business developer can model the application’s domain model. The developer
+                            can select from a <strong>list of templates</strong>, what kind of application to be
+                            generated. Once the application is generated and published, it can be <strong>instantly
+                                accessed and tested</strong>. The model and the application can be updated and
+                            pre-generated multiple times.</p>
+                        <p>Modeling an application with 5-10 entities takes less than 15 min. Modeling an application
+                            with 20-30 entities usually takes <strong>less than 45 min</strong>.</p>
+                        <p>
+                            <a href="products/" aria-label="Model Driven Architecture">
+                                <span class="twemoji">{% include ".icons/fontawesome/solid/arrow-right.svg" %}</span>
+                                Learn more
+                            </a>
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure class="mdx-spotlight__feature">
+                    <a href="products/" tabindex="-1" title="Business Processes">
+                        <img src="images/features/bpm-perspective.png" alt="Business Processes">
+                    </a>
+                    <figcaption class="md-typeset">
+                        <h2>Business Processes</h2>
+                        <p>Our solution provides visual designer for <strong>business process modeling</strong>.</p>
+                        <p>With this editor, business developer can model the application’s business processes. When the
+                            model is ready, the developer can configure handlers for the <strong>process tasks</strong>.
+                            Once the process is published, it can be instantly triggered and tested. The business
+                            process can be triggered from an <strong>event in the entity domain model</strong>.</p>
+                        <p>Modeling business process with 5-10 steps takes <strong>less than 10 min</strong>.
+                            Implementing the task’s custom script require additional time.</p>
+                        <p>
+                            <a href="products/" aria-label="Model Driven Architecture">
+                                <span class="twemoji">{% include ".icons/fontawesome/solid/arrow-right.svg" %}</span>
+                                Learn more
+                            </a>
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure class="mdx-spotlight__feature">
+                    <a href="products/" tabindex="-1" title="User Interface Designer">
+                        <img src="images/ide-form.png" alt="User Interface Designer">
+                    </a>
+                    <figcaption class="md-typeset">
+                        <h2>User Interface Designer</h2>
+                        <p>Our solution provides <strong>visual designer</strong> for user interface modeling.</p>
+                        <p>With this editor, business developer can model the application’s custom forms. The developer
+                            can configure <strong>custom scripts</strong> and handlers for processing of the input. Once
+                            the form is published, it can be instantly accessed and tested. The custom form can be
+                            embedded in the generated user interface.</p>
+                        <p>Adding new control to the form is done through <strong>Drag & Drop</strong>. Modeling form
+                            with 5-10 controls takes less than 5 min.</p>
+                        <p>
+                            <a href="products/" aria-label="User Interface Designer">
+                                <span class="twemoji">{% include ".icons/fontawesome/solid/arrow-right.svg" %}</span>
+                                Learn more
+                            </a>
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mdx-parallax__group">
+    <div class="md-content md-grid">
+        <div class="md-content__inner">
+            <header class="md-typeset">
+                <h1>What our users say</h1>
+            </header>
+            <div class="mdx-users">
+                <figure class="mdx-users__testimonial"> <img src="images/staff/nedelcho-home.jpg" alt="John Maeda"
+                        loading="lazy" width="200" height="200">
+                    <figcaption class="md-typeset">
+                        <h2>Nedelcho Delchev</h2>
+                        <h3>CEO of codbex</h3>
+                        <hr> <cite> We see "Low Code" as high productivity tools that we give developers, so they can
+                            focus on business value and shorten time to market.</cite>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="md-content md-grid">
+        <div class="md-content__inner mdx-content__inner">
+            <div class="mdx-content__column">
+                <header class="md-typeset">
+                    <h1> Build your next industry solution faster</h1>
+                </header>
+                <div class="mdx-connect md-typeset">
+                    <div class="mdx-connect__column">
+                        <p> By joining as a <a href="mailto:office@codbex.com">Partner</a>, you'll get immediate access
+                            to the latest features while also helping support the ongoing development of
+                            codbex products.</p>
+                        <p> <strong> Together, we can build software that simply works! </strong> </p>
+                        <p> <a href="mailto:office@codbex.com" class="md-button md-button--primary" aria-label="Join as a Partner"> Join as a Partner </a> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="mdx-content__column">
+                <div class="mdx-connect md-typeset">
+                    <div class="mdx-connect__inner">
+                        <p>
+                            <a href="https://aiopsgroup.com/" class="mdx-connect__link"><span class="twemoji">{% include ".icons/fontawesome/solid/share.svg" %}</span>AIOPSGROUP</a>
+                            <a href="https://amista.be/" class="mdx-connect__link"><span class="twemoji">{% include ".icons/fontawesome/solid/share.svg" %}</span>Amista</a>
+                            <a href="https://anthill.one/" class="mdx-connect__link"><span class="twemoji">{% include ".icons/fontawesome/solid/share.svg" %}</span>Anthill</a>
+                            <a href="https://apollogic.com/" class="mdx-connect__link"><span class="twemoji">{% include ".icons/fontawesome/solid/share.svg" %}</span>Apollogic</a>
+                            <a href="https://arcware.io/" class="mdx-connect__link"><span class="twemoji">{% include ".icons/fontawesome/solid/share.svg" %}</span>Arcware</a>
+                            <a href="https://clolytic.com/" class="mdx-connect__link"><span class="twemoji">{% include ".icons/fontawesome/solid/share.svg" %}</span>Clolytic</a>
+                            <a href="https://lights.digital/" class="mdx-connect__link"><span class="twemoji">{% include ".icons/fontawesome/solid/share.svg" %}</span>Digital Lights</a>
+                            <a href="https://heliconialabs.com/" class="mdx-connect__link"><span class="twemoji">{% include ".icons/fontawesome/solid/share.svg" %}</span>Heliconia Labs</a>
+                            <a href="https://pythian.com/" class="mdx-connect__link"><span class="twemoji">{% include ".icons/fontawesome/solid/share.svg" %}</span>Pythian</a>
+                            <a href="https://quanterall.com/" class="mdx-connect__link"><span class="twemoji">{% include ".icons/fontawesome/solid/share.svg" %}</span>Quanterall</a>
+                            <a href="https://viride.ch/" class="mdx-connect__link"><span class="twemoji">{% include ".icons/fontawesome/solid/share.svg" %}</span>Viride Solutions</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+{% block content %}{% endblock %}
