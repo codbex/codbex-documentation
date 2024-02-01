@@ -4,6 +4,16 @@
 
 ### Python
 
+Install Python using OS dependent packager https://www.python.org/downloads/
+
+Install MkDocks
+
+```
+pip3 install mkdocs
+```
+
+Start a local server
+
 ```
 python3 -m mkdocs serv
 ```
