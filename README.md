@@ -10,6 +10,7 @@ Install MkDocks
 
 ```
 pip3 install mkdocs
+pip3 install mkdocs-material
 ```
 
 Start a local server
