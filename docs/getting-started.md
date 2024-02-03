@@ -2,7 +2,7 @@
 
 ## Overview
 
-## Hello World Application
+## Hello World
 
 ## Explore the Tooling
 
@@ -20,5 +20,8 @@
 
 ## Extend with Custom User Interface
 
-## Add Print Form
+## Add Print Template
+
+## Conclusion
+
 
