@@ -78,8 +78,10 @@ nav:
     - Languages: 'technologies/languages/index.md'
     - Templates: 'technologies/templates/index.md'
     - Widgets: 'technologies/widgets/index.md'
-  - Tooling: 'tooling/index.md'
+  - IDE: 'ide/index.md'
   - API: 'api/index.md'
+  - REST: 'rest/index.md'
+  - UI: 'ui/index.md'
 
 theme:
   name: material

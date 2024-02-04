@@ -102,4 +102,4 @@ Quartz supports job clustering, allowing multiple instances of the scheduler to 
 
 ## Conclusion
 
-The Jobs Engine in `codbex` platform, built on the Quartz framework, provides a powerful mechanism for scheduling and managing background jobs. By utilizing CRON expressions, parameters, and JavaScript handlers, developers can automate tasks, customize job behavior, and execute specific logic based on predefined schedules.
+The Jobs Engine in the `codbex` platform, built on the Quartz framework, provides a powerful mechanism for scheduling and managing background jobs. By utilizing CRON expressions, parameters, and JavaScript handlers, developers can automate tasks, customize job behavior, and execute specific logic based on predefined schedules.

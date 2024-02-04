@@ -68,5 +68,5 @@ This is not defined in the `project.json` under `exposes` section, so that it wi
 
 ## Conclusion
 
-The Web Engine in `codbex` platform, powered by the embedded Apache Tomcat server in Spring Boot, provides a versatile platform for exposing static web content and building dynamic web applications. By configuring access and leveraging the embedded server features, developers can create scalable and efficient web solutions.
+The Web Engine in the `codbex` platform, powered by the embedded Apache Tomcat server in Spring Boot, provides a versatile platform for exposing static web content and building dynamic web applications. By configuring access and leveraging the embedded server features, developers can create scalable and efficient web solutions.
 
