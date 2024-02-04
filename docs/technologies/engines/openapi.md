@@ -59,6 +59,12 @@ The aggregated OpenAPI specifications not only define the structure of REST serv
 
 Example Swagger UI URL: [http://example.com/services/web/ide-swagger/ui/](http://example.com/services/web/ide-swagger/ui/)
 
+### Platform Services API Documentation
+
+The OpenAPI specifications for the built-in RESTful services provided by the platform can be accessed at: [http://example.com/api-docs](http://example.com/api-docs).
+
+The corresponding Swagger UI can be accessed at: [http://example.com/swagger-ui/index.html](http://example.com/swagger-ui/index.html)
+
 ## Conclusion
 
-The OpenAPI Engine in `codbex` platform simplifies the management of REST services by aggregating multiple `*.openapi`` files into a consolidated API set. This approach enhances organization, documentation, and accessibility for developers working on RESTful applications.
+The OpenAPI Engine in the `codbex` platform simplifies the management of REST services by aggregating multiple `*.openapi`` files into a consolidated API set. This approach enhances organization, documentation, and accessibility for developers working on RESTful applications.

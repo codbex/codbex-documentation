@@ -62,4 +62,4 @@ Example `*.camel` Descriptor Configuration:
 
 ## Conclusion
 
-The Integrations Engine in the `codbex` platform, powered by Apache Camel, offers a flexible and extensible solution for connecting and integrating diverse systems. By utilizing `*.camel`` descriptor files, organizations can easily configure and manage integration routes, leveraging the extensive set of Apache Camel connectors for seamless connectivity.
+The Integrations Engine in the `codbex` platform, powered by Apache Camel, offers a flexible and extensible solution for connecting and integrating diverse systems. By utilizing `*.camel` descriptor files, organizations can easily configure and manage integration routes, leveraging the extensive set of Apache Camel connectors for seamless connectivity.
