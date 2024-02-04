@@ -1,0 +1,3 @@
+# OpenAPI
+
+File extension: `*.openapi`

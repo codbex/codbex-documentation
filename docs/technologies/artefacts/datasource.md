@@ -1,0 +1,3 @@
+# DataSource
+
+File extension: `*.datasource`

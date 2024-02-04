@@ -39,7 +39,42 @@ nav:
       - Integrations: 'technologies/engines/integrations.md'
       - FTP: 'technologies/engines/ftp.md'
       - SFTP: 'technologies/engines/sftp.md'
-    - Artefacts: 'technologies/artefacts/index.md'
+    - Artefacts:
+      - 'technologies/artefacts/index.md'
+      - access: technologies/artefacts/access.md
+      - bpmn: technologies/artefacts/bpmn.md
+      - camel: technologies/artefacts/camel.md
+      - command: technologies/artefacts/command.md
+      - confluence: technologies/artefacts/confluence.md
+      - csv: technologies/artefacts/csv.md
+      - csvim: technologies/artefacts/csvim.md
+      - datasource: technologies/artefacts/datasource.md
+      - dsm: technologies/artefacts/dsm.md
+      - edm:  technologies/artefacts/edm.md
+      - entity: technologies/artefacts/entity.md
+      - expose: technologies/artefacts/expose.md
+      - extension: technologies/artefacts/extension.md
+      - extensionpoint: technologies/artefacts/extensionpoint.md
+      - form: technologies/artefacts/form.md
+      - html: technologies/artefacts/html.md
+      - job: technologies/artefacts/job.md
+      - js: technologies/artefacts/js.md
+      - listener: technologies/artefacts/listener.md
+      - markdown: technologies/artefacts/markdown.md
+      - model: technologies/artefacts/model.md
+      - odata: technologies/artefacts/odata.md
+      - openapi: technologies/artefacts/openapi.md
+      - py: technologies/artefacts/python.md
+      - role: technologies/artefacts/role.md
+      - schema: technologies/artefacts/schema.md
+      - table: technologies/artefacts/table.md
+      - template: technologies/artefacts/template.md
+      - ts: technologies/artefacts/ts.md
+      - view: technologies/artefacts/view.md
+      - websocket: technologies/artefacts/websocket.md
+      - additions:
+        - 'technologies/artefacts/additions/index.md'
+        - abap: technologies/artefacts/additions/abap.md
     - Languages: 'technologies/languages/index.md'
     - Templates: 'technologies/templates/index.md'
     - Widgets: 'technologies/widgets/index.md'

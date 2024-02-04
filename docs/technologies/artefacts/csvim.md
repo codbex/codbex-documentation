@@ -1,0 +1,3 @@
+# CSVIM
+
+File extension: `*.csvim`

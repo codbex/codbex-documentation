@@ -1,0 +1,3 @@
+# Extension
+
+File extension: `*.extension`

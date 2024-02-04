@@ -1,0 +1,3 @@
+# Role
+
+File extension: `*.role`

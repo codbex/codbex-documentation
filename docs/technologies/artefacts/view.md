@@ -1,0 +1,3 @@
+# View
+
+File extension: `*.view`

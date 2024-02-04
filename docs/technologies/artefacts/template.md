@@ -1,0 +1,3 @@
+# Template
+
+File extension: `*.template`

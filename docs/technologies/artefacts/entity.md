@@ -1,0 +1,3 @@
+# Entity
+
+File extension: `*.entity`

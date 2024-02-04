@@ -1,0 +1,3 @@
+# ExtensionPoint
+
+File extension: `*.extensionpoint`

@@ -1,0 +1,3 @@
+# Python
+
+File extension: `*.py`

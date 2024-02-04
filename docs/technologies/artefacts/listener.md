@@ -1,0 +1,3 @@
+# Listener
+
+File extension: `*.listener`
