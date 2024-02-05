@@ -6,82 +6,110 @@ nav:
     - 'index.md'
     - Getting Started: 'getting-started.md'
     - FAQ: 'faq.md'
-  - Features:
-    - 'features/index.md'
-    - Coding: 'features/coding.md'
-    - Database: 'features/database.md'
-    - Documents: 'features/documents.md'
-    - Processes: 'features/processes.md'
-    - Integrations: 'features/integrations.md'
-    - Modeling: 'features/modeling.md'
-    - Extensibility: 'features/extensibility.md'
-    - Compatibility: 'features/compatibility.md'
-    - Hacking: 'features/hacking.md'
-  - Technologies:
-    - 'technologies/index.md'
+  - Platform:
+    - 'platform/index.md'
+    - Languages: 'platform/languages/index.md'
     - Engines: 
-      - 'technologies/engines/index.md'
-      - JavaScript: 'technologies/engines/javascript.md'
-      - TypeScript: 'technologies/engines/typescript.md'
-      - Python: 'technologies/engines/python.md'
-      - Command: 'technologies/engines/command.md'
-      - Jobs: 'technologies/engines/jobs.md'
-      - Listeners: 'technologies/engines/listeners.md'
-      - Web: 'technologies/engines/web.md'
-      - Wiki: 'technologies/engines/wiki.md'
-      - WebSockets: 'technologies/engines/websockets.md'
-      - Security: 'technologies/engines/security.md'
-      - OpenAPI: 'technologies/engines/openapi.md'
-      - OData: 'technologies/engines/odata.md'
-      - Templates: 'technologies/engines/templates.md'
-      - CMS: 'technologies/engines/cms.md'
-      - BPM: 'technologies/engines/bpm.md'
-      - Integrations: 'technologies/engines/integrations.md'
-      - FTP: 'technologies/engines/ftp.md'
-      - SFTP: 'technologies/engines/sftp.md'
+      - 'platform/engines/index.md'
+      - JavaScript: 'platform/engines/javascript.md'
+      - TypeScript: 'platform/engines/typescript.md'
+      - Python: 'platform/engines/python.md'
+      - Command: 'platform/engines/command.md'
+      - Jobs: 'platform/engines/jobs.md'
+      - Listeners: 'platform/engines/listeners.md'
+      - Web: 'platform/engines/web.md'
+      - Wiki: 'platform/engines/wiki.md'
+      - WebSockets: 'platform/engines/websockets.md'
+      - Security: 'platform/engines/security.md'
+      - OpenAPI: 'platform/engines/openapi.md'
+      - OData: 'platform/engines/odata.md'
+      - Templates: 'platform/engines/templates.md'
+      - CMS: 'platform/engines/cms.md'
+      - BPM: 'platform/engines/bpm.md'
+      - Integrations: 'platform/engines/integrations.md'
+      - FTP: 'platform/engines/ftp.md'
+      - SFTP: 'platform/engines/sftp.md'
     - Artefacts:
-      - 'technologies/artefacts/index.md'
-      - access: technologies/artefacts/access.md
-      - bpmn: technologies/artefacts/bpmn.md
-      - camel: technologies/artefacts/camel.md
-      - command: technologies/artefacts/command.md
-      - confluence: technologies/artefacts/confluence.md
-      - csv: technologies/artefacts/csv.md
-      - csvim: technologies/artefacts/csvim.md
-      - datasource: technologies/artefacts/datasource.md
-      - dsm: technologies/artefacts/dsm.md
-      - edm:  technologies/artefacts/edm.md
-      - entity: technologies/artefacts/entity.md
-      - expose: technologies/artefacts/expose.md
-      - extension: technologies/artefacts/extension.md
-      - extensionpoint: technologies/artefacts/extensionpoint.md
-      - form: technologies/artefacts/form.md
-      - html: technologies/artefacts/html.md
-      - job: technologies/artefacts/job.md
-      - js: technologies/artefacts/js.md
-      - listener: technologies/artefacts/listener.md
-      - markdown: technologies/artefacts/markdown.md
-      - model: technologies/artefacts/model.md
-      - odata: technologies/artefacts/odata.md
-      - openapi: technologies/artefacts/openapi.md
-      - py: technologies/artefacts/python.md
-      - role: technologies/artefacts/role.md
-      - schema: technologies/artefacts/schema.md
-      - table: technologies/artefacts/table.md
-      - template: technologies/artefacts/template.md
-      - ts: technologies/artefacts/ts.md
-      - view: technologies/artefacts/view.md
-      - websocket: technologies/artefacts/websocket.md
+      - 'platform/artefacts/index.md'
+      - access: platform/artefacts/access.md
+      - bpmn: platform/artefacts/bpmn.md
+      - camel: platform/artefacts/camel.md
+      - command: platform/artefacts/command.md
+      - confluence: platform/artefacts/confluence.md
+      - csv: platform/artefacts/csv.md
+      - csvim: platform/artefacts/csvim.md
+      - datasource: platform/artefacts/datasource.md
+      - dsm: platform/artefacts/dsm.md
+      - edm:  platform/artefacts/edm.md
+      - entity: platform/artefacts/entity.md
+      - expose: platform/artefacts/expose.md
+      - extension: platform/artefacts/extension.md
+      - extensionpoint: platform/artefacts/extensionpoint.md
+      - form: platform/artefacts/form.md
+      - html: platform/artefacts/html.md
+      - job: platform/artefacts/job.md
+      - js: platform/artefacts/js.md
+      - listener: platform/artefacts/listener.md
+      - markdown: platform/artefacts/markdown.md
+      - model: platform/artefacts/model.md
+      - odata: platform/artefacts/odata.md
+      - openapi: platform/artefacts/openapi.md
+      - py: platform/artefacts/python.md
+      - role: platform/artefacts/role.md
+      - schema: platform/artefacts/schema.md
+      - table: platform/artefacts/table.md
+      - template: platform/artefacts/template.md
+      - ts: platform/artefacts/ts.md
+      - view: platform/artefacts/view.md
+      - websocket: platform/artefacts/websocket.md
       - additions:
-        - 'technologies/artefacts/additions/index.md'
-        - abap: technologies/artefacts/additions/abap.md
-    - Languages: 'technologies/languages/index.md'
-    - Templates: 'technologies/templates/index.md'
-    - Widgets: 'technologies/widgets/index.md'
-  - IDE: 'ide/index.md'
-  - API: 'api/index.md'
-  - REST: 'rest/index.md'
-  - UI: 'ui/index.md'
+        - 'platform/artefacts/additions/index.md'
+        - abap: platform/artefacts/additions/abap.md
+    - API: 'platform/api/index.md'
+    - Widgets: 'platform/widgets/index.md'
+    - Services: 'platform/rest/index.md'
+    - Templates: 'platform/templates/index.md'
+  - Tooling:
+    - 'tooling/index.md'
+    - Workbench:
+      - 'tooling/workbench/index.md'
+      - Code Editor: 'tooling/workbench/code-editor.md'
+    - Source Control: 'tooling/scm/index.md'
+    - Debugger: 'tooling/debugger/index.md'
+    - Databases: 'tooling/databases/index.md'
+    - Documents: 'tooling/documents/index.md'
+    - Processes: 'tooling/processes/index.md'
+    - Integrations: 'tooling/integrations/index.md'
+    - Terminal: 'tooling/terminal/index.md'
+    - Integrations: 'tooling/integrations.md'
+    - Modeling: 'tooling/modeling.md'
+    - Extensibility: 'tooling/extensibility.md'
+    - Compatibility: 'tooling/compatibility.md'
+  - Applications:
+    - 'applications/index.md'
+    - Sales: 'applications/sales.md'
+    - Procurement: 'applications/procurement.md'
+    - Shipping: 'applications/shipping.md'
+    - Services: 'applications/services.md'
+    - Manufactoring: 'applications/manufactoring.md'
+    - Hotels: 'applications/hotels.md'
+    - Restaurants: 'applications/restaurants.md'
+    - Inventory: 'applications/inventory.md'
+    - Stores: 'applications/stores.md'
+    - e-Commerce: 'applications/e-commerce.md'
+    - Projects: 'applications/projects.md'
+    - Timesheets: 'applications/timesheets.md'
+    - Employees: 'applications/employees.md'
+    - Salaries: 'applications/salaries.md'
+    - Payroll: 'applications/payroll.md'
+    - Vacations: 'applications/vacations.md'
+    - Billing: 'applications/billing.md'
+    - Payments: 'applications/payments.md'
+    - Accounting: 'applications/accounting.md'
+    - Master Data: 'applications/master-data.md'
+  
+
+
 
 theme:
   name: material
