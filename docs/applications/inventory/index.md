@@ -1,22 +1,5 @@
 # Inventory
 
-## Stock Keeping Unit (SKU) Listing
-
-A SKU Listing is a comprehensive inventory catalog that provides detailed information about each Stock Keeping Unit (SKU) or product in the inventory.
-
-Key Components:
-
-* SKU Code: A unique identifier for each product.
-* Product Description: Detailed information about the product.
-* Unit of Measure: The measurement unit used for the product (e.g., each, dozen).
-* Reorder Point: The inventory level at which a reorder should be initiated.
-* Safety Stock: Additional stock maintained to prevent stockouts during unexpected demand fluctuations.
-
-Process:
-
-* SKU Listings are maintained and updated as new products are introduced or existing ones are modified.
-* They serve as a reference for inventory managers and purchasing teams.
-
 ## Stock Receipt
 
 A Stock Receipt document is generated when new inventory items are received or purchased by the business. This document serves as proof of the addition of products to the inventory and includes details such as the date of receipt, supplier information, and a list of the received items.
@@ -109,6 +92,23 @@ Process:
 
 * Stock Movement Records are generated in real-time as inventory transactions occur.
 * They provide a detailed history of stock movements and aid in maintaining accurate inventory levels.
+
+## Stock Keeping Unit (SKU) Listing
+
+A SKU Listing is a comprehensive inventory catalog that provides detailed information about each Stock Keeping Unit (SKU) or product in the inventory.
+
+Key Components:
+
+* SKU Code: A unique identifier for each product.
+* Product Description: Detailed information about the product.
+* Unit of Measure: The measurement unit used for the product (e.g., each, dozen).
+* Reorder Point: The inventory level at which a reorder should be initiated.
+* Safety Stock: Additional stock maintained to prevent stockouts during unexpected demand fluctuations.
+
+Process:
+
+* SKU Listings are maintained and updated as new products are introduced or existing ones are modified.
+* They serve as a reference for inventory managers and purchasing teams.
 
 ## Inventory Valuation Report
 
