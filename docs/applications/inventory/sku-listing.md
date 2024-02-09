@@ -63,7 +63,7 @@ A Stock Keeping Unit (SKU) Listing is a document or record in the Inventory Mana
 
 * Description: Details about the primary supplier or vendors associated with the SKU.
 
-#### Fields:
+Fields:
 
 * Supplier Name
 * Supplier Code

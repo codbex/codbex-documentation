@@ -179,6 +179,24 @@ Process:
 * The buyer reviews the invoice against the Goods Receipt Note and the original Purchase Order.
 * If everything is in order, the buyer processes the invoice for payment.
 
+## Purchase Payment Receipt
+
+After a company receives goods or services from a supplier and is invoiced for the purchase, they make a payment to the supplier. In return, the buying company generates a document known as a "Supplier Payment Receipt" or "Purchase Payment Receipt" to acknowledge the payment.
+Confirms that the buying company has made the payment against the received Purchase Invoice. Similar to the sales receipt, the payment receipt for a purchase may include details such as the payment date, amount, payment method, and any remaining balance.
+
+Key Components:
+
+* Receipt Number: A unique identifier for the payment receipt.
+* Payment Date: The date on which the payment was received.
+* Payment Amount: The total amount received from the customer.
+* Payment Method: The method used by the company to make the payment.
+
+Process:
+
+* The company makes a payment based on the issued invoice.
+* The company generates a Payment Receipt to confirm the receipt of payment.
+* The Payment Receipt may be provided to the supplier as proof of payment.
+
 ## Supplier Performance Evaluation:
 
 A document that assesses and evaluates the performance of suppliers based on predefined criteria.

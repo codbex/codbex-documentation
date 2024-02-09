@@ -38,7 +38,7 @@ A Stock Movement Record is a comprehensive document in the Inventory Management 
 
 * Description: A detailed list of the products or items involved in the movement.
 
-#### Fields:
+Fields:
 
 * SKU (Stock Keeping Unit) or Item Code
 * Description of the item

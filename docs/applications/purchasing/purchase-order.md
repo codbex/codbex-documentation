@@ -16,7 +16,7 @@ A Purchase Order (PO) is a formal document issued by a buyer (typically the purc
 
 ### Supplier Information:
 
-#### Fields:
+Fields:
 
 * Supplier Name
 * Supplier Address
@@ -25,7 +25,7 @@ A Purchase Order (PO) is a formal document issued by a buyer (typically the purc
 
 ### Buyer Information:
 
-#### Fields:
+Fields:
 
 * Buyer Name
 * Buyer Contact Information
@@ -48,7 +48,7 @@ A Purchase Order (PO) is a formal document issued by a buyer (typically the purc
 
 ### Payment Terms:
 
-#### Fields:
+Fields:
 
 * Payment Due Date
 * Payment Method (e.g., Net 30, Wire Transfer)
@@ -61,7 +61,7 @@ A Purchase Order (PO) is a formal document issued by a buyer (typically the purc
 
 ### Item Details:
 
-#### Fields:
+Fields:
 
 * Item Description
 * Quantity
@@ -87,7 +87,7 @@ A Purchase Order (PO) is a formal document issued by a buyer (typically the purc
 
 ### Tax Information:
 
-#### Fields:
+Fields:
 
 * Tax Percentage
 * Tax Amount
@@ -95,7 +95,8 @@ A Purchase Order (PO) is a formal document issued by a buyer (typically the purc
 
 ### Discounts:
 
-#### Fields:
+Fields:
+
 * Discount Percentage
 * Discount Amount
 * Purpose: Indicates any applicable discounts provided by the supplier.
@@ -107,7 +108,7 @@ A Purchase Order (PO) is a formal document issued by a buyer (typically the purc
 
 ### Authorized Signatures:
 
-#### Fields:
+Fields:
 
 * Buyer's Signature
 * Approval Signatures (if required)
@@ -118,7 +119,7 @@ A Purchase Order (PO) is a formal document issued by a buyer (typically the purc
 * Description: Space for attaching relevant documents or files related to the Purchase Order (e.g., specifications, contracts).
 * Purpose: Provides additional information to support the Purchase Order.
 
-### Custom Fields:
+Custom Fields:
 
 * Description: Additional fields that can be customized based on the specific needs and requirements of the organization.
 * Purpose: Allows flexibility in capturing unique information relevant to the Purchase Order.

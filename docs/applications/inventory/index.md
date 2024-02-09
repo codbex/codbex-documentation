@@ -1,8 +1,8 @@
 # Inventory
 
-## Stock Receipt
+## Goods Receipt Note (GRN)
 
-A Stock Receipt document is generated when new inventory items are received or purchased by the business. This document serves as proof of the addition of products to the inventory and includes details such as the date of receipt, supplier information, and a list of the received items.
+A Goods Receipt Note (GRN) document is generated when new inventory items are received or purchased by the business. This document serves as proof of the addition of products to the inventory and includes details such as the date of receipt, supplier information, and a list of the received items.
 
 Key Components:
 
@@ -19,9 +19,9 @@ Process:
 * The warehouse or inventory manager verifies the received items against the purchase order.
 * A Stock Receipt document is generated, recording the received items.
 
-## Stock Issue
+## Goods Issue Note (GIN)
 
-A Stock Issue document is created when items are taken or issued from the inventory for internal use, production, or any other purpose within the organization. It serves to track the reduction of stock and is crucial for maintaining accurate inventory levels.
+A Goods Issue Note (GIN) document is created when items are taken or issued from the inventory for internal use, production, or any other purpose within the organization. It serves to track the reduction of stock and is crucial for maintaining accurate inventory levels.
 
 Key Components:
 
@@ -36,7 +36,7 @@ Process:
 * A department or individual submits a request for stock items.
 * The inventory manager reviews the request and approves it.
 * The stock is physically retrieved from the inventory.
-* A Stock Issue document is generated, recording the items issued and the purpose.
+* A Goods Issue document is generated, recording the items issued and the purpose.
 
 ## Stock Transfer
 
@@ -75,6 +75,22 @@ Process:
 * The returned items are inspected for defects or damages.
 * A Stock Returns document is generated, recording the items returned and the reason for the return.
 * If applicable, the returned items may undergo repairs or quality checks before being reintegrated into the inventory.
+
+## Stock Adjustment Form
+
+A Stock Adjustment Form is used to record and authorize changes to inventory levels due to factors such as damaged goods, discrepancies, or expiration.
+
+Key Components:
+
+* Item Details: Names, codes, and quantities of the items being adjusted.
+* Adjustment Type: Indication of whether it's an increase or decrease in inventory.
+* Reason for Adjustment: Explanation of the reason for the adjustment.
+* Approval Section: Space for managerial approval.
+
+Process:
+
+* Store staff use Stock Adjustment Forms to document changes to inventory levels.
+* The form is reviewed and approved before the adjustments are reflected in the system.
 
 ## Stock Movement Record
 

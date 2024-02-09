@@ -33,7 +33,7 @@ A Stock Transfer is a transaction within the Inventory Management module of an e
 
 * Description: A detailed list of the products or items being transferred.
 
-#### Fields:
+Fields:
 
 * SKU (Stock Keeping Unit) or Item Code
 * Description of the item

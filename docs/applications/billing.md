@@ -35,9 +35,9 @@ Process:
 * A Credit Note is generated, referencing the original invoice.
 * The credit note is sent to the customer, and the adjusted amount is typically applied to future transactions or used to offset outstanding balances.
 
-## Payment Receipt
+## Sales Payment Receipt
 
-A Payment Receipt is a document issued by the seller to acknowledge the receipt of payment from the customer. It serves as proof of payment.
+A Sales Payment Receipt is a document issued by the seller to acknowledge the receipt of payment from the customer. It serves as proof of payment.
 
 Key Components:
 

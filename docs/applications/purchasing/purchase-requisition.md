@@ -1,4 +1,4 @@
-# Purchase Requisition (PR)
+# Purchase Requisition
 
 A Purchase Requisition is a formal document used within an organization to initiate the procurement process. It serves as a request from a department or user within the organization to the purchasing or procurement department, indicating the need to purchase specific goods or services. The Purchase Requisition is typically the first step in the procurement workflow. Here are the details of what a Purchase Requisition usually contains, including key fields:
 
@@ -11,7 +11,7 @@ A Purchase Requisition is a formal document used within an organization to initi
 
 ### Requester Information:
 
-#### Fields:
+Fields:
 
 * Requester Name
 * Department
@@ -30,7 +30,7 @@ A Purchase Requisition is a formal document used within an organization to initi
 
 ### Item Details:
 
-#### Fields:
+Fields:
 
 * Item Description
 * Quantity
@@ -49,7 +49,7 @@ A Purchase Requisition is a formal document used within an organization to initi
 
 ### Supplier Information (if known):
 
-#### Fields:
+Fields:
 
 * Preferred Supplier (if specified)
 * Supplier Contact Information
@@ -62,7 +62,7 @@ A Purchase Requisition is a formal document used within an organization to initi
 
 ### Approval Workflow:
 
-#### Fields:
+Fields:
 
 * Approver Names
 * Approval Status (Pending, Approved, Rejected)
@@ -84,7 +84,7 @@ A Purchase Requisition is a formal document used within an organization to initi
 * Description: An estimated cost associated with the requested procurement.
 * Purpose: Provides an initial cost estimate for budgeting and financial planning.
 
-### Custom Fields:
+Custom Fields:
 
 * Description: Additional fields that can be customized based on the specific needs and requirements of the organization.
 * Purpose: Allows flexibility in capturing unique information relevant to the Purchase Requisition.

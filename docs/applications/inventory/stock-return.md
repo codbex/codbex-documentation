@@ -28,7 +28,7 @@ A Stock Return is a transaction within the Inventory Management module of an ent
 
 * Description: A detailed list of the products or items being returned.
 
-#### Fields:
+Fields:
 
 * SKU (Stock Keeping Unit) or Item Code
 * Description of the item
