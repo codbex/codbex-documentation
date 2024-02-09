@@ -93,6 +93,8 @@ nav:
       - Opportunity: 'applications/sales/opportunity.md'
       - Quotation: 'applications/sales/quotation.md'
       - Sales Order: 'applications/sales/sales-order.md'
+      - Sales Invoice: 'applications/sales/sales-invoice.md'
+      - Customer Payment: 'applications/sales/customer-payment.md'
     - Purchasing:
       - 'applications/purchasing/index.md'
       - Purchase Requisition: 'applications/purchasing/purchase-requisition.md'
@@ -100,6 +102,9 @@ nav:
       - Request for Quotation: 'applications/purchasing/request-for-quotation.md'
       - Quotation Comparison: 'applications/purchasing/quotation-comparison.md'
       - Supplier Aggreement: 'applications/purchasing/supplier-agreement.md'
+      - Debit Note: 'applications/purchasing/debit-note.md'
+      - Purchase Invoice: 'applications/purchasing/purchase-invoice.md'
+      - Supplier Payment: 'applications/purchasing/supplier-payment.md'
     - Shipping: 'applications/shipping.md'
     - Services: 'applications/services.md'
     - Manufactoring: 'applications/manufactoring.md'

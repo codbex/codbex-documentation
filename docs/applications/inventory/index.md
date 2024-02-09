@@ -174,22 +174,6 @@ Process:
 * Stock Take/Inventory Count Sheets are used during periodic physical inventory counts.
 * They help identify discrepancies between the system records and the actual physical count, allowing for adjustments.
 
-## Stock Adjustment Form
-
-A Stock Adjustment Form is used to authorize and record changes to inventory levels, whether it's due to damaged goods, discrepancies, or other factors.
-
-Key Components:
-
-* SKU Details: Information about the SKU, including codes and descriptions.
-* Adjustment Type: Indication of whether it's an increase or decrease in inventory.
-* Reason for Adjustment: Explanation of the reason for the adjustment.
-* Quantity Adjusted: The quantity by which the inventory is being adjusted.
-
-Process:
-
-* Stock Adjustment Forms are filled out to document changes to inventory levels.
-* They are reviewed and approved before adjustments are reflected in the system.
-
 ## Supplier Performance Report
 
 A Supplier Performance Report evaluates the performance of suppliers based on factors such as delivery times, order accuracy, and product quality.
