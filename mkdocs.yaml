@@ -119,6 +119,7 @@ nav:
       - Stock Record: 'applications/inventory/stock-record.md'
       - Stock Adjustment: 'applications/inventory/stock-adjustment.md'
       - SKU Listing: 'applications/inventory/sku-listing.md'
+      - Store: 'applications/inventory/store.md'
     - Stores: 'applications/stores.md'
     - e-Commerce: 'applications/e-commerce.md'
     - Projects: 'applications/projects.md'
