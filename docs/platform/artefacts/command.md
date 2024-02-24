@@ -2,6 +2,8 @@
 
 > File extension: `*.command`
 
+## Overview
+
 The `codbex` provides provides support for command files (*.command) as a way to define and execute commands in the runtime environment. Command files are written in JSON, and they allow users to define and run server-side scripts or execute specific tasks within the platform.
 
 Here's an overview of the support for Command files (*.command):
@@ -120,4 +122,8 @@ Like other artifacts in the `codbex` platform, command files can be part of coll
 
 Command files can be executed within the platform using various methods, such as the scripting services, scheduled jobs, or manual triggering through the Web IDE or the REST endpoint.
 
+## Notes
+
 It's important to note that features and capabilities may evolve over time, so it's recommended to refer to the latest documentation or release notes for the most up-to-date information on command file support and usage.
+
+The Command artefacts are processed by the [Command Engine](../../engines/command/).

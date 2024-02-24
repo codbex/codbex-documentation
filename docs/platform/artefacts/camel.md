@@ -2,6 +2,8 @@
 
 > File extension: `*.camel`
 
+## Overview
+
 The `codbex` provides support for Apache Camel Routes through the Camel Editor. The Camel Editor allows developers to design and edit Camel routes using graphical tools, making it easier to create and visualize integration solutions.
 
 Here is an overview of the support for Apache Camel Routes files (`*.camel`) in the platform:
@@ -38,7 +40,7 @@ Developers can use the integrated development environment (IDE) to edit and vers
 
 Once Camel routes are designed and configured, they can be deployed within the runtime environment. This enables the execution of integration processes defined in the Camel routes.
 
-### Integration with Other Dirigible Artifacts:
+### Integration with Other Artifacts:
 
 #### Combining with Other Artifacts:
 
@@ -48,6 +50,8 @@ Camel routes can be part of larger `codbex` platform projects, integrating seaml
 
 Camel routes, like other artifacts, can be collaboratively developed by multiple team members using the platform's collaborative features. This fosters teamwork and accelerates the development lifecycle.
 
-The Apache Camel artefacts are processed by the [Integrations Engine](../../engines/integrations/).
+## Notes
 
 As software evolves, features and capabilities may be enhanced, and it's recommended to refer to the latest documentation or release notes for the most up-to-date information on Apache Camel support.
+
+The Apache Camel artefacts are processed by the [Integrations Engine](../../engines/integrations/).

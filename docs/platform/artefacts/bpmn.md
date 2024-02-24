@@ -2,9 +2,11 @@
 
 > File extension: `*.bpmn`
 
+## Overview
+
 The `codbex` platform provides support for BPMN (Business Process Model and Notation) v2.0 files, allowing users to model, design, and execute business processes within the runtime container. Below is an overview of the BPMN support in the platform:
 
-### BPMN v2.0 Support in Eclipse Dirigible:
+### BPMN v2.0 Support:
 
 #### Modeling Environment:
 
@@ -38,7 +40,7 @@ The `codbex` platform offer collaboration features, allowing multiple users to w
 
 Depending on the features available in the specific version of the `codbex` platform, there are variety monitoring and analytics tools to track the execution of BPMN processes. These tools provide insights into process performance and bottlenecks.
 
-### How to Use BPMN in Eclipse Dirigible:
+### How to Use BPMN:
 
 #### Access BPMN Editor:
 
@@ -58,12 +60,14 @@ Depending on the features available in the specific version of the `codbex` plat
 
 #### Deploy and Execute:
 
-* Deploy the BPMN process to the Dirigible runtime environment. Once deployed, it can be triggered and executed as needed.
+* Deploy the BPMN process to the runtime environment. Once deployed, it can be triggered and executed as needed.
 
 ### Collaborate and Monitor (Optional):
 
 * Collaborate with other users if needed and monitor the execution of BPMN processes using available tools.
 
-The BPMN artefacts are processed by the [BPM Engine](../../engines/bpm/).
+## Notes
 
 Please note that the specific features and user interface details may vary based on the version of `codbex` platform you are using. Always refer to the official documentation or release notes for the most up-to-date information on BPMN support in platform.
+
+The BPMN artefacts are processed by the [BPM Engine](../../engines/bpm/).
