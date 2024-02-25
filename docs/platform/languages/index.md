@@ -10,7 +10,7 @@ The `codbex` platform supports multiple programming languages for building appli
 
 The platform fully supports JavaScript, including the ES6 syntax. Developers can leverage modern JavaScript features to build scalable and maintainable applications. The platform also provides a rich set of APIs and tools for JavaScript development.
 
-#### Example
+**Example**
 
 ```javascript
 // ES6 Arrow Function
@@ -24,7 +24,7 @@ const { firstName, lastName } = person;
 
 TypeScript, a superset of JavaScript, is also supported in the platform. Developers can use TypeScript to write strongly-typed code, enhancing code quality and maintainability. The TypeScript compiler is integrated into the platform, allowing seamless development.
 
-#### Example
+**Example**
 
 ```typescript
 // TypeScript Interface
@@ -43,7 +43,7 @@ function greet(person: Person): string {
 
 The platform extends its support to Python, enabling developers to write Python applications and scripts. The platform includes a Python runtime, and developers can utilize the standard Python libraries for various functionalities.
 
-#### Example
+**Example**
 
 ```python
 # Python Function
@@ -58,7 +58,7 @@ squares = [x**2 for x in range(10)]
 
 ABAP (Advanced Business Application Programming) support is provided through [open-abap](https://github.com/open-abap) and [abaplint transpiler](https://github.com/abaplint/transpiler). Developers can write ABAP code and transpile it to JavaScript for execution on the `codbex` platform.
 
-#### Example
+**Example**
 
 ```abap
 " ABAP Example
@@ -74,7 +74,7 @@ The `codbex` supports SAP HANA XS Classic development using and furter developin
 
 For more information on SAP HANA XS Classic development with the `codbex` platform, refer to the [XSK project documentation](https://xsk.io).
 
-#### Example
+**Example**
 
 ```javascript
 $.response.contentType="application/json";
