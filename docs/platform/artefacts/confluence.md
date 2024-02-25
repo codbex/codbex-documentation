@@ -62,5 +62,5 @@ This is an example Confluence page supported by the `codbex` platform.
 
 The integration of Confluence wiki files support enhances collaboration and documentation workflows, providing a seamless environment for managing Confluence content alongside other development artifacts. Leverage the features of the platform to streamline your development and documentation processes.
 
-The Confluence artefacts are processed by the [Wiki Engine](../../engines/wiki/).
+The Confluence artefacts are processed by the [Wiki Engine](../engines/wiki.md).
 

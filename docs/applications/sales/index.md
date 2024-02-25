@@ -1,6 +1,6 @@
 # Sales
 
-## [Lead](lead)
+## [Lead](lead.md)
 
 A Lead represents a potential customer who has shown interest in the products or services but has not yet become a paying customer. Leads are typically individuals or organizations that you are actively pursuing as potential clients.
 
@@ -16,7 +16,7 @@ Process:
 * Lead Qualification: Evaluate and qualify leads based on criteria such as interest level and potential for conversion.
 * Lead Nurturing: Engage with leads through targeted communication to move them through the sales funnel.
 
-## [Opportunity](opportunity)
+## [Opportunity](opportunity.md)
 
 An Opportunity represents a potential sale or deal with a qualified lead. It is a record of a potential revenue-generating transaction with a customer that is being actively pursued.
 
@@ -32,7 +32,7 @@ Process:
 * Sales Process: Progress through various sales stages, updating the opportunity details and probability as needed.
 * Deal Closure: Mark the opportunity as won or lost based on the outcome of negotiations.
 
-## [Quotation](quotation)
+## [Quotation](quotation.md)
 
 Quotations, or quotes, are documents that provide detailed pricing information for products or services offered to a potential customer. They serve as formal proposals and can be generated from opportunities or directly for specific customer requests.
 
@@ -48,7 +48,7 @@ Process:
 * Review and Approval: Internal review of the quotation, ensuring accuracy and alignment with pricing strategies.
 * Customer Presentation: Share the quotation with the customer for consideration and negotiation.
 
-## [Sales Order](sales-order)
+## [Sales Order](sales-order.md)
 
 A Sales Order is a document that confirms a customer's acceptance of a quotation. It serves as a formal request from the customer to purchase the specified products or services at the agreed-upon terms.
 

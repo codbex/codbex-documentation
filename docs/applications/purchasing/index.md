@@ -1,6 +1,6 @@
 # Purchasing
 
-## [Purchase Requisition](purchase-requisition) (PR)
+## [Purchase Requisition](purchase-requisition.md) (PR)
 
 A Purchase Requisition is a document initiated by internal departments to request the purchase of goods or services. It outlines the specific items or services needed, quantities, and any other relevant details.
 
@@ -18,7 +18,7 @@ Process:
 * The requisition undergoes an approval process, involving relevant stakeholders.
 * Once approved, the Purchase Requisition serves as the basis for creating a Purchase Order.
 
-## [Purchase Order](purchase-order) (PO)
+## [Purchase Order](purchase-order.md) (PO)
 
 A Purchase Order is a formal document issued by the buyer to a supplier, indicating the details of the products or services to be purchased. It serves as a contractual agreement between the buyer and the supplier.
 
@@ -37,7 +37,7 @@ Process:
 * The goods or services are delivered, and the buyer verifies the delivery against the Purchase Order.
 
 
-## [Request for Quotation](request-for-quotation) (RFQ):
+## [Request for Quotation](request-for-quotation.md) (RFQ):
 
 A document sent to potential suppliers, requesting them to submit quotations for specific products or services.
 Initiates the procurement process, allowing the buyer to compare and evaluate offers from different suppliers.
@@ -55,7 +55,7 @@ Process:
 * The RFQ is sent to potential suppliers.
 * Suppliers submit quotations in response to the RFQ
 
-## [Quotation Comparison Sheet](quotation-comparison):
+## [Quotation Comparison Sheet](quotation-comparison.md):
 
 A document that compares the quotations received from different suppliers, highlighting key factors such as price, delivery time, and terms.
 Assists in making informed decisions by evaluating and selecting the most favorable supplier.
@@ -73,7 +73,7 @@ Process Steps:
 * A comparison sheet is created, analyzing and comparing key factors.
 * A supplier is selected based on the analysis.
 
-## [Supplier Agreement](supplier-agreement):
+## [Supplier Agreement](supplier-agreement.md):
 
 A formal agreement or contract between the buyer and the selected supplier, outlining terms, conditions, and expectations.
 Establishes a legally binding relationship, specifying the rights and obligations of both parties.
@@ -109,7 +109,7 @@ Process:
 * The GRN is compared with the PO to ensure accuracy.
 * The GRN is shared with the finance department for payment processing.
 
-## Purchase Return/[Debit Note](debit-note):
+## Purchase Return/[Debit Note](debit-note.md):
 
 A document issued by the buyer to the supplier to request a return of goods or to address discrepancies in the delivered items.
 Formalizes the process of returning goods or resolving issues related to the delivered products.
@@ -162,7 +162,7 @@ Process:
 * The change is reviewed and approved by relevant personnel.
 * The modified purchase order is issued to the supplier.
 
-## [Purchase Invoice](purchase-invoice)
+## [Purchase Invoice](purchase-invoice.md)
 
 The Purchase Invoice is a document sent by the supplier to the buyer, requesting payment for the delivered goods or services. It outlines the agreed-upon prices and any additional charges.
 

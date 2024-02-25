@@ -54,4 +54,4 @@ Camel routes, like other artifacts, can be collaboratively developed by multiple
 
 As software evolves, features and capabilities may be enhanced, and it's recommended to refer to the latest documentation or release notes for the most up-to-date information on Apache Camel support.
 
-The Apache Camel artefacts are processed by the [Integrations Engine](../../engines/integrations/).
+The Apache Camel artefacts are processed by the [Integrations Engine](../engines/integrations.md).

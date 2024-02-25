@@ -70,4 +70,4 @@ Depending on the features available in the specific version of the `codbex` plat
 
 Please note that the specific features and user interface details may vary based on the version of `codbex` platform you are using. Always refer to the official documentation or release notes for the most up-to-date information on BPMN support in platform.
 
-The BPMN artefacts are processed by the [BPM Engine](../../engines/bpm/).
+The BPMN artefacts are processed by the [BPM Engine](../engines/bpm.md).

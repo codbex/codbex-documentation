@@ -59,4 +59,4 @@ Explanation of Properties:
 
 Always refer to the latest documentation or release notes for `codbex` platform, as details and features may evolve over time.
 
-The Access Constraints are processed by the [Security Engine](../../engines/security/).
+The Access Constraints are processed by the [Security Engine](../engines/security.md).

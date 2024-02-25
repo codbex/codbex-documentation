@@ -126,4 +126,4 @@ Command files can be executed within the platform using various methods, such as
 
 It's important to note that features and capabilities may evolve over time, so it's recommended to refer to the latest documentation or release notes for the most up-to-date information on command file support and usage.
 
-The Command artefacts are processed by the [Command Engine](../../engines/command/).
+The Command artefacts are processed by the [Command Engine](../engines/command.md).

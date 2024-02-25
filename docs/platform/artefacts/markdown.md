@@ -61,3 +61,5 @@ This is an example Markdown file supported by the `codbex` platform.
 
 The Markdown wiki format support provides a user-friendly and efficient environment for content creation and collaboration. Enhance your documentation workflows by leveraging the features of `codbex` platform for Markdown files.
 
+The Markdown artefacts are processed by the [Wiki Engine](../engines/wiki.md).
+
