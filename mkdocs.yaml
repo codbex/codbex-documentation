@@ -65,7 +65,24 @@ nav:
       - additions:
         - 'platform/artefacts/additions/index.md'
         - abap: platform/artefacts/additions/abap.md
-    - API: 'platform/api/index.md'
+    - SDK:
+      - 'platform/sdk/index.md'
+      - Core:
+        - 'platform/sdk/core/index.md'
+        - Configurations: 'platform/sdk/core/configurations.md'
+        - Context: 'platform/sdk/core/context.md'
+        - Env: 'platform/sdk/core/env.md'
+        - Globals: 'platform/sdk/core/globals.md'
+      - Database:
+        - 'platform/sdk/db/index.md'
+        - DAO: 'platform/sdk/db/dao.md'
+        - Database: 'platform/sdk/db/database.md'
+        - Insert: 'platform/sdk/db/insert.md'
+        - Procedure: 'platform/sdk/db/procedure.md'
+        - Query: 'platform/sdk/db/query.md'
+        - Sequence: 'platform/sdk/db/sequence.md'
+        - Store: 'platform/sdk/db/store.md'
+        - Update: 'platform/sdk/db/update.md'
     - Widgets: 'platform/widgets/index.md'
     - Services: 'platform/rest/index.md'
     - Templates: 'platform/templates/index.md'
@@ -198,5 +215,3 @@ extra:
       link: https://github.com/codbex/
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCbxnGOhmcDvBIrafDeyCU7Q/videos/
-    - icon: fontawesome/brands/slack
-      link: https://slack.dirigible.io
