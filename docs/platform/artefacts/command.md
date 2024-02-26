@@ -47,35 +47,21 @@ The provided example is a JSON representation of a command file. Let's break dow
 
 #### Elements of the Command File:
 
-* description:
+* description: A description providing information about the purpose or nature of the command.
 
-A description providing information about the purpose or nature of the command.
+* contentType: Specifies the content type, indicating the type of data expected or returned. In this example, it is set to "text/plain."
 
-* contentType:
+* set: A section where variables are set. In this case, a variable named "GREETING" is set with the value "hello world!"
 
-Specifies the content type, indicating the type of data expected or returned. In this example, it is set to "text/plain."
+* unset: An array of variables to unset or remove. In this example, the variable "BYE" is to be unset.
 
-* set:
-
-A section where variables are set. In this case, a variable named "GREETING" is set with the value "hello world!"
-
-* unset:
-
-An array of variables to unset or remove. In this example, the variable "BYE" is to be unset.
-
-* commands:
-
-An array of commands to be executed based on the operating system.
+* commands: An array of commands to be executed based on the operating system.
 
 #### Command Object:
 
-* os:
+* os: Specifies the operating system for which the command is intended. Can be "linux," "mac," or "windows."
 
-Specifies the operating system for which the command is intended. Can be "linux," "mac," or "windows."
-
-* command:
-
-The actual command to be executed. For Linux and macOS, it is "sh print.sh," and for Windows, it is "print.bat."
+* command: The actual command to be executed. For Linux and macOS, it is "sh print.sh," and for Windows, it is "print.bat."
 
 ### Usage and Execution:
 
@@ -84,10 +70,8 @@ When this command file is executed in the environment, it will perform the follo
 * Set the variable "GREETING" to "hello world!"
 * Unset the variable "BYE."
 * Execute different commands based on the operating system:
-
-  * On Linux and macOS, it will execute the shell script "print.sh."
-
-  * On Windows, it will execute the batch file "print.bat."
+    * On Linux and macOS, it will execute the shell script "print.sh."
+    * On Windows, it will execute the batch file "print.bat."
 
 > Note:
 

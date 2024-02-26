@@ -14,9 +14,9 @@ A typical CSVIM file has the following structure:
 {
   "files": [
     {
-      "table": "TEST_DATA",
+      "table": "MY_DATA",
       "schema": "PUBLIC",
-      "file": "/test-project/csvim/data.csv",
+      "file": "/my-project/csvim/data.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -30,42 +30,25 @@ A typical CSVIM file has the following structure:
 
 ### CSVIM File Properties:
 
-* table (String):
+* `table` (String): Specifies the name of the table in the database where the data will be imported.
 
-Specifies the name of the table in the database where the data will be imported.
+* `schema` (String, Optional): Specifies the schema of the table. If not provided, the default schema is used.
 
-* schema (String, Optional):
+* `file` (String): Specifies the path to the CSV file that contains the data to be imported.
 
-Specifies the schema of the table. If not provided, the default schema is used.
+* `header` (Boolean): Indicates whether the CSV file contains a header row. If set to true, the first row is treated as a header and skipped during the import.
 
-* file (String):
+* `useHeaderNames` (Boolean): Specifies whether to use header names when mapping columns. If set to true, header names are used.
 
-Specifies the path to the CSV file that contains the data to be imported.
+* `delimField` (String): Specifies the delimiter used between fields in the CSV file, such as a comma (`,`).
 
-* header (Boolean):
+* `delimEnclosing` (String): Specifies the enclosing character for fields in the CSV file, such as double quotes (`"`).
 
-Indicates whether the CSV file contains a header row. If set to true, the first row is treated 
-as a header and skipped during the import.
+* `distinguishEmptyFromNull` (Boolean): Specifies whether to distinguish empty values from `null`. If set to true, empty values are treated as null during the import.
 
-* useHeaderNames (Boolean):
+## Example Usage:
 
-Specifies whether to use header names when mapping columns. If set to true, header names are used.
-
-* delimField (String):
-
-Specifies the delimiter used between fields in the CSV file, such as a comma (`,`).
-
-* delimEnclosing (String):
-
-Specifies the enclosing character for fields in the CSV file, such as double quotes (`"`).
-
-* distinguishEmptyFromNull (Boolean):
-
-Specifies whether to distinguish empty values from `null`. If set to true, empty values are treated as null during the import.
-
-**Example Usage**:
-
-In the provided example, a CSV file (`/test-project/csvim/data.csv`) is imported into the `TEST_DATA` table in the `PUBLIC` schema. The CSV file has a header, and header names are used for column mapping. The fields are delimited by a comma (`,`), and double quotes (`"`) are used for enclosing fields. Empty values are distinguished from `null`.
+In the provided example, a CSV file (`/my-project/csvim/data.csv`) is imported into the `MY_DATA` table in the `PUBLIC` schema. The CSV file has a header, and header names are used for column mapping. The fields are delimited by a comma (`,`), and double quotes (`"`) are used for enclosing fields. Empty values are distinguished from `null`.
 
 ## Getting Started
 

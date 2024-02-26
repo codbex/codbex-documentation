@@ -8,7 +8,7 @@ The `*.extensionpoint` files in `codbex` platform are used to define extension p
 
 Here's an explanation of the example `myextensionpoint.extensionpoint` file and its properties:
 
-```javascript
+```json
 {
   "location": "/my-project/extensions/myextensionpoint.extensionpoint",
   "name": "/my-project/extensions/myextensionpoint",

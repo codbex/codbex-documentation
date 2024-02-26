@@ -31,7 +31,7 @@ The `codbex` platform provides support for Confluence wiki files (*.confluence),
 ### Version Control:
    - Leverage the version control capabilities to manage changes, commit versions, and track the history of Confluence wiki files.
 
-**Example**
+## Example
 
 Below is an example of a simple Confluence wiki file (example.confluence):
 
@@ -41,7 +41,7 @@ h1. Welcome to Confluence wiki pages
 
 This is an example Confluence page supported by the `codbex` platform.
 
-*Features:*
+**Features:**
 
 - Integration with Confluence
 - Collaborative editing using Web IDE

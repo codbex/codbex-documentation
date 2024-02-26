@@ -31,7 +31,7 @@ The `codbex` platform provides robust support for the Markdown wiki format, empo
 ### Real-Time Collaboration:
    - Collaborate with team members on Markdown content in real-time by leveraging collaborative development features.
 
-**Example**
+## Example
 
 Below is an example of a simple Markdown file (example.md):
 
@@ -42,6 +42,7 @@ Below is an example of a simple Markdown file (example.md):
 This is an example Markdown file supported by the `codbex` platform.
 
 **Features:**
+
 - Integrated markdown editor
 - Real-time collaboration
 - Version control for Markdown files

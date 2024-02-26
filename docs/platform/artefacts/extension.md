@@ -8,7 +8,7 @@ The `*.extension` files in the `codbex` platform are used to define extensions t
 
 Here's an explanation of the example `myextension.extension` file and its properties:
 
-```javascript
+```json
 {
   "location": "/my-project/extensions/myextension.extension",
   "module": "/my-project/extensions/myscript",
