@@ -1,3 +1,3 @@
 # Database Schema Model
 
-File extension: `*.dsm`
+> File extension: `*.dsm`

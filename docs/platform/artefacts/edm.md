@@ -1,3 +1,3 @@
 # Entity Data Model
 
-File extension: `*.edm`
+> File extension: `*.edm`

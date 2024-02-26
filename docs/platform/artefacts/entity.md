@@ -1,3 +1,3 @@
 # Entity
 
-File extension: `*.entity`
+> File extension: `*.entity`

@@ -1,6 +1,6 @@
 # TypeScript
 
-File extension: `*.ts`
+> File extension: `*.ts`
 
 ## TypeScript
 

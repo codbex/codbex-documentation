@@ -1,3 +1,3 @@
 # Expose
 
-File: `project.json`/`expose`
+> File: `project.json`/`expose`

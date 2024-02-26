@@ -1,3 +1,3 @@
 # HTML
 
-File extension: `*.html`
+> File extension: `*.html`

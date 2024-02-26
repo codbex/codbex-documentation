@@ -2,7 +2,7 @@
 
 > File extension: `*.command`
 
-## Overview
+## Overview:
 
 The `codbex` provides provides support for command files (*.command) as a way to define and execute commands in the runtime environment. Command files are written in JSON, and they allow users to define and run server-side scripts or execute specific tasks within the platform.
 

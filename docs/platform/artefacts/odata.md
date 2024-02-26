@@ -1,6 +1,6 @@
 # OData
 
-File extension: `*.odata`
+> File extension: `*.odata`
 
 ## OData
 

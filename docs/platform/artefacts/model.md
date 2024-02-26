@@ -1,3 +1,3 @@
 # Application Model
 
-File extension: `*.model`
+> File extension: `*.model`

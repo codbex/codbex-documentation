@@ -2,7 +2,7 @@
 
 > File extension: `*.camel`
 
-## Overview
+## Overview:
 
 The `codbex` provides support for Apache Camel Routes through the Camel Editor. The Camel Editor allows developers to design and edit Camel routes using graphical tools, making it easier to create and visualize integration solutions.
 

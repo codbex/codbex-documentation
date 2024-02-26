@@ -1,3 +1,3 @@
 # Python
 
-File extension: `*.py`
+> File extension: `*.py`

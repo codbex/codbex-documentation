@@ -1,3 +1,3 @@
 # OpenAPI
 
-File extension: `*.openapi`
+> File extension: `*.openapi`

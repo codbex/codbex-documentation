@@ -2,7 +2,7 @@
 
 > File extension: `*.bpmn`
 
-## Overview
+## Overview:
 
 The `codbex` platform provides support for BPMN (Business Process Model and Notation) v2.0 files, allowing users to model, design, and execute business processes within the runtime container. Below is an overview of the BPMN support in the platform:
 

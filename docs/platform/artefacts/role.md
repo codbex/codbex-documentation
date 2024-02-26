@@ -1,3 +1,3 @@
 # Role
 
-File extension: `*.role`
+> File extension: `*.role`

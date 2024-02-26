@@ -2,11 +2,11 @@
 
 > File extensions: `*.markdown`, `*.md`
 
-## Overview
+## Overview:
 
 The `codbex` platform provides robust support for the Markdown wiki format, empowering users to seamlessly create, edit, and manage Markdown files directly within the platform. This support enhances collaborative development and documentation workflows, offering a flexible and familiar markup language for content creation.
 
-## Key Features
+## Key Features:
 
 ### Markdown Integration:
    - The platform allows you to work with Markdown files (.md) directly in the Web IDE, providing a versatile and widely-used format for documentation and content creation.
@@ -20,7 +20,7 @@ The `codbex` platform provides robust support for the Markdown wiki format, empo
 ### Version Control:
    - Leverage the version control capabilities to track changes, commit versions, and collaborate on Markdown files efficiently.
 
-## Getting Started
+## Getting Started:
 
 ### Creating Markdown Files:
    - Use the Web IDE to create new Markdown files or import existing ones into your project.
@@ -31,7 +31,7 @@ The `codbex` platform provides robust support for the Markdown wiki format, empo
 ### Real-Time Collaboration:
    - Collaborate with team members on Markdown content in real-time by leveraging collaborative development features.
 
-## Example
+**Example**
 
 Below is an example of a simple Markdown file (example.md):
 
@@ -46,7 +46,7 @@ This is an example Markdown file supported by the `codbex` platform.
 - Real-time collaboration
 - Version control for Markdown files
 
-### Best Practices
+## Best Practices
 
 * Markdown Syntax Understanding:
     * Familiarize yourself with Markdown syntax. Refer to the official Markdown documentation for a comprehensive guide.
@@ -57,7 +57,7 @@ This is an example Markdown file supported by the `codbex` platform.
 * Preview Rendering:
     * Before publishing or updating Markdown content, preview the rendering within the Web IDE to catch any formatting issues.
 
-## Conclusion
+## Conclusion:
 
 The Markdown wiki format support provides a user-friendly and efficient environment for content creation and collaboration. Enhance your documentation workflows by leveraging the features of `codbex` platform for Markdown files.
 

@@ -1,3 +1,3 @@
 # Template
 
-File extension: `*.template`
+> File extension: `*.template`

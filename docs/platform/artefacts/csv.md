@@ -2,7 +2,7 @@
 
 > File extension: `*.csv`
 
-## Overview
+## Overview:
 
 CSV (Comma-Separated Values) files are commonly used for tabular data storage, and they serve various use cases within the `codbex` platform. Here are some use cases for `*.csv` files within the platform, especially for predefined data load:
 
@@ -38,6 +38,6 @@ For quick data analysis tasks, CSV files can be a convenient choice. You can use
 
 When developing scripts or services within the platform, CSV files can serve as a structured input source. Scripts can read data from CSV files to perform specific operations, enhancing data processing capabilities.
 
-## Conclusion
+## Conclusion:
 
 To leverage these use cases, the `codbex` platform provides APIs and tools for working with CSV files, making it straightforward to read, write, and manipulate data in this popular tabular format.

@@ -1,3 +1,4 @@
 # Form Design
 
-File extension: `*.form`
+> File extension: `*.form`
+

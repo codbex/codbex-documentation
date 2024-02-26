@@ -1,3 +1,3 @@
 # JavaScript
 
-File extensions: `*.js`, `*.mjs`, `*.cjs`
+> File extensions: `*.js`, `*.mjs`, `*.cjs`

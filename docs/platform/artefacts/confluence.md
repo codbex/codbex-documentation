@@ -2,11 +2,11 @@
 
 > File extension: `*.confluence`
 
-## Overview
+## Overview:
 
 The `codbex` platform provides support for Confluence wiki files (*.confluence), allowing users to seamlessly integrate and manage Confluence content within the platform. This support enables collaborative development and documentation workflows by combining the strengths of both `codbex` and Confluence.
 
-## Key Features
+## Key Features:
 
 ### Confluence Integration:
    - The `codbex` platform allows you to import, edit, and manage Confluence wiki files directly within the Web IDE.
@@ -20,7 +20,7 @@ The `codbex` platform provides support for Confluence wiki files (*.confluence),
 ### Collaborative Development:
    - Collaborate with team members on Confluence wiki content by sharing and editing files in real-time using platform's collaborative development features.
 
-## Getting Started
+## Getting Started:
 
 ### Importing Confluence Wiki Files:
    - Use the Web IDE to import existing Confluence wiki files into your project.
@@ -31,7 +31,7 @@ The `codbex` platform provides support for Confluence wiki files (*.confluence),
 ### Version Control:
    - Leverage the version control capabilities to manage changes, commit versions, and track the history of Confluence wiki files.
 
-## Example
+**Example**
 
 Below is an example of a simple Confluence wiki file (example.confluence):
 
@@ -47,7 +47,7 @@ This is an example Confluence page supported by the `codbex` platform.
 - Collaborative editing using Web IDE
 - Version control for Confluence wiki files
 
-### Best Practices
+## Best Practices:
 
 * Familiarize Yourself with Confluence Syntax:
     * Confluence wiki files use a specific syntax. Refer to Confluence documentation for syntax guidelines.
@@ -58,7 +58,7 @@ This is an example Confluence page supported by the `codbex` platform.
 * Test Rendering:
     * Before publishing or updating Confluence content, preview the rendering within the Web IDE to catch any formatting issues.
     
-## Conclusion
+## Conclusion:
 
 The integration of Confluence wiki files support enhances collaboration and documentation workflows, providing a seamless environment for managing Confluence content alongside other development artifacts. Leverage the features of the platform to streamline your development and documentation processes.
 

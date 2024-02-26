@@ -106,15 +106,63 @@ Alias for the create function.
 ## Usage Example:
 
 ```javascript
-import { dao } from './your-dao-module';
+import { dao } from 'sdk/db';
 
-// Create a DAO instance
-const myDAO = dao(yourOrmDefinition, 'myLogCtx', 'myDataSource');
+//create a DAO from configuration
+const myDAO = dao.create({
+    table: "CUSTOMERS",
+    properties: [{
+        name: "id",
+        column: "ID",
+        type: "BIGINT",
+        id: true
+    }, {
+        name: "orgName",
+        column: "ORG_NAME",
+        type: "VARCHAR",
+        required: true
+    }, {
+        name: "employeesNumber",
+        column: "ORG_EMP_NUM",
+        type: "INTEGER",
+        required: true
+    }, {
+        name: "orgDescription",
+        column: "ORG_DESCR",
+        type: "VARCHAR",
+        required: false
+    }]
+});
 
-// Use DAO methods
-myDAO.insert(yourEntity);
-myDAO.update(yourEntity);
+//Create CUSTOMERS table
+myDAO.createTable();
+
+try {
+
+    //Create a new customer entity
+    let customerId = myDAO.insert({
+        orgName: "ACME",
+        employeesNumber: 1000
+    });
+
+    //List all customer entities
+    let customersList = customers.list();
+
+    //Get a particular customer entity by its id
+    let customer = myDAO.find(customerId);
+
+    //Update a customer entity property
+    customer.orgDescription = "ACME is a company";
+    myDAO.update(customer);
+
+    //Delete a customer entity
+    myDAO.remove(customerId);
+
+} finally {
+    //Drop CUSTOMERS table
+    myDAO.dropTable();
+}
 // ... and more
 ```
 
-Replace `your-dao-module`, `yourOrmDefinition`, `myLogCtx`, `myDataSource`, `yourEntity`, and other placeholder values with your actual module, ORM definition, log context, data source, and entity details.
+Replace placeholder values with your actual module, ORM definition, log context, data source, and entity details.

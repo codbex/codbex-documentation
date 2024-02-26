@@ -2,7 +2,7 @@
 
 > File extension: `*.access`
 
-## Overview
+## Overview:
 
 The `codbex` platform uses access control through access files (`.access`) to define access constraints for different artifacts. These files are processed by the Security Engine to enforce security policies. Below is a general description of the access constraints in a JSON `.access` file:
 
