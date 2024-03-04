@@ -22,6 +22,8 @@ import { response } from "sdk/http";
 response.println("Hello World!");
 ```
 
+Example for HTTP RESTful services framework:
+
 ```javascript
 import { rs } from "sdk/http";
 
@@ -32,6 +34,14 @@ rs.service()
     })
     .execute();
 ```
+
+**Benefits:**
+
+* Custom Functionality: JavaScript allows developers to implement custom business logic, data processing, and data retrieval within the RESTful service.
+Integration Capabilities:
+* RESTful services written in JavaScript can easily integrate with other platform artifacts, such as tables and views, providing a seamless development experience.
+* Data Transformation: JavaScript scripts can perform data transformation and enrichment before sending responses to clients.
+* Flexible Routing: Developers have the flexibility to define custom endpoints and route requests based on specific requirements.
 
 ### Job Handlers:
 
