@@ -1,6 +1,6 @@
 # Code Editor
 
-The `Code Editor` in the `Workbench` is powered by the `Monaco` editor, which is the same editor used in `Visual Studio Code` (VSCode). This powerful and feature-rich editor provides a comfortable environment for writing, editing, and managing your code. This section provides an overview of the key features and actions available in the `Code Editor`.
+The "Code Editor" in the "Workbench" is powered by the "Monaco" editor, which is the same editor used in "Visual Studio Code" (VSCode). This powerful and feature-rich editor provides a comfortable environment for writing, editing, and managing your code. This section provides an overview of the key features and actions available in the "Code Editor".
 
 ## Key Features
 
@@ -36,15 +36,15 @@ The `Code Editor` in the `Workbench` is powered by the `Monaco` editor, which is
 
 ### 1. **Save Changes**
 
-- Save your code changes by clicking the `Save` button or using the keyboard shortcut (`Ctrl + S` or `Cmd + S`).
+- Save your code changes by clicking the "Save" button or using the keyboard shortcut ("Ctrl + S" or "Cmd + S").
 
 ### 2. **Undo and Redo**
 
-- Undo or redo your actions with the `Undo` and `Redo` buttons or keyboard shortcuts (`Ctrl + Z` or `Cmd + Z`, `Ctrl + Y` or `Cmd + Y`).
+- Undo or redo your actions with the "Undo" and "Redo" buttons or keyboard shortcuts ("Ctrl + Z" or "Cmd + Z", "Ctrl + Y" or "Cmd + Y").
 
 ### 3. **Find and Replace**
 
-- Use the `Find` and `Replace` functionalities to search for specific text and replace it with ease.
+- Use the "Find" and "Replace" functionalities to search for specific text and replace it with ease.
 
 ### 4. **Toggle Word Wrap**
 
@@ -52,7 +52,7 @@ The `Code Editor` in the `Workbench` is powered by the `Monaco` editor, which is
 
 ### 5. **Zoom In and Out**
 
-- Adjust the font size with the `Zoom In` and `Zoom Out` options for better readability.
+- Adjust the font size with the "Zoom In" and "Zoom Out" options for better readability.
 
 ### 6. **Toggle Sidebar**
 
@@ -60,8 +60,8 @@ The `Code Editor` in the `Workbench` is powered by the `Monaco` editor, which is
 
 ### 7. **Toggle Full Screen**
 
-- Make the `Code Editor` full screen for a distraction-free coding experience.
+- Make the "Code Editor" full screen for a distraction-free coding experience.
 
 ## Conclusion
 
-The `Code Editor` in the Workbench, powered by the Monaco editor, provides a sophisticated and feature-rich environment for coding. Explore the various features and actions to enhance your coding productivity and efficiency.
+The "Code Editor" in the Workbench, powered by the Monaco editor, provides a sophisticated and feature-rich environment for coding. Explore the various features and actions to enhance your coding productivity and efficiency.
