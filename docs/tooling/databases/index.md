@@ -6,17 +6,17 @@ Welcome to the "Database" perspective in the `codbex` platform! This perspective
 
 Inspect the datasources, schemes, tables, views, procedures, sequences and other database artefacts.
 
-## 2. [Databases View](databases.md):
-
-Manage datasources, configure connections, and perform essential actions related to database connectivity.
-
-## 3. [SQL Console](sql.md):
+## 2. [SQL Console](sql.md):
 
 Execute SQL queries, interact with the database, and perform data anonymization directly from the console.
 
-## 4. [Result View](result.md):
+## 3. [Result View](result.md):
 
 View and analyze the results of SQL queries, perform data anonymization, and export data seamlessly.
+
+## 4. [Databases View](databases.md):
+
+Manage datasources, configure connections, and perform essential actions related to database connectivity.
 
 ## 5. [Transfer View](transfer.md):
 
