@@ -232,7 +232,7 @@ markdown_extensions:
     - admonition
     - pymdownx.details
 
-copyright: Copyright © 2023 codbex ltd
+copyright: Copyright © 2024 codbex ltd
 
 extra:
   homepage: https://www.codbex.com/
