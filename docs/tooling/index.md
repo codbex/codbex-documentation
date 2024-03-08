@@ -10,7 +10,8 @@ Welcome to the Tooling section of the platform! This index serves as a comprehen
 4. [**Debugger Perspective**](#debugger-perspective)
 5. [**Documents Perspective**](#documents-perspective)
 6. [**Processes Workspace Perspective**](#processes-workspace-perspective)
-7. [**Terminal Perspective**](#terminal-perspective)
+7. [**Integration Flows Editor**](#integration-flows-editor)
+8. [**Terminal Perspective**](#terminal-perspective)
 
 ## Concepts
 
@@ -78,6 +79,11 @@ Welcome to the Tooling section of the platform! This index serves as a comprehen
 - [Dead-Letter Jobs View](processes/dead-letter-jobs.md)
 - [BPMN Modeler](processes/modeler.md)
 
+### Integration Flows Editor
+
+- [Integrations Basics](integrations/index.md#overview)
+- [Key Features](integrations/index.md#key-features)
+- [Benefits](integrations/index.md#benefits)
 
 ### Terminal Perspective
 
