@@ -10,6 +10,14 @@ The "Documents" perspective in the `codbex` platform is a dedicated workspace fo
 2. **Navigation:**
    - The Documents perspective provides an organized view of your documents structure. Navigate through folders, and files effortlessly.
 
+## 1. [Documents Explorer](explorer.md):
+
+Explore the hierarchical arrangement of content within the connected CMS repository.
+
+## 2. [Document Preview](preview.md):
+
+Displays a preview of the content of the selected document.
+
 ## Features
 
 ### 1. **File Management:**
@@ -38,7 +46,7 @@ The "Documents" perspective in the `codbex` platform is a dedicated workspace fo
 ## CMIS Specification Support for CMS Document Repositories
 
 1. **CMIS Integration:**
-   - Eclipse Dirigible supports the CMIS (Content Management Interoperability Services) specification for seamless integration with CMS document repositories.
+   - The platform supports the CMIS (Content Management Interoperability Services) specification for seamless integration with CMS document repositories.
 
 2. **Connect to CMIS Repositories:**
    - Establish connections to CMS document repositories using the CMIS protocol. This enables direct access to and management of documents stored in compatible content management systems.
