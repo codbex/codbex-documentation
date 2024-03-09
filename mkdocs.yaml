@@ -84,7 +84,7 @@ nav:
         - Store: 'platform/sdk/db/store.md'
         - Update: 'platform/sdk/db/update.md'
     - Widgets: 'platform/widgets/index.md'
-    - Services: 'platform/rest/index.md'
+    - Services: 'platform/services/index.md'
     - Templates: 'platform/templates/index.md'
   - Tooling:
     - 'tooling/index.md'
@@ -191,11 +191,11 @@ theme:
   favicon: logo/favicon.png
   logo: logo/logo.svg
   palette: 
-    - scheme: slate
+    - scheme: default
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
-    - scheme: default
+    - scheme: slate
       toggle:
         icon: material/lightbulb
         name: Switch to dark mode
