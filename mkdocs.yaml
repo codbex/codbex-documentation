@@ -42,7 +42,7 @@ nav:
       - dsm: platform/artefacts/dsm.md
       - edm:  platform/artefacts/edm.md
       - entity: platform/artefacts/entity.md
-      - expose: platform/artefacts/expose.md
+      - exposes: platform/artefacts/exposes.md
       - extension: platform/artefacts/extension.md
       - extensionpoint: platform/artefacts/extensionpoint.md
       - form: platform/artefacts/form.md
@@ -135,6 +135,7 @@ nav:
     - Modeling: 'tooling/modeling.md'
     - Extensibility: 'tooling/extensibility.md'
     - Compatibility: 'tooling/compatibility.md'
+    - Multitenancy: 'tooling/multitenancy.md'
   - Applications:
     - 'applications/index.md'
     - Sales:
