@@ -103,6 +103,10 @@ nav:
         - RESTful Framework: 'platform/sdk/http/rs.md'
         - Session: 'platform/sdk/http/session.md'
         - Upload: 'platform/sdk/http/upload.md'
+      - Indexing:
+        - 'platform/sdk/indexing/index.md'
+        - Writer: 'platform/sdk/indexing/writer.md'
+        - Searcher: 'platform/sdk/indexing/searcher.md'
     - Widgets: 'platform/widgets/index.md'
     - Services: 'platform/services/index.md'
     - Templates: 'platform/templates/index.md'
