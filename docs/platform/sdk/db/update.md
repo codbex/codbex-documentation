@@ -61,3 +61,13 @@ console.log('Affected Rows:', affectedRows);
 ```
 
 Replace `your_table`, `new_value1`, `42`, `123`, `yourDataSource`, and other placeholders with your actual module path, SQL update statement, update parameters, data source, and details.
+
+### Functions
+
+---
+
+Function     | Description | Returns
+------------ | ----------- | --------
+**execute(sql, parameters?, datasourceName?)**   | Executes a SQL update against the selected *datasourceName* with the provided parameters and returns the number of affected rows | *int*
+
+> parameters array supports primitives e.g. [1, 'John', 34.56] or objects in format {'type':'[DATA_TYPE]', 'value':[VALUE]} e.g. [1, {'type':'CHAR', 'value':'ISBN19202323322'}]

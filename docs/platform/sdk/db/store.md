@@ -84,3 +84,56 @@ Example:
 ```javascript
 Store.remove("myDataStore", "1");
 ```
+
+### Example Usage
+
+```javascript
+import { Store } from "sdk/db";
+import { Response } from "sdk/http";
+
+let entry = { 'name': 'Peter', 'address': 'Sofia, Bulgaria' };
+
+Store.save('Customer', entry);
+
+let list = Store.list('Customer');
+
+Response.println(JSON.stringify(list));
+Response.flush();
+Response.close();
+```
+
+The `Entity` description in the Hibernate `xml` format (e.g. Customer.hbm.xml as XML)
+
+
+```xml
+<hibernate-mapping>
+
+    <class entity-name="Customer">
+
+        <id name="id" type="long" column="ID">
+            <generator class="sequence" />
+        </id>
+
+        <property name="name" column="NAME" type="string" />
+
+        <property name="address" column="ADDRESS" type="string" />
+
+    </class>
+
+</hibernate-mapping>
+```
+
+    
+
+
+
+### Functions
+
+---
+
+Function     | Description | Returns
+------------ | ----------- | --------
+**save(name, entry)**   | Save the `entry` in the collection with `name` | *-*
+**list(name)**   | List all the entris in the collection with `name` | *Array of Objects*
+**get(name, id)**   | Get the entry from the collection with `name` by its `id` | *Object*
+**deleteEntry(name, id)**   | Delete the entry from the collection with `name` by its `id` | *-*

@@ -38,18 +38,17 @@ execute(sql: string, parameters?: (string | number | boolean | Date | InsertPara
 ## Example Usage:
 
 ```javascript
-import { Insert, InsertParameter } from 'sdk/db/insert';
+import { Insert } from 'sdk/db';
 
 // Example SQL INSERT statement
 const sql = 'INSERT INTO your_table (column1, column2) VALUES (?, ?)';
 
 // Example parameters
-const parameters: (string | number | boolean | Date | InsertParameter)[] = [
+const parameters: (string | number | boolean | Date )[] = [
   'value1',
   42,
   true,
-  new Date(),
-  { type: 'custom', value: 'custom value' } as InsertParameter
+  new Date()
 ];
 
 // Execute the INSERT statement

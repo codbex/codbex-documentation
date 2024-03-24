@@ -54,25 +54,81 @@ Executes a stored procedure and returns the result sets.
 
 ## Example Usage:
 
-### Call Procedure
+!!! note
+
+    To use procedures you need to add database that supports them (default DB is H2 that does not support procedures):
+
+    1. Open `Database` perspective and click on `Databases` at the bottom.
+    2. Click `New` and add your database information.
+    3. Use you newly added database in most methods as `databaseType`.
+
+### Create Procedure:
 
 ```javascript
-import { Procedure, ProcedureParameter } from 'sdk/db/procedure';
+import { procedure } from "sdk/db";
+import { response } from "sdk/http";
 
-// Example SQL stored procedure call
-const sql = 'CALL your_procedure(?, ?)';
+const sql = " \
+CREATE PROCEDURE CUSTOMERS_BY_COUNTRY_AND_ALL_CUSTOMERS(c_id integer, c_name text, c_country text) \
+LANGUAGE SQL \
+AS $$ \
+  INSERT INTO CUSTOMERS(id, name, country) values (c_id, c_name, c_country); \
+$$; \
+"
 
-// Example parameters
-const parameters: (string | number | ProcedureParameter)[] = [
-  'value1',
-  42,
-  { type: 'custom', value: 'custom value' } as ProcedureParameter
-];
+procedure.create(sql, "psql");
 
-// Execute the stored procedure
-const result = Procedure.execute(sql, parameters, 'yourDataSource');
-
-console.log('Stored Procedure Result:', result);
+response.println("Procedure created");
+response.flush();
+response.close();
 ```
 
-Replace `your_procedure`, `value1`, `42`, `custom value`, `yourDataSource`, and other placeholders with your actual module path, stored procedure name, values, data source
+Call Procedure:
+
+```javascript
+import { query, procedure } from "sdk/db";
+import { response } from "sdk/http";
+
+const sql = "CALL CUSTOMERS_BY_COUNTRY_AND_ALL_CUSTOMERS(c_id => ?, c_name => ?, c_country => ?)";
+
+try {
+    procedure.execute(sql, [6, "IBM", "USA"], "psql");
+} finally {
+    let result = query.execute("SELECT * FROM CUSTOMERS", [], "psql");
+
+    response.println(JSON.stringify(result));
+    response.flush();
+    response.close();
+}
+```
+
+### Functions
+
+---
+
+Function     | Description | Returns
+------------ | ----------- | --------
+**create(sql, datasourceName?)**   | Creates a SQL Stored Procedure in the selected *datasourceName*, throws Error, if issue occur | *-*
+**execute(sql, parameters?, datasourceName?)**   | Execute SQL Stored Procedure in the selected *datasourceName* with the provided parameters and returns the result, if any | *array of arrays*
+
+Sample Parameters Array:
+
+```javascript
+let parameters = [1, 'John', 34.56];
+```
+
+or
+```javascript
+let parameters = [
+  {
+    value: 1,
+    type: "int"
+  }, {
+    value: 'John',
+    type: "string"
+  }, {
+    value: 34.56
+    type: "double"
+  }
+];
+```

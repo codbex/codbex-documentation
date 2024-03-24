@@ -34,3 +34,12 @@ Set the value for the specified context name.
 ```javascript
 Context.set("myContextName", "contextValue");
 ```
+
+## Functions
+
+---
+
+Function     | Description | Returns
+------------ | ----------- | --------
+**get(key)**   | Returns the value per key from the context parameters | *string*
+**set(key, value)**   | Sets the value per key to the context parameters | -

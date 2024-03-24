@@ -166,3 +166,15 @@ Check if the operating system is Solaris.
 const isSolaris = Configurations.isOSSolaris();
 console.log(isSolaris); // Output: true or false
 ```
+
+## Functions
+
+---
+
+Function     | Description | Returns
+------------ | ----------- | --------
+**get(key, defaultValue)()** | Returns the value for the specified key, or the default value | *string*
+**set(key, value)** | Sets a value, for the specified key | *-*
+**getKeys()** | Returns an arrays of keys | *array of string*
+**load(path)** | Loads a configuration from a properties file at *path* | *-* 
+**update()** | Updates the loaded configurations | *-*

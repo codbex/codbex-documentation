@@ -49,3 +49,12 @@ List all global variables as key-value pairs.
 const globalVariables = Globals.list();
 console.log(globalVariables); // Output: { "VAR1": "value1", "VAR2": "value2", ... }
 ```
+
+## Functions
+
+---
+
+Function     | Description | Returns
+------------ | ----------- | --------
+**get(key)**   | Returns the value per key from the environments variables | *string*
+**list()**   | Returns the list of the environments variables in JSON formatted string | *string*

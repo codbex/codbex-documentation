@@ -37,18 +37,17 @@ Executes an SQL query and returns the result sets.
 ## Example Usage:
 
 ```javascript
-import { Query, QueryParameter } from 'sdk/db/query';
+import { Query } from 'sdk/db';
 
 // Example SQL query
 const sql = 'SELECT * FROM your_table WHERE column1 = ? AND column2 > ?';
 
 // Example parameters
-const parameters: (string | number | boolean | Date | QueryParameter)[] = [
+const parameters: (string | number | boolean | Date)[] = [
   'value1',
   42,
   true,
-  new Date('2024-02-28'),
-  { type: 'custom', value: 'custom value' } as QueryParameter
+  new Date('2024-02-28')
 ];
 
 // Execute the SQL query
@@ -57,4 +56,14 @@ const result = Query.execute(sql, parameters, 'yourDataSource');
 console.log('Query Result:', result);
 ```
 
-Replace `your_table`, `column1`, `column2`, `value1`, `42`, `true`, `2024-02-28`, `custom value`, `yourDataSource`, and other placeholders with your actual module path, table name, column names, values, data source, and query details.
+Replace `your_table`, `column1`, `column2`, `value1`, `42`, `true`, `2024-02-28`, `yourDataSource`, and other placeholders with your actual module path, table name, column names, values, data source, and query details.
+
+### Functions
+
+---
+
+Function     | Description | Returns
+------------ | ----------- | --------
+**execute(sql, parameters?, datasourceName?)**   | Executes a SQL query against the selected *datasourceName* with the provided parameters | *result-set as JSON object*
+
+> parameters array supports primitives e.g. [1, 'John', 34.56] or objects in format {'type':'[DATA_TYPE]', 'value':[VALUE]} e.g. [1, {'type':'CHAR', 'value':'ISBN19202323322'}]

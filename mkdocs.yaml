@@ -67,6 +67,12 @@ nav:
         - abap: platform/artefacts/additions/abap.md
     - SDK:
       - 'platform/sdk/index.md'
+      - BPM:
+        - 'platform/sdk/bpm/index.md'
+        - Process: 'platform/sdk/bpm/process.md'
+      - CMS:
+        - 'platform/sdk/cms/index.md'
+        - CMIS: 'platform/sdk/cms/cmis.md'
       - Core:
         - 'platform/sdk/core/index.md'
         - Configurations: 'platform/sdk/core/configurations.md'
@@ -83,6 +89,20 @@ nav:
         - Sequence: 'platform/sdk/db/sequence.md'
         - Store: 'platform/sdk/db/store.md'
         - Update: 'platform/sdk/db/update.md'
+      - Extensions:
+        - 'platform/sdk/extensions/index.md'
+      - Git:
+        - 'platform/sdk/git/index.md'
+        - Client: 'platform/sdk/git/client.md'
+      - HTTP:
+        - 'platform/sdk/http/index.md'
+        - Async Client: 'platform/sdk/http/client-async.md'
+        - Client: 'platform/sdk/http/client.md'
+        - Request: 'platform/sdk/http/request.md'
+        - Response: 'platform/sdk/http/response.md'
+        - RESTful Framework: 'platform/sdk/http/rs.md'
+        - Session: 'platform/sdk/http/session.md'
+        - Upload: 'platform/sdk/http/upload.md'
     - Widgets: 'platform/widgets/index.md'
     - Services: 'platform/services/index.md'
     - Templates: 'platform/templates/index.md'
