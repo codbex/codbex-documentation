@@ -175,6 +175,7 @@ nav:
       - Inbox: 'tooling/processes/inbox.md'
       - Modeler: 'tooling/processes/modeler.md'
     - Integrations: 'tooling/integrations/index.md'
+    - Operations: 'tooling/operations/index.md'
     - Terminal: 'tooling/terminal/index.md'
     - Modeling: 'tooling/modeling.md'
     - Extensibility: 'tooling/extensibility.md'
