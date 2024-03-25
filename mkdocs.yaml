@@ -107,6 +107,26 @@ nav:
         - 'platform/sdk/indexing/index.md'
         - Writer: 'platform/sdk/indexing/writer.md'
         - Searcher: 'platform/sdk/indexing/searcher.md'
+      - IO:
+        - 'platform/sdk/io/index.md'
+        - Bites: 'platform/sdk/io/bytes.md'
+        - Files: 'platform/sdk/io/files.md'
+        - FTP: 'platform/sdk/io/ftp.md'
+        - Streams: 'platform/sdk/io/streams.md'
+        - ZIP: 'platform/sdk/io/zip.md'
+      - Job:
+        - 'platform/sdk/job/index.md'
+        - Scheduler: 'platform/sdk/job/scheduler.md'
+      - Log:
+        - 'platform/sdk/log/index.md'
+        - Logging: 'platform/sdk/log/logging.md'
+      - Mail:
+        - 'platform/sdk/mail/index.md'
+        - Client: 'platform/sdk/mail/client.md'
+      - Messaging:
+        - 'platform/sdk/messaging/index.md'
+        - Consumer: 'platform/sdk/messaging/consumer.md'
+        - Producer: 'platform/sdk/messaging/producer.md'
     - Widgets: 'platform/widgets/index.md'
     - Services: 'platform/services/index.md'
     - Templates: 'platform/templates/index.md'
