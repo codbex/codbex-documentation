@@ -152,22 +152,38 @@ This overview will guide you through the basics of the model driven techniques.
 
 ## Model Report with a Filter
 
+> TODO
+
 ## Schedule a Calculation Job
+
+> TODO
 
 ## Synchronize External Data
 
+> TODO
+
 ## Add Approval Process
+
+> TODO
 
 ## Extend with Custom User Interface
 
+> TODO
+
 ## Add Print Template
+
+> TODO
 
 ## XS Classic Compatibility
 
+> TODO
+
 #### Compatibility with SAP HANA XS Classic
+
+> TODO
 
 - **Key Features for Compatibility:** Discover the features that make the platform compatible with SAP HANA XS Classic.
 
-## Conclusion
+
 
 

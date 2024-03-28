@@ -9,10 +9,8 @@ nav:
     - Applications: '../applications/'
     - Services: '../services/'
     - Pricing: '../pricing/'
-    - FAQ: 'faq.md'
     - Announcements: '/categories/marketing/'
-    - Technologies: '/categories/technology/'
-    - Sales: '/categories/sales/'
+    - Tutorials: '/categories/technology/'
   - Platform:
     - 'platform/index.md'
     - Languages: 'platform/languages/index.md'
