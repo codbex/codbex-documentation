@@ -41,4 +41,4 @@ The "Documents" hierarchical repository structure view provides a visual represe
 
 ## Conclusion
 
-The "Documents Explorer" hierarchical repository structure view in the `codbex` platform enhances your content management experience by providing a clear and intuitive representation of the hierarchical structure of a CMS repository. Navigate through folders, explore documents, and perform actions directly from this view to streamline your content management workflows.
+The "Documents Explorer" hierarchical repository structure view in the __codbex__ platform enhances your content management experience by providing a clear and intuitive representation of the hierarchical structure of a CMS repository. Navigate through folders, explore documents, and perform actions directly from this view to streamline your content management workflows.

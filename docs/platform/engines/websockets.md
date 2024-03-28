@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The WebSockets Engine in the `codbex` platform provides a robust solution for real-time communication between clients and the server. This documentation explores key features of the WebSockets Engine, highlighting its support for the SockJS framework and the Stomp protocol.
+The WebSockets Engine in the __codbex__ platform provides a robust solution for real-time communication between clients and the server. This documentation explores key features of the WebSockets Engine, highlighting its support for the SockJS framework and the Stomp protocol.
 
 ## WebSockets Engine Features
 
@@ -196,4 +196,4 @@ Below is an example HTML code snippet for a WebSocket client:
 
 ## Conclusion
 
-The WebSockets Engine in the `codbex` platform provides a powerful and flexible solution for real-time communication. With support for the SockJS framework, integration with the Stomp protocol, and the ability to configure WebSocket endpoints through `*.websocket` descriptors, developers can create dynamic and responsive applications that leverage the capabilities of WebSockets.
+The WebSockets Engine in the __codbex__ platform provides a powerful and flexible solution for real-time communication. With support for the SockJS framework, integration with the Stomp protocol, and the ability to configure WebSocket endpoints through `*.websocket` descriptors, developers can create dynamic and responsive applications that leverage the capabilities of WebSockets.

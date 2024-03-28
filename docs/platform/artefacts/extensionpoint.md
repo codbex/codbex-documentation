@@ -4,7 +4,7 @@
 
 ## Overview:
 
-The `*.extensionpoint` files in `codbex` platform are used to define extension points within the platform. Extension points allow you to extend and customize the behavior of the system by contributing additional functionality or modifications.
+The `*.extensionpoint` files in __codbex__ platform are used to define extension points within the platform. Extension points allow you to extend and customize the behavior of the system by contributing additional functionality or modifications.
 
 Here's an explanation of the example `myextensionpoint.extensionpoint` file and its properties:
 
@@ -56,4 +56,4 @@ Provide meaningful descriptions for extension points to document their purpose a
 
 ## Conclusion:
 
-The `*.extensionpoint` files in the `codbex` platform serve as a powerful mechanism for extending and customizing the behavior of the platform. Define and configure extension points based on your specific requirements to enable modular and extensible applications.
+The `*.extensionpoint` files in the __codbex__ platform serve as a powerful mechanism for extending and customizing the behavior of the platform. Define and configure extension points based on your specific requirements to enable modular and extensible applications.

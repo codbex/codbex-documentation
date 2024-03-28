@@ -1,6 +1,6 @@
 # Artefacts
 
-Explore detailed documentation for various artefacts available in the `codbex` platform:
+Explore detailed documentation for various artefacts available in the __codbex__ platform:
 
 1. [Access Constraints Artefact](access.md)
 2. [BPMN v2.0 Files](bpmn.md)

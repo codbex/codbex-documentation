@@ -4,12 +4,12 @@
 
 ## Overview:
 
-The `codbex` platform provides support for Confluence wiki files (*.confluence), allowing users to seamlessly integrate and manage Confluence content within the platform. This support enables collaborative development and documentation workflows by combining the strengths of both `codbex` and Confluence.
+The __codbex__ platform provides support for Confluence wiki files (*.confluence), allowing users to seamlessly integrate and manage Confluence content within the platform. This support enables collaborative development and documentation workflows by combining the strengths of both __codbex__ and Confluence.
 
 ## Key Features:
 
 ### Confluence Integration:
-   - The `codbex` platform allows you to import, edit, and manage Confluence wiki files directly within the Web IDE.
+   - The __codbex__ platform allows you to import, edit, and manage Confluence wiki files directly within the Web IDE.
 
 ### Editing and Versioning:
    - Utilize the Web IDE to edit Confluence wiki files collaboratively. Leverage version control features to track changes and manage document history.
@@ -39,7 +39,7 @@ Below is an example of a simple Confluence wiki file (example.confluence):
 h1. Welcome to Confluence wiki pages
 ```
 
-This is an example Confluence page supported by the `codbex` platform.
+This is an example Confluence page supported by the __codbex__ platform.
 
 **Features:**
 

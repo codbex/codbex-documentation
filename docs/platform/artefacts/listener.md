@@ -4,7 +4,7 @@
 
 ## Overview:
 
-The `*.listener` files in the `codbex` platform are used to define listeners, which are event-driven components that respond to specific events or messages within the platform.
+The `*.listener` files in the __codbex__ platform are used to define listeners, which are event-driven components that respond to specific events or messages within the platform.
 
 Here's an explanation of the example `mylistener.listener` file and its properties:
 
@@ -64,4 +64,4 @@ Provide meaningful descriptions for listeners and document the purpose and usage
 
 ## Conclusion:
 
-The `*.listener` files in the `codbex` platform enable you to create event-driven components that respond to specific events or messages within the platform. Customize listeners based on your specific requirements, and leverage handlers to define the logic executed when events occur.
+The `*.listener` files in the __codbex__ platform enable you to create event-driven components that respond to specific events or messages within the platform. Customize listeners based on your specific requirements, and leverage handlers to define the logic executed when events occur.

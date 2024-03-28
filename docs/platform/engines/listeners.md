@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Listeners Engine in the `codbex` platform provides a powerful mechanism for creating event-driven applications. This documentation explores the key features of the Listeners Engine, including the concepts of Topics and Queues, JavaScript handlers, and the underlying ActiveMQ framework.
+The Listeners Engine in the __codbex__ platform provides a powerful mechanism for creating event-driven applications. This documentation explores the key features of the Listeners Engine, including the concepts of Topics and Queues, JavaScript handlers, and the underlying ActiveMQ framework.
 
 ## Listeners Engine Features
 
@@ -54,7 +54,7 @@ export function onError(error) {
 
 ## Underlying ActiveMQ Framework
 
-The Listeners Engine in the `codbex` platform is built on the ActiveMQ framework, a robust open-source messaging and integration patterns server. ActiveMQ provides reliable and scalable messaging capabilities, supporting both Topics and Queues.
+The Listeners Engine in the __codbex__ platform is built on the ActiveMQ framework, a robust open-source messaging and integration patterns server. ActiveMQ provides reliable and scalable messaging capabilities, supporting both Topics and Queues.
 
 Key Features of ActiveMQ:
 
@@ -72,4 +72,4 @@ ActiveMQ supports clustering, allowing multiple instances of the message broker 
 
 ## Conclusion
 
-The Listeners Engine in the `codbex` platform, built on the ActiveMQ framework, provides a robust and scalable solution for building event-driven applications. By leveraging Topics, Queues, and JavaScript handlers, developers can create flexible and responsive systems that react to changes in real-time.
+The Listeners Engine in the __codbex__ platform, built on the ActiveMQ framework, provides a robust and scalable solution for building event-driven applications. By leveraging Topics, Queues, and JavaScript handlers, developers can create flexible and responsive systems that react to changes in real-time.

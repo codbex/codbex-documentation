@@ -4,13 +4,13 @@
 
 ## Overview:
 
-The `codbex` platform provides support for BPMN (Business Process Model and Notation) v2.0 files, allowing users to model, design, and execute business processes within the runtime container. Below is an overview of the BPMN support in the platform:
+The __codbex__ platform provides support for BPMN (Business Process Model and Notation) v2.0 files, allowing users to model, design, and execute business processes within the runtime container. Below is an overview of the BPMN support in the platform:
 
 ### BPMN v2.0 Support:
 
 #### Modeling Environment:
 
-The `codbex` platform includes a visual modeling environment for BPMN 2.0. Users can create and edit BPMN diagrams through a web-based graphical editor, allowing for the design of business processes using BPMN notation.
+The __codbex__ platform includes a visual modeling environment for BPMN 2.0. Users can create and edit BPMN diagrams through a web-based graphical editor, allowing for the design of business processes using BPMN notation.
 
 #### Graphical Editor:
 
@@ -18,15 +18,15 @@ The graphical editor within the platform enables users to draw BPMN diagrams by 
 
 #### BPMN Elements:
 
-The `codbex` platform supports a variety of BPMN 2.0 elements, including tasks, gateways, events, and connectors. Users can model complex processes by combining these elements in a visual representation.
+The __codbex__ platform supports a variety of BPMN 2.0 elements, including tasks, gateways, events, and connectors. Users can model complex processes by combining these elements in a visual representation.
 
 #### Process Validation:
 
-The BPMN editor in `codbex` platform often includes validation features to ensure that the modeled processes adhere to BPMN 2.0 standards. This helps in identifying and correcting errors in the design phase.
+The BPMN editor in __codbex__ platform often includes validation features to ensure that the modeled processes adhere to BPMN 2.0 standards. This helps in identifying and correcting errors in the design phase.
 
 #### Integration with Other Artifacts:
 
-BPMN diagrams can be integrated with other artifacts in the platform. For example, BPMN processes may interact with scripting services, database tables, or web services within the same `codbex` environment.
+BPMN diagrams can be integrated with other artifacts in the platform. For example, BPMN processes may interact with scripting services, database tables, or web services within the same __codbex__ environment.
 
 #### Execution of BPMN Processes:
 
@@ -34,17 +34,17 @@ The platform supports the execution of BPMN processes. Once a BPMN diagram is cr
 
 #### Collaboration and Version Control:
 
-The `codbex` platform offer collaboration features, allowing multiple users to work on BPMN diagrams simultaneously. Additionally, version control capabilities help in managing different versions of BPMN processes.
+The __codbex__ platform offer collaboration features, allowing multiple users to work on BPMN diagrams simultaneously. Additionally, version control capabilities help in managing different versions of BPMN processes.
 
 #### Monitoring and Analytics:
 
-Depending on the features available in the specific version of the `codbex` platform, there are variety monitoring and analytics tools to track the execution of BPMN processes. These tools provide insights into process performance and bottlenecks.
+Depending on the features available in the specific version of the __codbex__ platform, there are variety monitoring and analytics tools to track the execution of BPMN processes. These tools provide insights into process performance and bottlenecks.
 
 ### How to Use BPMN:
 
 #### Access BPMN Editor:
 
-* Log in to your `codbex` platform instance and navigate to the BPMN modeling environment.
+* Log in to your __codbex__ platform instance and navigate to the BPMN modeling environment.
 
 #### Create a New BPMN Diagram:
 
@@ -68,6 +68,6 @@ Depending on the features available in the specific version of the `codbex` plat
 
 ## Notes
 
-Please note that the specific features and user interface details may vary based on the version of `codbex` platform you are using. Always refer to the official documentation or release notes for the most up-to-date information on BPMN support in platform.
+Please note that the specific features and user interface details may vary based on the version of __codbex__ platform you are using. Always refer to the official documentation or release notes for the most up-to-date information on BPMN support in platform.
 
 The BPMN artefacts are processed by the [BPM Engine](../engines/bpm.md).

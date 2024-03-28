@@ -74,4 +74,4 @@ Example:
 
 ## Conclusion
 
-The Command Engine in the `codbex` platform provides a flexible and extensible commands interface for developers. By configuring shell scripts in the `*.command` files, developers can execute OS-specific tasks seamlessly, enhancing the platform's adaptability to different operating environments.
+The Command Engine in the __codbex__ platform provides a flexible and extensible commands interface for developers. By configuring shell scripts in the `*.command` files, developers can execute OS-specific tasks seamlessly, enhancing the platform's adaptability to different operating environments.

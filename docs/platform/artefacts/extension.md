@@ -4,7 +4,7 @@
 
 ## Overview
 
-The `*.extension` files in the `codbex` platform are used to define extensions that contribute additional functionality or modifications to a specific extension point within the platform.
+The `*.extension` files in the __codbex__ platform are used to define extensions that contribute additional functionality or modifications to a specific extension point within the platform.
 
 Here's an explanation of the example `myextension.extension` file and its properties:
 
@@ -62,4 +62,4 @@ Provide meaningful descriptions for extensions and document the purpose and usag
 
 ## Conclusion:
 
-The `*.extension` files in the `codbex` platform allow you to extend and enhance the functionality of the platform by contributing additional features or modifications to existing extension points. Customize extensions based on your specific requirements to enable modular and extensible applications.
+The `*.extension` files in the __codbex__ platform allow you to extend and enhance the functionality of the platform by contributing additional features or modifications to existing extension points. Customize extensions based on your specific requirements to enable modular and extensible applications.

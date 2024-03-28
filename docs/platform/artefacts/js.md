@@ -4,7 +4,7 @@
 
 ## Overview:
 
-In the context of the `codbex` platform, JavaScript files (`*.js` and `*.mjs`) play a crucial role in defining the logic and behavior associated with various artifacts, such as jobs, listeners, websockets, and more. These files contain server-side scripts written in JavaScript, and they are executed within the  runtime environment.
+In the context of the __codbex__ platform, JavaScript files (`*.js` and `*.mjs`) play a crucial role in defining the logic and behavior associated with various artifacts, such as jobs, listeners, websockets, and more. These files contain server-side scripts written in JavaScript, and they are executed within the  runtime environment.
 
 Here's an overview of their usage:
 

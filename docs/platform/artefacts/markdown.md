@@ -4,7 +4,7 @@
 
 ## Overview:
 
-The `codbex` platform provides robust support for the Markdown wiki format, empowering users to seamlessly create, edit, and manage Markdown files directly within the platform. This support enhances collaborative development and documentation workflows, offering a flexible and familiar markup language for content creation.
+The __codbex__ platform provides robust support for the Markdown wiki format, empowering users to seamlessly create, edit, and manage Markdown files directly within the platform. This support enhances collaborative development and documentation workflows, offering a flexible and familiar markup language for content creation.
 
 ## Key Features:
 
@@ -39,7 +39,7 @@ Below is an example of a simple Markdown file (example.md):
 # Welcome to Markdown wiki pages
 ```
 
-This is an example Markdown file supported by the `codbex` platform.
+This is an example Markdown file supported by the __codbex__ platform.
 
 **Features:**
 
@@ -60,7 +60,7 @@ This is an example Markdown file supported by the `codbex` platform.
 
 ## Conclusion:
 
-The Markdown wiki format support provides a user-friendly and efficient environment for content creation and collaboration. Enhance your documentation workflows by leveraging the features of `codbex` platform for Markdown files.
+The Markdown wiki format support provides a user-friendly and efficient environment for content creation and collaboration. Enhance your documentation workflows by leveraging the features of __codbex__ platform for Markdown files.
 
 The Markdown artefacts are processed by the [Wiki Engine](../engines/wiki.md).
 

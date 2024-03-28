@@ -4,7 +4,7 @@
 
 ## Overview:
 
-The `*.websocket` files in the `codbex` platform are used to define and configure WebSocket endpoints. WebSocket is a communication protocol that provides full-duplex communication channels over a single, long-lived connection.
+The `*.websocket` files in the __codbex__ platform are used to define and configure WebSocket endpoints. WebSocket is a communication protocol that provides full-duplex communication channels over a single, long-lived connection.
 
 Here's an explanation of the example `myws.websocket` file and its properties:
 

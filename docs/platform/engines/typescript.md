@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The TypeScript Engine in the `codbex` platform enables developers to write and transpile TypeScript code into JavaScript for server-side scripting. This documentation provides an overview of the TypeScript Engine's features, along with details about the TypeScript compiler (`tsc`) and `tsconfig.json` configuration.
+The TypeScript Engine in the __codbex__ platform enables developers to write and transpile TypeScript code into JavaScript for server-side scripting. This documentation provides an overview of the TypeScript Engine's features, along with details about the TypeScript compiler (`tsc`) and `tsconfig.json` configuration.
 
 ## TypeScript Engine Features
 
@@ -57,5 +57,5 @@ In this example, the tsconfig.json file specifies the target ECMAScript version,
 
 ## Conclusion
 
-The TypeScript Engine in the `codbex` platform, combined with the TypeScript compiler (`tsc`) and `tsconfig.json` configuration, provides developers with a powerful environment for building statically-typed server-side applications. Leveraging TypeScript's features, transpilation capabilities, and configuration options, developers can enhance the development and maintenance of their projects.
+The TypeScript Engine in the __codbex__ platform, combined with the TypeScript compiler (`tsc`) and `tsconfig.json` configuration, provides developers with a powerful environment for building statically-typed server-side applications. Leveraging TypeScript's features, transpilation capabilities, and configuration options, developers can enhance the development and maintenance of their projects.
 

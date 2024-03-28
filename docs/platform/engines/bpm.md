@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The BPM Engine in the `codbex` platform empowers organizations to model, automate, and manage their business processes efficiently. This documentation introduces key features of the BPM Engine, focusing on its support for the BPMN (Business Process Model and Notation) v2 specification and the utilization of `*.bpmn` files for the definition and execution of business processes. The underlying BPMN process execution is powered by the Flowable framework (formerly Activiti).
+The BPM Engine in the __codbex__ platform empowers organizations to model, automate, and manage their business processes efficiently. This documentation introduces key features of the BPM Engine, focusing on its support for the BPMN (Business Process Model and Notation) v2 specification and the utilization of `*.bpmn` files for the definition and execution of business processes. The underlying BPMN process execution is powered by the Flowable framework (formerly Activiti).
 
 ## BPM Engine Features
 
@@ -51,4 +51,4 @@ The BPM Engine leverages the Flowable framework (formerly Activiti) for the exec
 
 ## Conclusion
 
-The BPM Engine in the `codbex` platform provides a powerful platform for modeling, executing, and managing business processes according to the BPMN v2 specification. By utilizing `*.bpmn` files and Flowable APIs, organizations can design, automate, and analyze their business workflows, fostering improved efficiency, collaboration, and agility.
+The BPM Engine in the __codbex__ platform provides a powerful platform for modeling, executing, and managing business processes according to the BPMN v2 specification. By utilizing `*.bpmn` files and Flowable APIs, organizations can design, automate, and analyze their business workflows, fostering improved efficiency, collaboration, and agility.

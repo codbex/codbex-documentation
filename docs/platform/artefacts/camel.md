@@ -4,7 +4,7 @@
 
 ## Overview:
 
-The `codbex` provides support for Apache Camel Routes through the Camel Editor. The Camel Editor allows developers to design and edit Camel routes using graphical tools, making it easier to create and visualize integration solutions.
+The __codbex__ provides support for Apache Camel Routes through the Camel Editor. The Camel Editor allows developers to design and edit Camel routes using graphical tools, making it easier to create and visualize integration solutions.
 
 Here is an overview of the support for Apache Camel Routes files (`*.camel`) in the platform:
 
@@ -30,7 +30,7 @@ While the graphical editor is the primary interface, the tooling also allows dev
 
 #### File Format:
 
-Apache Camel routes in the `codbex` platform are typically stored in files with a `.camel` extension. These files contain the XML representation of the Camel routes created using the Camel Editor.
+Apache Camel routes in the __codbex__ platform are typically stored in files with a `.camel` extension. These files contain the XML representation of the Camel routes created using the Camel Editor.
 
 #### Editing and Versioning:
 
@@ -44,7 +44,7 @@ Once Camel routes are designed and configured, they can be deployed within the r
 
 #### Combining with Other Artifacts:
 
-Camel routes can be part of larger `codbex` platform projects, integrating seamlessly with other artifacts such as scripting services, web pages, and data models. This enables the creation of comprehensive solutions that include both integration and application logic.
+Camel routes can be part of larger __codbex__ platform projects, integrating seamlessly with other artifacts such as scripting services, web pages, and data models. This enables the creation of comprehensive solutions that include both integration and application logic.
 
 ### Collaborative Development:
 

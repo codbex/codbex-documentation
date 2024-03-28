@@ -4,7 +4,7 @@ Welcome to the API Index for the SDK utility classes. Here, you'll find informat
 
 ## SDK API Documentation Index
 
-Explore detailed documentation for various SDK APIs available in the `codbex` platform:
+Explore detailed documentation for various SDK APIs available in the __codbex__ platform:
 
 * [BPM](bpm/index.md)
 * [CMS](cms/index.md)

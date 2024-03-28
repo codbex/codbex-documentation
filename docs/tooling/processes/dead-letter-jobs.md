@@ -37,4 +37,4 @@ The "Processes Workspace" perspective in the platform provides a dedicated envir
 
 ## Conclusion
 
-The "Processes Workspace" perspective in the `codbex` platform, with the "Dead-Letter Jobs" view, offers a specialized tool for handling and managing jobs that have encountered errors during execution. Whether resubmitting jobs, tracking status, or analyzing errors, this view streamlines the process of recovering from dead-letter states.
+The "Processes Workspace" perspective in the __codbex__ platform, with the "Dead-Letter Jobs" view, offers a specialized tool for handling and managing jobs that have encountered errors during execution. Whether resubmitting jobs, tracking status, or analyzing errors, this view streamlines the process of recovering from dead-letter states.

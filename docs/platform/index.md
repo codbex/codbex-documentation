@@ -1,6 +1,6 @@
 # Platform Help Documentation
 
-Welcome to the `codbex` platform, a powerful cloud development platform that simplifies application development and deployment. This index provides an overview of key components and features available within the platform.
+Welcome to the __codbex__ platform, a powerful cloud development platform that simplifies application development and deployment. This index provides an overview of key components and features available within the platform.
 
 ## Languages
 
@@ -94,5 +94,5 @@ Welcome to the `codbex` platform, a powerful cloud development platform that sim
 
 ## Conclusion
 
-Explore the documentation to gain a deeper understanding of the `codbex` platform. Whether you're developing in multiple languages, designing integration flows, managing artefacts, or building RESTful services, this index serves as a concise guide to the platform's key features.
+Explore the documentation to gain a deeper understanding of the __codbex__ platform. Whether you're developing in multiple languages, designing integration flows, managing artefacts, or building RESTful services, this index serves as a concise guide to the platform's key features.
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Python Engine in the `codbex` platform enables developers to write server-side scripts and applications using the Python programming language. This documentation provides an overview of the Python Engine's features and how developers can leverage Python for server-side development within the platform.
+The Python Engine in the __codbex__ platform enables developers to write server-side scripts and applications using the Python programming language. This documentation provides an overview of the Python Engine's features and how developers can leverage Python for server-side development within the platform.
 
 ## Python Engine Features
 
@@ -44,4 +44,4 @@ result = database.execute("SELECT * FROM employees")
 
 ## Conclusion
 
-The Python Engine in the `codbex` platform provides a versatile environment for server-side Python development. Whether it's scripting, application development, or integrating with platform services, developers can leverage the power of Python to build robust server-side solutions.
+The Python Engine in the __codbex__ platform provides a versatile environment for server-side Python development. Whether it's scripting, application development, or integrating with platform services, developers can leverage the power of Python to build robust server-side solutions.

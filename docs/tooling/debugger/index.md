@@ -1,6 +1,6 @@
 # Debugger
 
-The "Debugger" perspective in the `codbex` provides a seamless integration with the Chrome DevTools, enabling developers to debug and analyze JavaScript and TypeScript applications running on the `codbex` runtime. This section covers key features and actions available in the Debugger Perspective.
+The "Debugger" perspective in the __codbex__ provides a seamless integration with the Chrome DevTools, enabling developers to debug and analyze JavaScript and TypeScript applications running on the __codbex__ runtime. This section covers key features and actions available in the Debugger Perspective.
 
 ## Getting Started
 
@@ -33,7 +33,7 @@ The "Debugger" perspective in the `codbex` provides a seamless integration with 
 ## Advanced Debugging
 
 1. **Remote Debugging:**
-   - Extend the debugging capabilities to remote instances of the `codbex` runtime. This is particularly useful for debugging applications deployed on different servers.
+   - Extend the debugging capabilities to remote instances of the __codbex__ runtime. This is particularly useful for debugging applications deployed on different servers.
 
 2. **Breakpoint Conditions:**
    - Set conditions for breakpoints to control when the debugger should pause execution. This allows for more fine-grained control over the debugging process.
@@ -43,4 +43,4 @@ The "Debugger" perspective in the `codbex` provides a seamless integration with 
 
 ## Conclusion
 
-The "Debugger" perspective in the `codbex` platform, based on Chrome DevTools integration, provides a robust environment for debugging and analyzing server-side JavaScript and TypeScript applications. Leverage its features to identify and resolve issues in your code, ensuring the reliability and performance of your applications.
+The "Debugger" perspective in the __codbex__ platform, based on Chrome DevTools integration, provides a robust environment for debugging and analyzing server-side JavaScript and TypeScript applications. Leverage its features to identify and resolve issues in your code, ensuring the reliability and performance of your applications.

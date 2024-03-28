@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The JavaScript Engine in the `codbex` platform empowers developers to write server-side scripts, APIs, and business logic using the JavaScript language. This documentation provides an in-depth overview of the JavaScript Engine's capabilities and its underlying framework, GraalJS.
+The JavaScript Engine in the __codbex__ platform empowers developers to write server-side scripts, APIs, and business logic using the JavaScript language. This documentation provides an in-depth overview of the JavaScript Engine's capabilities and its underlying framework, GraalJS.
 
 ## JavaScript Engine Features
 
@@ -53,7 +53,7 @@ const { firstName, lastName } = person;
 
 ### Underlying Framework: GraalJS
 
-The JavaScript Engine in the `codbex` platform is built on the GraalVM (GraalJS) framework. GraalVM is a high-performance runtime that provides support for multiple languages, including JavaScript.
+The JavaScript Engine in the __codbex__ platform is built on the GraalVM (GraalJS) framework. GraalVM is a high-performance runtime that provides support for multiple languages, including JavaScript.
 
 Key features of GraalJS:
 

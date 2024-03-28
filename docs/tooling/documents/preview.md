@@ -5,7 +5,7 @@ The "Document Preview" view in the platform provides a convenient way to preview
 ## Accessing the Document Preview View
 
 1. **Navigate to the Documents Perspective:**
-   - Access the Documents perspective in the `codbex` platform.
+   - Access the Documents perspective in the __codbex__ platform.
 
 2. **Open the Document Preview View:**
    - Within the Documents perspective, locate the "Document Preview" view on the right side. This view displays a preview of the content of the selected document.
@@ -40,4 +40,4 @@ The "Document Preview" view in the platform provides a convenient way to preview
 
 ## Conclusion
 
-The "Document Preview" view the `codbex` platform enhances your document management experience by providing a quick and interactive preview of document content. Whether reviewing source code, reading text documents, or inspecting markdown files, this view offers a convenient way to explore document contents directly within the IDE.
+The "Document Preview" view the __codbex__ platform enhances your document management experience by providing a quick and interactive preview of document content. Whether reviewing source code, reading text documents, or inspecting markdown files, this view offers a convenient way to explore document contents directly within the IDE.

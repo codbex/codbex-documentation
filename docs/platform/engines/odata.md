@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The OData Engine in the `codbex` platform provides robust support for creating and exposing RESTful APIs adhering to the OData (Open Data Protocol) v2 specification. This documentation explores key features of the OData Engine, highlighting its customization capabilities using a modified version of Apache Olingo.
+The OData Engine in the __codbex__ platform provides robust support for creating and exposing RESTful APIs adhering to the OData (Open Data Protocol) v2 specification. This documentation explores key features of the OData Engine, highlighting its customization capabilities using a modified version of Apache Olingo.
 
 ## OData Engine Features
 
@@ -14,7 +14,7 @@ Example OData v2 Endpoint: [http://example.com/odata/v2/](http://example.com/oda
 
 ### Customized Apache Olingo Backend
 
-The embeded `codbex` platform OData Engine leverages a customized version of the Apache Olingo library as its backend. This customization enhances the capabilities of the OData Engine, providing additional features and optimizations tailored for the `codbex` platform.
+The embeded __codbex__ platform OData Engine leverages a customized version of the Apache Olingo library as its backend. This customization enhances the capabilities of the OData Engine, providing additional features and optimizations tailored for the __codbex__ platform.
 
 ### Entity Sets, Navigation, and Query Support
 
@@ -73,4 +73,4 @@ Example `*.table` Descriptor neded for database artefacts creation:
 
 ## Conclusion
 
-The OData Engine in the `codbex` platform offers a powerful solution for creating, customizing, and exposing RESTful APIs compliant with the OData v2 specification. Leveraging `*.odata` descriptors to define entity sets, aliases, and table mappings simplifies the configuration process, allowing developers to model complex data structures and provide efficient query capabilities.
+The OData Engine in the __codbex__ platform offers a powerful solution for creating, customizing, and exposing RESTful APIs compliant with the OData v2 specification. Leveraging `*.odata` descriptors to define entity sets, aliases, and table mappings simplifies the configuration process, allowing developers to model complex data structures and provide efficient query capabilities.

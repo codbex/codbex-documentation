@@ -1,6 +1,6 @@
 # Data Export & Import
 
-The "Data Export and Import" functionality in the `codbex` platform provides a versatile solution for transferring data between different datasources. This section covers the key features and actions related to data export and import, supporting both relational databases and NoSQL datasources.
+The "Data Export and Import" functionality in the __codbex__ platform provides a versatile solution for transferring data between different datasources. This section covers the key features and actions related to data export and import, supporting both relational databases and NoSQL datasources.
 
 ## Exporting Data
 

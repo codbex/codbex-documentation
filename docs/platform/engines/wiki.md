@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Wiki Engine in the `codbex` platform provides a versatile platform for creating and managing documentation and collaborative content. This documentation explores key features of the Wiki Engine, emphasizing its support for two widely-used markup languages: Markdown and Confluence.
+The Wiki Engine in the __codbex__ platform provides a versatile platform for creating and managing documentation and collaborative content. This documentation explores key features of the Wiki Engine, emphasizing its support for two widely-used markup languages: Markdown and Confluence.
 
 ## Wiki Engine Features
 
@@ -40,5 +40,5 @@ h2. Heading 2
 
 ## Conclusion
 
-The Wiki Engine in the `codbex` platform empowers users to create, edit, and collaborate on documentation and content seamlessly. With support for both Markdown and Confluence syntaxes, users can choose their preferred markup language and leverage the WYSIWYG editor for a flexible and user-friendly experience.
+The Wiki Engine in the __codbex__ platform empowers users to create, edit, and collaborate on documentation and content seamlessly. With support for both Markdown and Confluence syntaxes, users can choose their preferred markup language and leverage the WYSIWYG editor for a flexible and user-friendly experience.
 

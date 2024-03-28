@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Web Engine in the `codbex` platform allows developers to expose static web content seamlessly using the underlying Apache Tomcat server embedded in the Spring Boot framework. This documentation explores key features of the Web Engine, including serving static content, configuring routes, and leveraging the embedded Tomcat server.
+The Web Engine in the __codbex__ platform allows developers to expose static web content seamlessly using the underlying Apache Tomcat server embedded in the Spring Boot framework. This documentation explores key features of the Web Engine, including serving static content, configuring routes, and leveraging the embedded Tomcat server.
 
 ## Web Engine Features
 
@@ -68,5 +68,5 @@ This is not defined in the `project.json` under `exposes` section, so that it wi
 
 ## Conclusion
 
-The Web Engine in the `codbex` platform, powered by the embedded Apache Tomcat server in Spring Boot, provides a versatile platform for exposing static web content and building dynamic web applications. By configuring access and leveraging the embedded server features, developers can create scalable and efficient web solutions.
+The Web Engine in the __codbex__ platform, powered by the embedded Apache Tomcat server in Spring Boot, provides a versatile platform for exposing static web content and building dynamic web applications. By configuring access and leveraging the embedded server features, developers can create scalable and efficient web solutions.
 

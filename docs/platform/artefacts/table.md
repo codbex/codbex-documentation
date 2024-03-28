@@ -4,7 +4,7 @@
 
 ## Overview:
 
-The `*.table` files in the `codbex` platform are used to define and manage database tables. They provide a structured way to specify table properties, columns, and constraints.
+The `*.table` files in the __codbex__ platform are used to define and manage database tables. They provide a structured way to specify table properties, columns, and constraints.
 
 Here's an explanation of the example `PERSONS.table` file and its properties:
 

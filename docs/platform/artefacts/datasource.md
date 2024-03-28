@@ -4,7 +4,7 @@
 
 ## Overview:
 
-The `*.datasource` files in the `codbex` platform are used to define and configure data sources. These files specify the details required to connect to a database.
+The `*.datasource` files in the __codbex__ platform are used to define and configure data sources. These files specify the details required to connect to a database.
 
 Here's an explanation of the example `MyDB.datasource` file and its properties:
 

@@ -2,11 +2,11 @@
 
 ## Introduction
 
-The `codbex` platform comes equipped with a set of built-in engines that enhance the development and execution of applications. Each engine serves a specific purpose, providing developers with a comprehensive platform to build a wide range of applications. This documentation provides an overview of the key built-in engines in the platform.
+The __codbex__ platform comes equipped with a set of built-in engines that enhance the development and execution of applications. Each engine serves a specific purpose, providing developers with a comprehensive platform to build a wide range of applications. This documentation provides an overview of the key built-in engines in the platform.
 
 ### [JavaScript Engine](javascript.md)
 
-The JavaScript engine in the `codbex` platform allows developers to write server-side scripts using the JavaScript language. This engine supports the latest ECMAScript standards, including ES6 syntax. Developers can create APIs, business logic, and data services using JavaScript.
+The JavaScript engine in the __codbex__ platform allows developers to write server-side scripts using the JavaScript language. This engine supports the latest ECMAScript standards, including ES6 syntax. Developers can create APIs, business logic, and data services using JavaScript.
 
 ### [TypeScript Engine](typescript.md)
 
@@ -18,11 +18,11 @@ The Python engine enables developers to write server-side scripts and applicatio
 
 ### [Command Engine](command.md)
 
-The Command engine in the `codbex` platform provides integration with variuos a command-line interfaces (CLI) for interacting with the underlying platform. Developers can use commands to perform various tasks, such as managing artefacts, deploying applications, and configuring the runtime environment.
+The Command engine in the __codbex__ platform provides integration with variuos a command-line interfaces (CLI) for interacting with the underlying platform. Developers can use commands to perform various tasks, such as managing artefacts, deploying applications, and configuring the runtime environment.
 
 ### [Jobs Engine](jobs.md)
 
-The Jobs engine allows developers to schedule and manage background jobs within the `codbex` platform. It supports the execution of recurring tasks, data processing, and automation of various processes.
+The Jobs engine allows developers to schedule and manage background jobs within the __codbex__ platform. It supports the execution of recurring tasks, data processing, and automation of various processes.
 
 ### [Listeners Engine](listeners.md)
 
@@ -42,7 +42,7 @@ The WebSockets engine enables real-time communication between the server and cli
 
 ### [Security Engine](security.md)
 
-The Security engine in the `codbex` platform provides features for securing applications, including user authentication, authorization, and role-based access control. It ensures the protection of sensitive data and resources.
+The Security engine in the __codbex__ platform provides features for securing applications, including user authentication, authorization, and role-based access control. It ensures the protection of sensitive data and resources.
 
 ### [OpenAPI Engine](openapi.md)
 
@@ -50,7 +50,7 @@ The OpenAPI engine facilitates the creation and documentation of RESTful APIs. D
 
 ### [OData Engine](odata.md)
 
-The `codbex` platform includes an OData engine for building and consuming OData services. It simplifies data integration and allows developers to expose data as OData endpoints or consume external OData services.
+The __codbex__ platform includes an OData engine for building and consuming OData services. It simplifies data integration and allows developers to expose data as OData endpoints or consume external OData services.
 
 ### [CMS (Content Management System) Engine](cms.md)
 
@@ -62,7 +62,7 @@ The BPM engine enables the design, execution, and monitoring of business process
 
 ### [Integrations Engine](integrations.md)
 
-The Integrations engine supports the integration of external systems and services. Developers can create connectors, adapters, and integration flows to connect the `codbex` platform with other applications.
+The Integrations engine supports the integration of external systems and services. Developers can create connectors, adapters, and integration flows to connect the __codbex__ platform with other applications.
 
 ### [FTP (File Transfer Protocol) Engine](ftp.md)
 
@@ -74,4 +74,4 @@ The SFTP engine provides secure file transfer capabilities using the SSH protoco
 
 ## Conclusion
 
-The `codbex` platform built-in engines offer a comprehensive set of tools and capabilities for developers to build diverse applications. Whether it's scripting with JavaScript, TypeScript, or Python, managing background jobs, setting up event listeners, building web applications, securing resources, or integrating with external systems, `codbex` provides a unified platform for end-to-end application development.
+The __codbex__ platform built-in engines offer a comprehensive set of tools and capabilities for developers to build diverse applications. Whether it's scripting with JavaScript, TypeScript, or Python, managing background jobs, setting up event listeners, building web applications, securing resources, or integrating with external systems, __codbex__ provides a unified platform for end-to-end application development.

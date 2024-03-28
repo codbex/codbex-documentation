@@ -1,6 +1,6 @@
 # BPMN Modeler
 
-The BPMN Modeler in the `codbex` platform is a powerful visual tool based on the Oryx Editor project, used for creating, editing, and visualizing BPMN (Business Process Model and Notation) diagrams. This modeler is seamlessly integrated into the platform, providing a collaborative environment for designing business processes.
+The BPMN Modeler in the __codbex__ platform is a powerful visual tool based on the Oryx Editor project, used for creating, editing, and visualizing BPMN (Business Process Model and Notation) diagrams. This modeler is seamlessly integrated into the platform, providing a collaborative environment for designing business processes.
 
 ## Features
 
@@ -57,4 +57,4 @@ To start using the BPMN Modeler in the platform, follow these steps:
 
 ## Conclusion
 
-The BPMN Modeler in the `codbex` platform, based on the Oryx Editor project and integrated with Flowable, provides a robust and user-friendly environment for BPMN modeling. Whether designing new processes, collaborating with team members, or simulating process execution, this modeler streamlines the BPMN lifecycle within the platform.
+The BPMN Modeler in the __codbex__ platform, based on the Oryx Editor project and integrated with Flowable, provides a robust and user-friendly environment for BPMN modeling. Whether designing new processes, collaborating with team members, or simulating process execution, this modeler streamlines the BPMN lifecycle within the platform.

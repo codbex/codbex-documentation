@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The CMS Engine in the `codbex` platform serves as a robust Content Management System, enabling developers to manage and organize content across different backing services. This documentation explores key features of the CMS Engine, highlighting its adherence to the CMIS (Content Management Interoperability Services) specification and its support for various backing services, including Internal (file systems based), Amazon S3, and others.
+The CMS Engine in the __codbex__ platform serves as a robust Content Management System, enabling developers to manage and organize content across different backing services. This documentation explores key features of the CMS Engine, highlighting its adherence to the CMIS (Content Management Interoperability Services) specification and its support for various backing services, including Internal (file systems based), Amazon S3, and others.
 
 ## CMS Engine Features
 
@@ -25,5 +25,5 @@ The CMS Engine provides support for content versioning, allowing developers to t
 
 ## Conclusion
 
-The CMS Engine in `codbex` platform provides a versatile Content Management System with support for the CMIS specification and various backing services. Whether utilizing the internal file system or integrating with cloud-based solutions like Amazon S3, developers can manage content efficiently while benefiting from content versioning, metadata association, and seamless switching between backing services.
+The CMS Engine in __codbex__ platform provides a versatile Content Management System with support for the CMIS specification and various backing services. Whether utilizing the internal file system or integrating with cloud-based solutions like Amazon S3, developers can manage content efficiently while benefiting from content versioning, metadata association, and seamless switching between backing services.
 

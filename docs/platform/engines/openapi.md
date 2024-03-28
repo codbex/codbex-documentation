@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The OpenAPI Engine in the `codbex` platform streamlines the management and integration of REST services by collecting *.openapi files with Swagger descriptors. This documentation explores key features of the OpenAPI Engine, emphasizing its capability to aggregate multiple OpenAPI specifications into a consolidated REST services API set for the instance.
+The OpenAPI Engine in the __codbex__ platform streamlines the management and integration of REST services by collecting *.openapi files with Swagger descriptors. This documentation explores key features of the OpenAPI Engine, emphasizing its capability to aggregate multiple OpenAPI specifications into a consolidated REST services API set for the instance.
 
 ## OpenAPI Engine Features
 
@@ -67,4 +67,4 @@ The corresponding Swagger UI can be accessed at: [http://example.com/swagger-ui/
 
 ## Conclusion
 
-The OpenAPI Engine in the `codbex` platform simplifies the management of REST services by aggregating multiple `*.openapi`` files into a consolidated API set. This approach enhances organization, documentation, and accessibility for developers working on RESTful applications.
+The OpenAPI Engine in the __codbex__ platform simplifies the management of REST services by aggregating multiple `*.openapi`` files into a consolidated API set. This approach enhances organization, documentation, and accessibility for developers working on RESTful applications.

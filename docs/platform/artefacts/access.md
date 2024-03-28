@@ -4,7 +4,7 @@
 
 ## Overview:
 
-The `codbex` platform uses access control through access files (`.access`) to define access constraints for different artifacts. These files are processed by the Security Engine to enforce security policies. Below is a general description of the access constraints in a JSON `.access` file:
+The __codbex__ platform uses access control through access files (`.access`) to define access constraints for different artifacts. These files are processed by the Security Engine to enforce security policies. Below is a general description of the access constraints in a JSON `.access` file:
 
 ### Access Constraints JSON Structure:
 
@@ -57,6 +57,6 @@ Explanation of Properties:
 
 ## Notes
 
-Always refer to the latest documentation or release notes for `codbex` platform, as details and features may evolve over time.
+Always refer to the latest documentation or release notes for __codbex__ platform, as details and features may evolve over time.
 
 The Access Constraints are processed by the [Security Engine](../engines/security.md).

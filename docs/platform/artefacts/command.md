@@ -4,7 +4,7 @@
 
 ## Overview:
 
-The `codbex` provides provides support for command files (*.command) as a way to define and execute commands in the runtime environment. Command files are written in JSON, and they allow users to define and run server-side scripts or execute specific tasks within the platform.
+The __codbex__ provides provides support for command files (*.command) as a way to define and execute commands in the runtime environment. Command files are written in JSON, and they allow users to define and run server-side scripts or execute specific tasks within the platform.
 
 Here's an overview of the support for Command files (*.command):
 
@@ -100,7 +100,7 @@ Command files can be used to integrate with other artifacts, such as database ta
 
 #### Collaborative Development:
 
-Like other artifacts in the `codbex` platform, command files can be part of collaborative development projects. Multiple developers can work on the same project, share and version control command files, fostering teamwork and efficient development practices.
+Like other artifacts in the __codbex__ platform, command files can be part of collaborative development projects. Multiple developers can work on the same project, share and version control command files, fostering teamwork and efficient development practices.
 
 ### Execution:
 

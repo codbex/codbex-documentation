@@ -1,6 +1,6 @@
 # Terminal
 
-The "Terminal" perspective in the `codbex` platform provides a powerful command-line interface (CLI) experience within the integrated development environment. Powered by the [xterm.js](https://xtermjs.org/) terminal emulator, this perspective allows developers to interact with the system, execute commands, and perform various tasks through a command-line interface.
+The "Terminal" perspective in the __codbex__ platform provides a powerful command-line interface (CLI) experience within the integrated development environment. Powered by the [xterm.js](https://xtermjs.org/) terminal emulator, this perspective allows developers to interact with the system, execute commands, and perform various tasks through a command-line interface.
 
 ## Accessing the Terminal Perspective
 

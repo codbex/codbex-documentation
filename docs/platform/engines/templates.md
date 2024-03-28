@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The `codbex` platform supports various template engines, making it easy for developers to generate dynamic content in their applications. This documentation focuses on three popular template engines: Apache Velocity, Mustache, and pure JavaScript templating.
+The __codbex__ platform supports various template engines, making it easy for developers to generate dynamic content in their applications. This documentation focuses on three popular template engines: Apache Velocity, Mustache, and pure JavaScript templating.
 
 ## Template Engines
 
@@ -75,4 +75,4 @@ To use template engines, follow these general steps:
 
 ## Conclusion
 
-The `codbex` platform support for template engines like Apache Velocity, Mustache, and pure JavaScript templating enhances the platform's capabilities for dynamic content generation. Whether you prefer the expressive power of Velocity, the simplicity of Mustache, or the flexibility of JavaScript, it provides a seamless integration experience. Experiment with different template engines based on your preferences and project requirements, and enjoy the efficiency and flexibility they bring to your application development process.
+The __codbex__ platform support for template engines like Apache Velocity, Mustache, and pure JavaScript templating enhances the platform's capabilities for dynamic content generation. Whether you prefer the expressive power of Velocity, the simplicity of Mustache, or the flexibility of JavaScript, it provides a seamless integration experience. Experiment with different template engines based on your preferences and project requirements, and enjoy the efficiency and flexibility they bring to your application development process.

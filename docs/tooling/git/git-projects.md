@@ -67,4 +67,4 @@ The "Git Projects" view in the Git perspective provides a centralized interface 
 
 - **Repository Properties:** View additional Git repository structure and properties.
 
-Explore the "Git Projects" view to seamlessly manage your Git repositories within the `codbex` environment.
+Explore the "Git Projects" view to seamlessly manage your Git repositories within the __codbex__ environment.

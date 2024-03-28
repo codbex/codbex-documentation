@@ -53,4 +53,4 @@ The "Database Explorer" in the Databases perspective is a powerful tool for mana
 
 ## Conclusion
 
-The "Database Explorer" in the Databases perspective of the `codbex` platform provides a comprehensive and user-friendly interface for managing and interacting with databases. Explore its features to streamline database-related tasks and enhance your development workflow.
+The "Database Explorer" in the Databases perspective of the __codbex__ platform provides a comprehensive and user-friendly interface for managing and interacting with databases. Explore its features to streamline database-related tasks and enhance your development workflow.

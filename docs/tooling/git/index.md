@@ -1,6 +1,6 @@
 # Git
 
-Welcome to the Git perspective in the `codbex` platform, your dedicated workspace for efficient version control and collaboration. This index provides an overview of key views and functionalities available in the Git perspective.
+Welcome to the Git perspective in the __codbex__ platform, your dedicated workspace for efficient version control and collaboration. This index provides an overview of key views and functionalities available in the Git perspective.
 
 ## 1. [Git Projects](git-projects.md)
 

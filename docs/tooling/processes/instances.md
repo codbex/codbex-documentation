@@ -1,6 +1,6 @@
 # Process Instances
 
-Continuing with the "Processes Workspace" perspective in the `codbex` platform, the "Process Instances" view offers insights into the runtime execution of BPMN (Business Process Model and Notation) processes. This view provides real-time monitoring tools to track and analyze active process instances. Let's explore the key features of the "Process Instances" view.
+Continuing with the "Processes Workspace" perspective in the __codbex__ platform, the "Process Instances" view offers insights into the runtime execution of BPMN (Business Process Model and Notation) processes. This view provides real-time monitoring tools to track and analyze active process instances. Let's explore the key features of the "Process Instances" view.
 
 ## Accessing the Processes Workspace Perspective
 

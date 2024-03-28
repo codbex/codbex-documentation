@@ -1,6 +1,6 @@
 # Databases
 
-Welcome to the "Database" perspective in the `codbex` platform! This perspective is tailored for developers and database administrators, offering a suite of tools to interact with both relational and NoSQL databases seamlessly. Explore the various features and tools available to streamline your database-related tasks.
+Welcome to the "Database" perspective in the __codbex__ platform! This perspective is tailored for developers and database administrators, offering a suite of tools to interact with both relational and NoSQL databases seamlessly. Explore the various features and tools available to streamline your database-related tasks.
 
 ## 1. [Databases Explorer](explorer.md):
 

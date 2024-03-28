@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The `codbex` platform supports multiple programming languages for building applications. This documentation provides an overview of the languages supported with a focus on JavaScript (ES6 syntax), TypeScript, Python, and ABAP.
+The __codbex__ platform supports multiple programming languages for building applications. This documentation provides an overview of the languages supported with a focus on JavaScript (ES6 syntax), TypeScript, Python, and ABAP.
 
 ## Supported Languages
 
@@ -56,7 +56,7 @@ squares = [x**2 for x in range(10)]
 
 ### ABAP
 
-ABAP (Advanced Business Application Programming) support is provided through [open-abap](https://github.com/open-abap) and [abaplint transpiler](https://github.com/abaplint/transpiler). Developers can write ABAP code and transpile it to JavaScript for execution on the `codbex` platform.
+ABAP (Advanced Business Application Programming) support is provided through [open-abap](https://github.com/open-abap) and [abaplint transpiler](https://github.com/abaplint/transpiler). Developers can write ABAP code and transpile it to JavaScript for execution on the __codbex__ platform.
 
 **Example**
 
@@ -70,9 +70,9 @@ The transpilation process converts ABAP code to JavaScript, allowing seamless in
 
 ### SAP HANA XS Classic (a.k.a XSK project)
 
-The `codbex` supports SAP HANA XS Classic development using and furter developing the XSK project. Developers can utilize XSK to manage database artifacts, define data models, develop server side XSJS services, and perform data provisioning within the SAP HANA XS Classic environment.
+The __codbex__ supports SAP HANA XS Classic development using and furter developing the XSK project. Developers can utilize XSK to manage database artifacts, define data models, develop server side XSJS services, and perform data provisioning within the SAP HANA XS Classic environment.
 
-For more information on SAP HANA XS Classic development with the `codbex` platform, refer to the [XSK project documentation](https://xsk.io).
+For more information on SAP HANA XS Classic development with the __codbex__ platform, refer to the [XSK project documentation](https://xsk.io).
 
 **Example**
 

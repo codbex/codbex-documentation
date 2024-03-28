@@ -4,7 +4,7 @@
 
 ## Overview
 
-The Entity Data Model (EDM) artefact in the `codbex` platform is an XML file used by the Entity Data Modeler to define the domain model of applications. It provides a structured representation of entities, relationships, and properties, allowing developers to design and manage data models for their applications.
+The Entity Data Model (EDM) artefact in the __codbex__ platform is an XML file used by the Entity Data Modeler to define the domain model of applications. It provides a structured representation of entities, relationships, and properties, allowing developers to design and manage data models for their applications.
 
 ## Purpose
 
@@ -28,4 +28,4 @@ EDM files are typically used in the following scenarios:
 
 ## Conclusion
 
-The Entity Data Model (EDM) artefact in `codbex` provides a standardized approach to define and manage the domain model of applications. By representing entities, properties, and relationships in a structured XML format, EDM files enable developers to design, generate, and integrate data models seamlessly within their development workflows.
+The Entity Data Model (EDM) artefact in __codbex__ provides a standardized approach to define and manage the domain model of applications. By representing entities, properties, and relationships in a structured XML format, EDM files enable developers to design, generate, and integrate data models seamlessly within their development workflows.

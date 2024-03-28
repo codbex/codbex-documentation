@@ -4,7 +4,7 @@
 
 ## Overview:
 
-CSV (Comma-Separated Values) files are commonly used for tabular data storage, and they serve various use cases within the `codbex` platform. Here are some use cases for `*.csv` files within the platform, especially for predefined data load:
+CSV (Comma-Separated Values) files are commonly used for tabular data storage, and they serve various use cases within the __codbex__ platform. Here are some use cases for `*.csv` files within the platform, especially for predefined data load:
 
 ### Data Import and Export:
 
@@ -40,4 +40,4 @@ When developing scripts or services within the platform, CSV files can serve as 
 
 ## Conclusion:
 
-To leverage these use cases, the `codbex` platform provides APIs and tools for working with CSV files, making it straightforward to read, write, and manipulate data in this popular tabular format.
+To leverage these use cases, the __codbex__ platform provides APIs and tools for working with CSV files, making it straightforward to read, write, and manipulate data in this popular tabular format.

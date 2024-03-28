@@ -1,6 +1,6 @@
 # Process Definitions
 
-The "Processes Workspace" perspective in the `codbex` platform offers a dedicated environment for managing and monitoring BPMN (Business Process Model and Notation) based runtime processes. This perspective provides a set of tools to visualize, analyze, and control business processes efficiently. This section covers the "Process Definitions" view, a key component of the Processes Workspace perspective.
+The "Processes Workspace" perspective in the __codbex__ platform offers a dedicated environment for managing and monitoring BPMN (Business Process Model and Notation) based runtime processes. This perspective provides a set of tools to visualize, analyze, and control business processes efficiently. This section covers the "Process Definitions" view, a key component of the Processes Workspace perspective.
 
 ## Accessing the Processes Workspace Perspective
 

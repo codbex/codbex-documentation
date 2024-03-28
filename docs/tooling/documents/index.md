@@ -1,6 +1,6 @@
 # Documents
 
-The "Documents" perspective in the `codbex` platform is a dedicated workspace for managing and organizing various types of files and documents related to your projects. This section provides an overview of key features and actions available in the Documents perspective, including support for the CMIS specification for CMS document repositories.
+The "Documents" perspective in the __codbex__ platform is a dedicated workspace for managing and organizing various types of files and documents related to your projects. This section provides an overview of key features and actions available in the Documents perspective, including support for the CMIS specification for CMS document repositories.
 
 ## Overview
 
@@ -74,4 +74,4 @@ Displays a preview of the content of the selected document.
 
 ## Conclusion
 
-The "Documents" perspective in the `codbex` platform provides a comprehensive environment for managing project documents, and templates. Navigate through your repository, edit files, and streamline collaboration with team members. With support for the CMIS specification, the platform extends its capabilities to seamlessly integrate with CMS document repositories.
+The "Documents" perspective in the __codbex__ platform provides a comprehensive environment for managing project documents, and templates. Navigate through your repository, edit files, and streamline collaboration with team members. With support for the CMIS specification, the platform extends its capabilities to seamlessly integrate with CMS document repositories.

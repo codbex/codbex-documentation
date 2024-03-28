@@ -4,7 +4,7 @@
 
 ## Overview
 
-In the `codbex` platform, the `*.openapi` artifact is used to define an OpenAPI-compliant specification for a given RESTful service. This specification contributes to the global Swagger descriptor for the server instance, providing a standardized way to document and describe the RESTful APIs exposed by the `codbex` application.
+In the __codbex__ platform, the `*.openapi` artifact is used to define an OpenAPI-compliant specification for a given RESTful service. This specification contributes to the global Swagger descriptor for the server instance, providing a standardized way to document and describe the RESTful APIs exposed by the __codbex__ application.
 
 Here's an overview of its usage:
 
@@ -97,9 +97,9 @@ Reference the `*.openapi` file in the configuration of the corresponding RESTful
 
 ### Deploy and Access Swagger UI:
 
-Deploy your `codbex` application and access the Swagger UI endpoint (`/api-docs`) to view the centralized Swagger documentation, including your API.
+Deploy your __codbex__ application and access the Swagger UI endpoint (`/api-docs`) to view the centralized Swagger documentation, including your API.
 
 ## Conclusion:
 
-The `*.openapi` artifact in the `codbex` platform allows developers to provide OpenAPI-compliant specifications for their RESTful services, contributing to the global Swagger descriptor. This standardized documentation enhances API discoverability and fosters a consistent and well-documented API development process.
+The `*.openapi` artifact in the __codbex__ platform allows developers to provide OpenAPI-compliant specifications for their RESTful services, contributing to the global Swagger descriptor. This standardized documentation enhances API discoverability and fosters a consistent and well-documented API development process.
 

@@ -4,7 +4,7 @@
 
 ## Overview:
 
-The `*.schema` files in the `codbex` platform are used to define and manage database schemas, including tables, foreign keys, views, and more. A schema can contain various structures that define the organization of data within a database.
+The `*.schema` files in the __codbex__ platform are used to define and manage database schemas, including tables, foreign keys, views, and more. A schema can contain various structures that define the organization of data within a database.
 
 Here's an explanation of the example `example.schema` file and its properties:
 

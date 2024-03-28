@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Database API provides a set of functions to interact with databases in the `codbex` platform environment. This guide will walk you through the available methods and how to use them effectively.
+The Database API provides a set of functions to interact with databases in the __codbex__ platform environment. This guide will walk you through the available methods and how to use them effectively.
 
 ## Methods
 

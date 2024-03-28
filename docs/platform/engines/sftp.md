@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The SFTP Engine in the `codbex` platform provides secure file transfer capabilities using the Secure File Transfer Protocol (SFTP). This documentation explores key features of the SFTP Engine. The underlying SFTP server used by the platform is powered by the Apache Mina project.
+The SFTP Engine in the __codbex__ platform provides secure file transfer capabilities using the Secure File Transfer Protocol (SFTP). This documentation explores key features of the SFTP Engine. The underlying SFTP server used by the platform is powered by the Apache Mina project.
 
 ## SFTP Engine Features
 
@@ -14,7 +14,7 @@ The SFTP Engine enables organizations to transfer files securely between systems
 
 #### Underlying Apache Mina SFTP Server:
 
-* The SFTP Engine in the `codbex` platform is built on top of the Apache Mina project.
+* The SFTP Engine in the __codbex__ platform is built on top of the Apache Mina project.
 * Apache Mina is a flexible and high-performance networking framework for building custom network protocols. The SFTP functionality is part of Apache Mina SSHD.
 
 #### Configuration and Customization:
@@ -34,7 +34,7 @@ The SFTP Engine enables organizations to transfer files securely between systems
 
 ## Conclusion
 
-The SFTP Engine in the `codbex` platform, backed by the Apache Mina project, offers a secure and reliable solution for file transfer using the Secure File Transfer Protocol. Organizations can easily configure and manage SFTP operations, benefiting from the security and flexibility of the underlying Apache Mina SFTP Server.
+The SFTP Engine in the __codbex__ platform, backed by the Apache Mina project, offers a secure and reliable solution for file transfer using the Secure File Transfer Protocol. Organizations can easily configure and manage SFTP operations, benefiting from the security and flexibility of the underlying Apache Mina SFTP Server.
 
 
 

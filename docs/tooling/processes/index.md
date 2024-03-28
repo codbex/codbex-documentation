@@ -1,6 +1,6 @@
 # Processes Workspace
 
-The Processes Workspace perspective in the `codbex` platform a comprehensive set of tools for designing, managing, and monitoring BPMN (Business Process Model and Notation) based runtime processes. This perspective brings together various views and features to streamline the entire lifecycle of business processes within the platform.
+The Processes Workspace perspective in the __codbex__ platform a comprehensive set of tools for designing, managing, and monitoring BPMN (Business Process Model and Notation) based runtime processes. This perspective brings together various views and features to streamline the entire lifecycle of business processes within the platform.
 
 ## 1. [Process Definitions](definitions.md)
 
@@ -28,7 +28,7 @@ The **Dead-Letter Jobs View** provides insights into failed or unprocessed jobs,
 
 ## 7. [BPMN Modeler](modeler.md)
 
-The **BPMN Modeler** is a feature-rich tool based on the Oryx Editor project, enabling the creation, editing, and visualization of BPMN diagrams. It seamlessly integrates with the `codbex` platform and supports real-time collaboration.
+The **BPMN Modeler** is a feature-rich tool based on the Oryx Editor project, enabling the creation, editing, and visualization of BPMN diagrams. It seamlessly integrates with the __codbex__ platform and supports real-time collaboration.
 
 
-The Processes Workspace perspective in the `codbex` platform consolidates a suite of tools and views for effective BPMN process management. Whether designing process definitions, monitoring instances, or collaborating on user tasks, this perspective enhances the overall BPMN experience within the platform.
+The Processes Workspace perspective in the __codbex__ platform consolidates a suite of tools and views for effective BPMN process management. Whether designing process definitions, monitoring instances, or collaborating on user tasks, this perspective enhances the overall BPMN experience within the platform.

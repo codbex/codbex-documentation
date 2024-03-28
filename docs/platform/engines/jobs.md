@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Jobs Engine in the `codbex` platform allows developers to schedule and manage background jobs within the stack. This documentation provides an overview of the Jobs Engine's features, including the use of CRON expressions, parameters, and JavaScript handlers when a job is triggered.
+The Jobs Engine in the __codbex__ platform allows developers to schedule and manage background jobs within the stack. This documentation provides an overview of the Jobs Engine's features, including the use of CRON expressions, parameters, and JavaScript handlers when a job is triggered.
 
 ## Jobs Engine Features
 
@@ -84,7 +84,7 @@ console.log("Hello from My Job");
 
 ## Underlying Quartz Framework
 
-The Jobs Engine in the `codbex` platform is built on the Quartz framework, a widely-used open-source job scheduling library for Java. Quartz provides a rich set of features for job scheduling, such as CRON expressions, job persistence, and clustering.
+The Jobs Engine in the __codbex__ platform is built on the Quartz framework, a widely-used open-source job scheduling library for Java. Quartz provides a rich set of features for job scheduling, such as CRON expressions, job persistence, and clustering.
 
 Key Features of Quartz:
 
@@ -102,4 +102,4 @@ Quartz supports job clustering, allowing multiple instances of the scheduler to 
 
 ## Conclusion
 
-The Jobs Engine in the `codbex` platform, built on the Quartz framework, provides a powerful mechanism for scheduling and managing background jobs. By utilizing CRON expressions, parameters, and JavaScript handlers, developers can automate tasks, customize job behavior, and execute specific logic based on predefined schedules.
+The Jobs Engine in the __codbex__ platform, built on the Quartz framework, provides a powerful mechanism for scheduling and managing background jobs. By utilizing CRON expressions, parameters, and JavaScript handlers, developers can automate tasks, customize job behavior, and execute specific logic based on predefined schedules.

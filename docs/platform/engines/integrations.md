@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Integrations Engine in the `codbex` platform empowers organizations to seamlessly connect and integrate various systems and services. This documentation explores key features of the Integrations Engine, focusing on its underlying integration with Apache Camel. The engine supports a myriad of connectors for diverse systems and can be configured using `*.camel`` descriptor files.
+The Integrations Engine in the __codbex__ platform empowers organizations to seamlessly connect and integrate various systems and services. This documentation explores key features of the Integrations Engine, focusing on its underlying integration with Apache Camel. The engine supports a myriad of connectors for diverse systems and can be configured using `*.camel`` descriptor files.
 
 ## Integrations Engine Features
 
@@ -62,4 +62,4 @@ Example `*.camel` Descriptor Configuration:
 
 ## Conclusion
 
-The Integrations Engine in the `codbex` platform, powered by Apache Camel, offers a flexible and extensible solution for connecting and integrating diverse systems. By utilizing `*.camel` descriptor files, organizations can easily configure and manage integration routes, leveraging the extensive set of Apache Camel connectors for seamless connectivity.
+The Integrations Engine in the __codbex__ platform, powered by Apache Camel, offers a flexible and extensible solution for connecting and integrating diverse systems. By utilizing `*.camel` descriptor files, organizations can easily configure and manage integration routes, leveraging the extensive set of Apache Camel connectors for seamless connectivity.

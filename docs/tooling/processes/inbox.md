@@ -1,6 +1,6 @@
 # Process Inbox
 
-The "Processes Workspace" perspective in the `codbex` platform provides a dedicated environment for managing and monitoring BPMN (Business Process Model and Notation) based runtime processes. This section focuses on the "Process Inbox", a tool designed for managing user tasks within BPMN processes.
+The "Processes Workspace" perspective in the __codbex__ platform provides a dedicated environment for managing and monitoring BPMN (Business Process Model and Notation) based runtime processes. This section focuses on the "Process Inbox", a tool designed for managing user tasks within BPMN processes.
 
 ## Accessing the Processes Workspace Perspective
 

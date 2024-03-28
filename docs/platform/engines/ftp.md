@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The FTP Engine in the `codbex` platform provides seamless file transfer capabilities using the File Transfer Protocol (FTP). This documentation explores key features of the FTP Engine.
+The FTP Engine in the __codbex__ platform provides seamless file transfer capabilities using the File Transfer Protocol (FTP). This documentation explores key features of the FTP Engine.
 
 ## FTP Engine Features
 
@@ -24,5 +24,5 @@ The FTP Engine enables organizations to transfer files between systems using the
 
 ## Conclusion
 
-The FTP Engine in the `codbex` platform, backed by the Apache FTP Server, offers a reliable and extensible solution for file transfer using the File Transfer Protocol. Organizations can easily configure and manage FTP operations, benefiting from the power and flexibility of the underlying Apache FTP Server.
+The FTP Engine in the __codbex__ platform, backed by the Apache FTP Server, offers a reliable and extensible solution for file transfer using the File Transfer Protocol. Organizations can easily configure and manage FTP operations, benefiting from the power and flexibility of the underlying Apache FTP Server.
 
