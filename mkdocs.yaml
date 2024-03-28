@@ -6,7 +6,7 @@ nav:
     - 'index.md'
     - Getting Started: 'getting-started.md'
     - Products: '../products/'
-    - Applications: '../applications/'
+    # - Solutions: '../solutions/'
     - Services: '../services/'
     - Pricing: '../pricing/'
     - Announcements: '/categories/marketing/'
