@@ -169,7 +169,7 @@ nav:
         - XML: 'platform/sdk/utils/xml.md'
     - Widgets: 'platform/widgets/index.md'
     - Services: 'platform/services/index.md'
-    - Templates: 'platform/templates/index.md'
+    # - Templates: 'platform/templates/index.md'
   - Tooling:
     - 'tooling/index.md'
     - Workbench:

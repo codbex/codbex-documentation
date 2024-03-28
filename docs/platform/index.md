@@ -76,21 +76,21 @@ Welcome to the __codbex__ platform, a powerful cloud development platform that s
 
 ## Widgets (UI)
 
-* [UI Widgets](widgets/ui-widgets.md)
-* [UI Components](widgets/ui-components.md)
-* [UI Theming](widgets/ui-theming.md)
+* [UI Widgets](widgets/index.md)
+<!-- * [UI Components](widgets/ui-components.md)
+* [UI Theming](widgets/ui-theming.md) -->
 
 ## Services (REST)
 
-* [RESTful Services](services/restful-services.md)
-* [Service Development](services/service-development.md)
-* [Service Testing](services/service-testing.md)
+* [RESTful Services](services/index.md)
+<!-- * [Service Development](services/service-development.md)
+* [Service Testing](services/service-testing.md) -->
 
-## Templates
+<!-- ## Templates
 
 * [Project Templates](templates/project-templates.md)
 * [Code Templates](templates/code-templates.md)
-* [UI Templates](templates/ui-templates.md)
+* [UI Templates](templates/ui-templates.md) -->
 
 ## Conclusion
 
