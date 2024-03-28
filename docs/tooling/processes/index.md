@@ -28,7 +28,7 @@ The **Dead-Letter Jobs View** provides insights into failed or unprocessed jobs,
 
 ## 7. [BPMN Modeler](modeler.md)
 
-The **BPMN Modeler** is a feature-rich tool based on the Oryx Editor project, enabling the creation, editing, and visualization of BPMN diagrams. It seamlessly integrates with the Eclipse Dirigible platform and supports real-time collaboration.
+The **BPMN Modeler** is a feature-rich tool based on the Oryx Editor project, enabling the creation, editing, and visualization of BPMN diagrams. It seamlessly integrates with the `codbex` platform and supports real-time collaboration.
 
 
 The Processes Workspace perspective in the `codbex` platform consolidates a suite of tools and views for effective BPMN process management. Whether designing process definitions, monitoring instances, or collaborating on user tasks, this perspective enhances the overall BPMN experience within the platform.

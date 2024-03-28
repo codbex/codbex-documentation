@@ -9,7 +9,7 @@ QRCode object is used to generate a JavaScript byte array based on an input stri
 import { qrcode } from "sdk/utils";
 import { response } from "sdk/http";
 
-let qrCodeBytes = qrcode.generateQRCode("https://www.dirigible.io");
+let qrCodeBytes = qrcode.generateQRCode("https://www.codbex.com");
 
 console.log("QR Code Bytes: " + qrCodeBytes);
 

@@ -572,7 +572,7 @@ SELECT * FROM "SAMPLE_EMPLOYEE" ORDER BY "EMPLOYEE_COUNTRY" DESC, "EMPLOYEE_CITY
 
 Function     | Description | Returns
 ------------ | ----------- | --------
-**create(configuration, loggerName?)** | Creates new DAO instances from `configuraiton` JS object, which can be either standard ORM definition or a standard dirigible table definition |  DAO 
+**create(configuration, loggerName?)** | Creates new DAO instances from `configuraiton` JS object, which can be either standard ORM definition or a standard table definition |  DAO 
 
 
 ### Objects

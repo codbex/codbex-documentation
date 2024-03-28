@@ -1,4 +1,4 @@
-# Applications
+# Modules
 
 ## Finance and Accounting:
 

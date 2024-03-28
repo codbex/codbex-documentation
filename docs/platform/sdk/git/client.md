@@ -9,8 +9,8 @@ The following example demonstrates the basic usage of the Git Client API in ECMA
 ```javascript
 import { client } from "sdk/git"
 
-const user = "dirigible";
-const email = "dirigible@eclipse.org";
+const user = "developer";
+const email = "developer@codbex.com";
 const workspaceName = "workspace";
 const projectName = "project";
 const repositoryName = projectName;

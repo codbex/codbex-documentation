@@ -132,7 +132,7 @@ This overview will guide you through the basics of the various tools and perspec
 
 ### Overview: Getting Started with MDA
 
-This overview will guide you through the basics of the model driven techniques and tools.
+This overview will guide you through the basics of the model driven techniques.
 
 #### Model-Driven Architecture (MDA)
 

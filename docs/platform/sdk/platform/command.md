@@ -8,7 +8,7 @@ The Command API is used to execute shell commands.
 import { command } from "sdk/platform";
 import { response } from "sdk/http";
 
-let result = command.execute("echo 'hello dirigible!'");
+let result = command.execute("echo 'hello world!'");
 
 response.println("[Result]: " + result);
 ```

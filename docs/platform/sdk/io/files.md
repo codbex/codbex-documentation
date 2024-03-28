@@ -337,11 +337,11 @@ Creates an OutputStream pointing to the file at the specified path.
 ```javascript
 import { files } from "sdk/io";
 
-let tempFile = files.createTempFile("dirigible", ".txt");
+let tempFile = files.createTempFile("file", ".txt");
 
 console.log("Temp file: " + tempFile);
 
-files.writeText(tempFile, "Eclipse Dirigible");
+files.writeText(tempFile, "Sample text here...");
 files.deleteFile(tempFile);
 ```
 

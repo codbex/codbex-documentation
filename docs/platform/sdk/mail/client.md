@@ -31,7 +31,7 @@ To send an email using the Mail API, developers typically follow these steps:
 import { client } from "sdk/mail";
 import { response } from "sdk/http";
 
-const sender = "dirigible@eclipse.org";
+const sender = "developer@codbex.com";
 const to = "example@gmail.com";
 const subject = "Subject";
 const content = "<h1>Content<h1>";
@@ -59,7 +59,7 @@ let mailConfig = {
 
 let mailClient = client.getClient(mailConfig);
 
-let sender = "dirigible@gmail.com";
+let sender = "developer@codbex.com";
 let recipients = {
     to: "example@gmail.com",
     cc: ["example1@gmail.com", "example2@sap.com"],
