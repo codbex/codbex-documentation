@@ -1,27 +1,37 @@
-# Tooling
+# Tooling Documentation
 
-Welcome to the Tooling section of the platform! This index serves as a comprehensive guide to the various perspectives and concepts within the tooling environment. Explore the following perspectives and concepts to understand how to design, develop, and customize applications effectively.
+Welcome to the Tooling Documentation for __codbex__! This section provides comprehensive information about the various perspectives, concepts, and features available in our tooling environment. Whether you're a novice user or an experienced developer, this documentation will help you navigate through the tooling interface and utilize its functionalities effectively.
 
-## Perspectives
+<div style="text-align: center;">
+   <img src="/images/openart-tooling.jpg" style="width: 60%; !important; float: left !important; padding: 2em"/>
+</div>
 
-1. [**Workbench Basics**](#workbench-basics)
-2. [**Git Perspective**](#git-perspective)
-3. [**Databases Perspective**](#databases-perspective)
-4. [**Debugger Perspective**](#debugger-perspective)
-5. [**Documents Perspective**](#documents-perspective)
-6. [**Processes Workspace Perspective**](#processes-workspace-perspective)
-7. [**Integration Flows Editor**](#integration-flows-editor)
-8. [**Terminal Perspective**](#terminal-perspective)
+### Perspectives
 
-## Concepts
+Explore the different perspectives available in our tooling environment:
 
-1. [**Model-Driven Architecture (MDA)**](#model-driven-architecture-mda)
-2. [**Entity Data Modeler (EDM)**](#entity-data-modeler-edm)
-3. [**Extensibility - Extension Points and Extensions**](#extensibility-in-the-platform-based-on-extension-points-and-extensions)
+* [Workbench Basics](#workbench-basics)
+* [Git Perspective](#git-perspective)
+* [Databases Perspective](#databases-perspective)
+* [Debugger Perspective](#debugger-perspective)
+* [Documents Perspective](#documents-perspective)
+* [Processes Workspace Perspective](#processes-workspace-perspective)
+* [Integration Flows Editor](#integration-flows-editor)
+* [Terminal Perspective](#terminal-perspective)
 
-## Perspectives Details
+### Concepts
 
-### Workbench Basics
+Learn about key concepts and methodologies used in our tooling environment:
+
+* [Model-Driven Architecture (MDA)](#model-driven-architecture-mda)
+* [Entity Data Modeler (EDM)](#entity-data-modeler-edm)
+* [Extensibility - Extension Points and Extensions](#extensibility-in-the-platform-based-on-extension-points-and-extensions)
+
+### Perspectives Details
+
+#### Workbench Basics
+
+Discover the fundamental components of the workbench perspective:
 
 - [Workbench](workbench/index.md)
 - [Import Area](workbench/import.md)
@@ -34,7 +44,9 @@ Welcome to the Tooling section of the platform! This index serves as a comprehen
 - [Logs View](workbench/logs.md)
 - [Loggers View](workbench/loggers.md)
 
-### Git Perspective
+#### Git Perspective
+
+Explore the Git-related functionalities within our tooling environment:
 
 - [Git Projects View](git/git-projects.md)
 - [Local Branches View](git/local-branches.md)
@@ -44,7 +56,9 @@ Welcome to the Tooling section of the platform! This index serves as a comprehen
 - [Git Staging View](git/staging.md)
 - [Diff Editor](git/diff-editor.md)
 
-### Databases Perspective
+#### Databases Perspective
+
+Learn how to interact with databases through our tooling environment:
 
 - [Database Explorer](databases/explorer.md)
 - [NoSQL Datasources Support](databases/explorer.md#interacting-with-nosql-datasources)
@@ -54,7 +68,9 @@ Welcome to the Tooling section of the platform! This index serves as a comprehen
 - [Transfer View](databases/transfer.md)
 - [Data Export and Import](databases/export-import.md)
 
-### Debugger Perspective
+#### Debugger Perspective
+
+Understand the debugging capabilities offered by our tooling environment:
 
 - [Debugger Basics](debugger/index.md#features)
 - [Debugging Tools](debugger/index.md#getting-started)
@@ -63,13 +79,17 @@ Welcome to the Tooling section of the platform! This index serves as a comprehen
 - [Variables View](debugger/index.md#4-variable-inspection)
 - [Watch Expressions View](debugger/index.md#advanced-debugging)
 
-### Documents Perspective
+#### Documents Perspective
+
+Explore document management features within our tooling environment:
 
 - [Documents Explorer](documents/explorer.md)
 - [Document Preview](documents/preview.md)
 - [File Upload and Management](documents/index.md#file-upload-and-unpacking)
 
-### Processes Workspace Perspective
+#### Processes Workspace Perspective
+
+Discover tools for managing business processes within our tooling environment:
 
 - [Process Definitions View](processes/definitions.md)
 - [Process Instances View](processes/instances.md)
@@ -79,23 +99,31 @@ Welcome to the Tooling section of the platform! This index serves as a comprehen
 - [Dead-Letter Jobs View](processes/dead-letter-jobs.md)
 - [BPMN Modeler](processes/modeler.md)
 
-### Integration Flows Editor
+#### Integration Flows Editor
+
+Learn about creating and managing integration flows:
 
 - [Integrations Basics](integrations/index.md#overview)
 - [Key Features](integrations/index.md#key-features)
 - [Benefits](integrations/index.md#benefits)
 
-### Terminal Perspective
+#### Terminal Perspective
+
+Explore the terminal interface and its capabilities:
 
 - [Terminal Basics](terminal/index.md)
 - [Commands and Shortcuts](terminal/index.md#1-interactive-command-line)
 
-## Model-Driven Architecture (MDA)
+### Model-Driven Architecture (MDA)
+
+Understand the principles and benefits of Model-Driven Architecture (MDA):
 
 - [General Overview](modeling.md#model-driven-architecture-mda)
 - [Entity Data Modeler (EDM)](modeling.md#entity-data-modeler-edm)
 
-## Extensibility in the Platform based on Extension Points and Extensions
+### Extensibility in the Platform based on Extension Points and Extensions
+
+Learn how our platform supports extensibility through extension points and extensions:
 
 - [Overview](extensibility.md#overview)
 - [Extension Points](extensibility.md#extension-points)
@@ -103,11 +131,12 @@ Welcome to the Tooling section of the platform! This index serves as a comprehen
 - [Workflow](extensibility.md#workflow)
 - [Benefits](extensibility.md#benefits)
 
-## Compatibility with SAP HANA XS Classic
+### Compatibility with SAP HANA XS Classic
+
+Explore the compatibility features for SAP HANA XS Classic:
 
 - [Key Features for Compatibility](compatibility.md#key-features-for-compatibility)
 - [Developer Workflows](compatibility.md#workflow-for-sap-hana-xs-classic-developers)
 - [Benefits](compatibility.md#benefits-of-compatibility)
 - [Migrating](compatibility.md#migrating-from-sap-hana-xs-classic)
 
-Feel free to navigate through the various perspectives and concepts to gain a comprehensive understanding of the tooling environment in the platform.

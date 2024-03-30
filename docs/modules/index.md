@@ -1,4 +1,14 @@
-# Modules
+# Modules Documentation
+
+Welcome to the Modules Documentation for __codbex__ comprehensive enterprise system. This documentation serves as a detailed guide to understanding and utilizing the various modules within our integrated software solution. Each module is designed to address specific functional areas of the organization, offering powerful tools and features to streamline processes, enhance productivity, and drive business growth.
+
+<div style="text-align: center;">
+   <img src="/images/openart-modules.jpg" style="width: 60%; !important; float: right !important; padding: 2em"/>
+</div>
+
+From Finance and Accounting to Sales and Distribution, Human Resources, Supply Chain Management, Customer Relationship Management, and beyond, our enterprise system encompasses a wide range of modules tailored to meet the diverse needs of modern businesses. Each module is meticulously designed and meticulously developed to deliver unparalleled performance, reliability, and flexibility, empowering organizations to achieve their strategic objectives with confidence.
+
+Within this documentation, you will find comprehensive information on each module, including detailed descriptions of key functionalities, essential fields, core processes, and best practices for effective implementation. Whether you are a new user seeking to familiarize yourself with the system or an experienced user looking to optimize your workflow, this documentation provides valuable insights and resources to support your journey.
 
 ## Finance and Accounting:
 
@@ -127,3 +137,4 @@
 * Certification Tracking
 * Online Learning Modules
 * Skill Gap Analysis
+

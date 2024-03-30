@@ -276,12 +276,12 @@ theme:
   name: material
   favicon: logo/favicon.png
   logo: logo/logo.svg
-  palette: 
-    - scheme: default
+  palette:
+    - scheme: slate
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
-    - scheme: slate
+    - scheme: default
       toggle:
         icon: material/lightbulb
         name: Switch to dark mode

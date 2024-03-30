@@ -1,15 +1,23 @@
-# Platform Help Documentation
+# Platform Documentation
 
-Welcome to the __codbex__ platform, a powerful cloud development platform that simplifies application development and deployment. This index provides an overview of key components and features available within the platform.
+Welcome to the Platform Documentation for __codbex__ a powerful cloud development platform that simplifies application development and deployment.! This comprehensive documentation serves as a detailed guide to understanding and utilizing the various components and features of our platform. Whether you're a new user seeking to familiarize yourself with the platform's capabilities or an experienced developer looking for advanced functionalities, this documentation provides valuable insights and resources to support your journey.
 
-## Languages
+<div style="text-align: center;">
+   <img src="/images/openart-platform.jpg" style="width: 60%; !important; float: right !important; padding: 2em"/>
+</div>
+
+### Languages
+
+Explore the various programming languages supported by our platform, including:
 
 * [JavaScript](languages/index.md#javascript-es6-syntax)
 * [TypeScript](languages/index.md#typescript)
 * [Python](languages/index.md#python)
 * [ABAP](languages/index.md#abap)
 
-## Engines
+### Engines
+
+Discover the powerful engines and runtime environments that drive our platform, including:
 
 * [JavaScript](engines/javascript.md)
 * [TypeScript](engines/typescript.md)
@@ -30,7 +38,9 @@ Welcome to the __codbex__ platform, a powerful cloud development platform that s
 * [FTP](engines/ftp.md)
 * [SFTP](engines/sftp.md)
 
-## Artefacts
+### Artefacts
+
+Learn about the various artefacts and file formats supported by our platform, including:
 
 * [Access Constraints Artefact](artefacts/access.md)
 * [BPMN v2.0 Files](artefacts/bpmn.md)
@@ -52,7 +62,9 @@ Welcome to the __codbex__ platform, a powerful cloud development platform that s
 * [TypeScript Files (*.ts)](artefacts/ts.md)
 * [OpenAPI Artefact (*.openapi)](artefacts/openapi.md)
 
-## SDK (API)
+### SDK (API)
+
+Explore the Software Development Kit (SDK) for building custom integrations and extending platform functionality, including:
 
 * [BPM](sdk/bpm/index.md)
 * [CMS](sdk/cms/index.md)
@@ -74,15 +86,18 @@ Welcome to the __codbex__ platform, a powerful cloud development platform that s
 * [Test](sdk/test/index.md)
 * [Utils](sdk/utils/index.md)
 
-## Widgets (UI)
+### Widgets (UI)
+
+Discover the collection of User Interface (UI) widgets available for creating interactive and visually appealing applications, including:
 
 * [UI Widgets](widgets/index.md)
-<!-- * [UI Components](widgets/ui-components.md)
-* [UI Theming](widgets/ui-theming.md) -->
 
-## Services (REST)
+### Services (REST)
+
+Explore the RESTful services provided by our platform for seamless integration and interoperability, including:
 
 * [RESTful Services](services/index.md)
+
 <!-- * [Service Development](services/service-development.md)
 * [Service Testing](services/service-testing.md) -->
 
@@ -92,7 +107,6 @@ Welcome to the __codbex__ platform, a powerful cloud development platform that s
 * [Code Templates](templates/code-templates.md)
 * [UI Templates](templates/ui-templates.md) -->
 
-## Conclusion
 
 Explore the documentation to gain a deeper understanding of the __codbex__ platform. Whether you're developing in multiple languages, designing integration flows, managing artefacts, or building RESTful services, this index serves as a concise guide to the platform's key features.
 
