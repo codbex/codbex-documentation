@@ -11,6 +11,9 @@ nav:
     - Pricing: '../pricing/'
     - Announcements: '/categories/marketing/'
     - Tutorials: '/categories/technology/'
+    - Configurations: 
+      - 'configurations/index.md'
+      - Basic Authentication: 'configurations/basic-auth.md'
   - Platform:
     - 'platform/index.md'
     - Languages: 'platform/languages/index.md'

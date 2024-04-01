@@ -4,6 +4,8 @@ Welcome to the Getting Started guide!
 
 ## Overview
 
+This guide outlines the process of using the __codbex__ platform to create your initial 'Hello World' service. For more in-depth technical information on various aspects of the platform, its components, and capabilities, refer to the documentation listed in the references section below.
+
 ## Hello World
 
 In this guide, we'll walk you through creating a simple "Hello World" service using the Request and Response APIs.
@@ -12,19 +14,63 @@ In this guide, we'll walk you through creating a simple "Hello World" service us
 
 Before we begin, ensure you have the necessary tools installed and your development environment configured.
 
-> just a joke of course - it is available right away at: 
+You can run the all in one platform as a Docker container as described [here](https://github.com/codbex/codbex-atlas?tab=readme-ov-file#docker) or [build](https://github.com/codbex/codbex-atlas?tab=readme-ov-file#build) and [run](https://github.com/codbex/codbex-atlas?tab=readme-ov-file#run) locally.
+
+#### Access the instance
+
+In case of a local setup on your machine, you can access the web IDE at the following location: [http://localhost/](http://localhost)
+
+!!! info "Default Credentials"
+
+    The default username is `admin` and the default password is `admin`. The credentials can be updated, as described in the [configuration options](configurations/basic-auth.md).
+
 
 ### Creating Your First Service
 
 Let's start by creating a basic "Hello World" service. We'll use the Request API to get the REST method from the incoming requests and the Response API to send a response back to the client.
 
-```javascript
-import { request, response } from "sdk/http";
 
-let method = request.getMethod();
+### Create a `Hello World` service
+Once you have a running __codbex__ instance, you can start with your project:
 
-response.println(`Hello World! You are using method: ${method}`);
-```
+1. Right-click inside the `Projects` view.
+1. From the menu select the **New Project** option.
+
+    ![New Project](images/getting-started/new-project-hello.png)
+
+1. Enter `hello-world` for the name of the project and click the **Create** button. 
+
+    ![Create Project](images/getting-started/create-project-hello.png)
+
+1. Right-click on the `hello-world` project in the `Projects` view and choose **JavaScript** service from the **New** dropdown:
+
+- Select the **New** **&rarr;** **JavaScript Service** option:
+
+    ![Create JavaScript Service](images/getting-started/create-javascript.png)
+
+- Enter `hello-service.mjs` for the name of the **JavaScript Service**:
+
+    ![Create JavaScript Service](images/getting-started/new-file-mjs.png)
+
+- Double-click on the `hello-service.js` to open the file in the editor on the right.
+
+    ![Service Impletentation](images/getting-started/service-implementation-mjs.png)
+
+!!! info
+
+    The file already contains a `Hello World` service implementation. As it's not specified otherwise, the service can be executed by performing any of the following HTTP methods: `GET`, `POST`, `PUT`, `DELETE` and `PATCH`.
+
+- Click on the **Publish All** button from the toolbar:
+
+    ![Publish Project](images/getting-started/publish-project.png)
+
+- With the `service.js` selected in the `Projects` view, check the result of the execution of the server-side **JavaScript Service** in the `Preview` view:
+
+    ![Preview Project](images/getting-started/preview-project-mjs.png)
+
+!!! note
+
+    The **JavaScript Service** is published and available at the `http://localhost/services/js/hello-world/hello-service.mjs`URL. It can be accessed in a separate browser tab, consumed by a third-party application or API tools like `Postman` or `cURL`.
 
 ## Explore the Tooling
 
@@ -124,11 +170,7 @@ This overview will guide you through the basics of the various tools and perspec
 
 - **[Commands and Shortcuts](tooling/terminal/index.md#2-xtermjs-emulator):** Execute commands, navigate directories, and perform various tasks using terminal commands.
 
-#### Developer Workflows
-
-- **Benefits:** Learn about the benefits of migrating to the codbex platform from SAP HANA XS Classic.
-
-## First Modeled Application
+## Modelling Applications
 
 ### Overview: Getting Started with MDA
 
@@ -140,50 +182,10 @@ This overview will guide you through the basics of the model driven techniques.
 
 - **[Entity Data Modeler (EDM)](tooling/modeling.md#entity-data-modeler-edm):** Design and define domain models using the Entity Data Modeler tool.
 
-## Extend with Event Listener
-
-#### Extensibility in the Platform
+### Extensibility in the Platform
 
 - **[Overview](tooling/extensibility.md#overview):** Explore the extensibility features of the platform, including extension points and extensions.
 
 - **[Extension Points](tooling/extensibility.md#extension-points):** Identify and leverage extension points to customize and extend platform functionality.
 
 - **[Extensions](tooling/extensibility.md#extensions):** Develop and deploy extensions to enhance the capabilities of the platform.
-
-## Model Report with a Filter
-
-> TODO
-
-## Schedule a Calculation Job
-
-> TODO
-
-## Synchronize External Data
-
-> TODO
-
-## Add Approval Process
-
-> TODO
-
-## Extend with Custom User Interface
-
-> TODO
-
-## Add Print Template
-
-> TODO
-
-## XS Classic Compatibility
-
-> TODO
-
-#### Compatibility with SAP HANA XS Classic
-
-> TODO
-
-- **Key Features for Compatibility:** Discover the features that make the platform compatible with SAP HANA XS Classic.
-
-
-
-
