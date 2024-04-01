@@ -2,9 +2,13 @@
 
 The "Projects" area in the "Workbench" serves as a central hub for managing and organizing your development projects. This section provides an overview of the key features and actions available in the "Projects" area.
 
+![Projects](../../images/tooling/workbench/projects-m.png){: style="width:300px"}
+
 ## Create a New Project
 
 To create a new project, follow these steps:
+
+![New Project](../../images/tooling/workbench/project-new.png){: style="width:300px"}
 
 1. Click on the "..." button or right-click in the "Projects" tab in the Workbench.
 
@@ -38,6 +42,8 @@ You can manage project dependencies in the "Projects" area:
 
 4. Add or remove dependencies as needed.
 
+![Project Dependencies](../../images/tooling/workbench/project-dependencies.png){: style="width:500px"}
+
 ## Import and Export Projects
 
 To import an existing project or export a project:
@@ -51,16 +57,6 @@ To import an existing project or export a project:
 ## Version Control Integration
 
 The platform supports version control integration for projects. If your project is under version control (e.g., Git), you can inspect version control statuses directly from the "Projects" area.
-
-## Project Settings
-
-Access project settings to configure various aspects:
-
-1. Right-click on the project folder.
-
-2. Choose "Properties."
-
-3. Adjust settings related to project nature, builders, and other project-specific configurations.
 
 ## Conclusion
 

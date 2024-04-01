@@ -204,6 +204,7 @@ nav:
       - Databases: 'tooling/databases/databases.md'
       - Transfer: 'tooling/databases/transfer.md'
       - Export & Import: 'tooling/databases/export-import.md'
+      - Anonymization: 'tooling/databases/data-anonymization.md'
     - Documents:
       - 'tooling/documents/index.md'
       - Explorer: 'tooling/documents/explorer.md'

@@ -32,7 +32,7 @@ The "Database Explorer" in the Databases perspective is a powerful tool for mana
 2. **Execute NoSQL Queries:**
    - Perform queries on NoSQL data using the respective query language or tools provided by the NoSQL datasource.
 
-## Anonymizing Data
+## [Anonymizing Data](data-anonymization.md)
 
 1. **Select Columns for Anonymization:**
    - Right-click on a table and choose "Anonymize Data" to select specific columns for anonymization.
