@@ -2,6 +2,8 @@
 
 The "Staging" view in the Git perspective provides a centralized location to stage and commit changes to your Git repository. This section provides an overview of the key features and actions available in the "Staging" view.
 
+![Staging](../../images/tooling/git/git-staging.png){: style="width:300px"}
+
 ## Staging Changes
 
 1. **Open the Git Staging View:**

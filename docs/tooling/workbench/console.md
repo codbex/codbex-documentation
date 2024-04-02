@@ -2,10 +2,7 @@
 
 The "Console" view in the Workbench provides real-time feedback, logs, and outputs from various processes, enabling developers to monitor and troubleshoot their applications. This section provides an overview of the key features and actions available in the "Console" view.
 
-
-
-
-
+![Console](../../images/tooling/workbench/console.png){: style="width:700px"}
 
 ## Use Cases
 

@@ -2,6 +2,8 @@
 
 The "Git Projects" view in the Git perspective provides a centralized interface for managing Git repositories. This view allows you to perform essential Git operations such as cloning, pulling, pushing, and sharing projects. Below is an overview of key features and actions available in the "Git Projects" view.
 
+![Git](../../images/tooling/git/git-projects.png){: style="width:400px"}
+
 ## Cloning a Git Repository
 
 1. **Open the Git Projects View:**

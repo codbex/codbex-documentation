@@ -2,6 +2,8 @@
 
 The "History" view in the Git perspective provides a detailed and interactive visualization of your Git repository's commit history. This section provides an overview of the key features and actions available in the "History" view.
 
+![History](../../images/tooling/git/git-history.png){: style="width:500px"}
+
 ## Exploring Git History
 
 1. **Open the Git History View:**

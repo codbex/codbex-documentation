@@ -2,6 +2,8 @@
 
 The "Import" feature in the "Workbench" allows you to bring external projects and artifacts into your development environment. This section provides a guide on how to use the "Import" functionality efficiently.
 
+![Import](../../images/tooling/workbench/import.png){: style="width:300px"}
+
 ## Importing a Project
 
 To import an existing project into the Workbench, follow these steps:

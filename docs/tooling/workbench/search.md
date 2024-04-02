@@ -2,6 +2,8 @@
 
 The "Search" feature in the "Workbench" allows you to efficiently search for projects, files, and content within your development environment. This section provides a guide on how to use the "Search" functionality effectively.
 
+![Search](../../images/tooling/workbench/search.png){: style="width:300px"}
+
 ## Search for Projects
 
 To search for projects within the Workbench, follow these steps:

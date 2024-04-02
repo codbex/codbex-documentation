@@ -2,6 +2,8 @@
 
 The "Local Branches" view in the Git perspective provides a centralized location to manage and interact with local branches in your Git projects. This section provides an overview of the key features and actions available in the "Local Branches" view.
 
+![Branches](../../images/tooling/git/git-branches.png){: style="width:300px"}
+
 ## Managing Local Branches
 
 1. **Open the Local Branches View:**

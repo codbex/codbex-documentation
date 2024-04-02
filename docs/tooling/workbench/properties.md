@@ -2,6 +2,8 @@
 
 The "Properties" area in the "Workbench" provides a centralized location to inspect the properties of projects and artifacts. This section provides an overview of the key features and actions available in the "Properties" area.
 
+![Properties](../../images/tooling/workbench/properties.png){: style="width:500px"}
+
 ## Project Properties
 
 To access and configure properties for a project, follow these steps:

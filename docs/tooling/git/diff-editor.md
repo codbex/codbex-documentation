@@ -2,6 +2,8 @@
 
 The "Diff Editor" in the Git perspective provides a powerful and intuitive interface for visualizing and comparing changes between different versions of your files. This section provides an overview of the key features and actions available in the "Diff Editor".
 
+![Diff Editor](../../images/tooling/git/diff-editor.png){: style="width:700px"}
+
 ## Navigating the Diff Editor
 
 1. **Open the Diff Editor:**

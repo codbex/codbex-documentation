@@ -2,6 +2,8 @@
 
 The "Code Editor" in the "Workbench" is powered by the "Monaco" editor, which is the same editor used in "Visual Studio Code" (VSCode). This powerful and feature-rich editor provides a comfortable environment for writing, editing, and managing your code. This section provides an overview of the key features and actions available in the "Code Editor".
 
+![Code Editor](../../images/tooling/workbench/code-editor.png)
+
 ## Key Features
 
 ### 1. **Syntax Highlighting**
