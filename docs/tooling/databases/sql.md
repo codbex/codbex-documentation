@@ -2,6 +2,8 @@
 
 The "SQL Console" in the Databases perspective provides a versatile environment for executing SQL queries and interacting with your relational and NoSQL databases. This section provides an overview of the key features and actions available in the "SQL Console."
 
+![SQL Console](../../images/tooling/database/sql-console.png){: style="width:700px"}
+
 ## Executing SQL Queries
 
 1. **Open the SQL Console:**

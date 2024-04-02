@@ -10,6 +10,8 @@ The "Document Preview" view in the platform provides a convenient way to preview
 2. **Open the Document Preview View:**
    - Within the Documents perspective, locate the "Document Preview" view on the right side. This view displays a preview of the content of the selected document.
 
+![Document Preview](../../images/tooling/documents/document-preview.png){: style="width:400px"}
+
 ## Features
 
 ### 1. **Content Preview:**

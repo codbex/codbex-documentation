@@ -2,6 +2,8 @@
 
 The "Databases" view in the __codbex__ platform is a central hub for managing and configuring datasources for your projects. This section provides an overview of the key features and actions available in the "Databases" view.
 
+![Databases](../../images/tooling/database/databases.png){: style="width:700px"}
+
 ## Adding a New Datasource
 
 1. **Open the Databases View:**

@@ -200,6 +200,7 @@ nav:
       - 'tooling/databases/index.md'
       - Explorer: 'tooling/databases/explorer.md'
       - SQL: 'tooling/databases/sql.md'
+      - NoSQL: 'tooling/databases/nosql.md'
       - Result: 'tooling/databases/result.md'
       - Databases: 'tooling/databases/databases.md'
       - Transfer: 'tooling/databases/transfer.md'

@@ -10,6 +10,8 @@ The "Documents" hierarchical repository structure view provides a visual represe
 2. **Open the Documents Explorer:**
    - Within the Documents perspective, locate the "Documents Explorer" repository structure view on the left side. This view displays the hierarchical arrangement of content within the connected CMS repository.
 
+![Documents Explorer](../../images/tooling/documents/documents-explorer.png){: style="width:600px"}
+
 ## Features
 
 ### 1. **Hierarchical Representation:**

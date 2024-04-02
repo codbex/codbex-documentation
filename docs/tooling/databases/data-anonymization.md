@@ -2,6 +2,8 @@
 
 Data Anonymization is a process used to protect sensitive information by converting or removing personally identifiable information (PII) from datasets. The primary goal of anonymization is to prevent individuals from being identified while still maintaining the utility and integrity of the data for analysis and research purposes.
 
+![Data Anonymization](../../images/tooling/database/anonymization.png){: style="width:300px"}
+
 #### Key Components:
 
 1. **Personal Data Removal**: Anonymization techniques involve removing direct identifiers such as names, social security numbers, addresses, and other personal information from the dataset.

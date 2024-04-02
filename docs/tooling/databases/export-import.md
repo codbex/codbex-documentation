@@ -4,6 +4,8 @@ The "Data Export and Import" functionality in the __codbex__ platform provides a
 
 ## Exporting Data
 
+![Data Export](../../images/tooling/database/data-export.png){: style="width:300px"}
+
 ### Relational Databases
 
 1. **CSV Format:**
@@ -21,6 +23,8 @@ The "Data Export and Import" functionality in the __codbex__ platform provides a
    - Similar to relational databases, NoSQL data export benefits from the streaming underlying layer, enabling the transfer of large JSON files efficiently.
 
 ## Importing Data
+
+![Data Import](../../images/tooling/database/data-import.png)
 
 ### Relational Databases
 

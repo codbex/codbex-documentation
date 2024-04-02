@@ -2,6 +2,8 @@
 
 The "Transfer View" in the __codbex__ platform is a powerful tool that enables online synchronous data transfer between two datasource schemas. This section provides an overview of the key features and actions available in the "Transfer View."
 
+![Data Transfer](../../images/tooling/database/data-transfer.png){: style="width:700px"}
+
 ## Initiating Data Transfer
 
 1. **Open the Transfer View:**

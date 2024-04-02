@@ -20,7 +20,7 @@ Execute SQL queries, interact with the database, and perform data anonymization 
 
 View and analyze the results of SQL queries, perform data anonymization, and export data seamlessly.
 
-![Results](../../images/tooling/database/result-view.png){: style="width:700px"}
+![Result View](../../images/tooling/database/result-view.png){: style="width:700px"}
 
 ## 4. [Databases View](databases.md):
 

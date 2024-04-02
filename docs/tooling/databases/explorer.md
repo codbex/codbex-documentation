@@ -2,6 +2,8 @@
 
 The "Database Explorer" in the Databases perspective is a powerful tool for managing and interacting with databases. This section provides an overview of the key features and actions available in the "Database Explorer."
 
+![Database Explorer](../../images/tooling/database/database-explorer.png){: style="width:400px"}
+
 ## Connecting to a Database
 
 1. **Open the Database Explorer:**
@@ -11,6 +13,8 @@ The "Database Explorer" in the Databases perspective is a powerful tool for mana
    - Once connected, the Database Explorer displays a list of connected databases. Expand the nodes to view tables, views, procedures, and other database objects.
 
 ## Interacting with Relational Database Objects
+
+![Explore RDBMS](../../images/tooling/database/explore-rdbms.png){: style="width:400px"}
 
 1. **View Table Data:**
    - Double-click on a table to view its data. Use the grid to edit, filter, and sort records.
@@ -25,6 +29,8 @@ The "Database Explorer" in the Databases perspective is a powerful tool for mana
    - Right-click on a table to manage indexes and constraints. Create, edit, or drop indexes and constraints as needed.
 
 ## Interacting with NoSQL Datasources
+
+![Explore NoSQL](../../images/tooling/database/explore-nosql.png){: style="width:400px"}
 
 1. **Explore NoSQL Collections or Tables:**
    - Once connected to a NoSQL datasource, explore collections or tables to view and interact with NoSQL data.
@@ -45,11 +51,22 @@ The "Database Explorer" in the Databases perspective is a powerful tool for mana
 
 ## Actions in the Database Explorer
 
+![Explorer Actions](../../images/tooling/database/explorer-actions.png){: style="width:400px"}
+
 ### 1. **Refresh Database Connection:**
    - Use the "Refresh" button or right-click on a connection to refresh the list of objects and their statuses.
 
-### 2. **Import and Export Data:**
+### 2. **Show Contents:**
+   - Use the "Show Contents" menu to execute a query to select all the records.
+
+### 3. **Generate query scripts:**
+   - Use the "Select", "Insert", "Update", "Delete" menu items (once the "Columns" node is expanded) to generate the corresponding query in the SQL Console.
+
+### 4. **Import and Export Data:**
    - Import and export data to and from tables using the "Import Data" and "Export Data" options.
+
+### 5. **Export Metadata:**
+   - Export metadadata from schema using the "Export Metadata" option.
 
 ## Conclusion
 
