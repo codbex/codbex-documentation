@@ -273,7 +273,10 @@ nav:
     # - Restaurants: 'modules/restaurants.md'
     # - Accounting: 'modules/accounting.md'
     # - Master Data: 'modules/master-data.md'
-  
+    - Reference Data:
+      - 'modules/reference-data/index.md'
+      - Units of Measures: 'modules/reference-data/uom.md'
+
 
 
 
