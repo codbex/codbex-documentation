@@ -176,15 +176,28 @@ This overview will guide you through the basics of the various tools and perspec
 
 ## Modelling Applications
 
-### Overview: Getting Started with MDA
+### Overview: Getting Started with MDD
 
 This overview will guide you through the basics of the model driven techniques.
 
-#### Model-Driven Architecture (MDA)
+#### Model-Driven Development (MDD)
+
+The __codbex__ platform offers a comprehensive set of MDD features, including entity data modeling, code generation, predefined modules, and application building blocks. By leveraging these features, organizations can streamline the development process, reduce development time and costs, and deliver high-quality applications that meet their business requirements.
 
 - **[General Overview](tooling/modeling.md#overview):** Understand the concept and benefits of Model-Driven Architecture (MDA) for application development.
 
 - **[Entity Data Modeler (EDM)](tooling/modeling.md#entity-data-modeler-edm):** Design and define domain models using the Entity Data Modeler tool.
+
+![Entity Data Modeler](images/mdd-sample-model.png)
+
+
+#### Business Processes Management
+
+The __codbex__ platform offers a wide range of BPM features, including BPMN modeling, process execution, task management, and administrative tools. By leveraging these features, organizations can streamline their business processes, improve operational efficiency, and achieve better visibility and control over their business operations.
+
+- **[BPMN Modeler (BPMN)](tooling/processes/modeler.md):** Design and define business process models using the BPMN Modeler tool.
+
+![BPMN Modeler](images/bpmn-sample-diagram.png)
 
 ### Extensibility in the Platform
 

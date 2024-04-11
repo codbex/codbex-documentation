@@ -1,9 +1,21 @@
 # Modeling
 
-## Model-Driven Architecture (MDA)
+## Model-Driven Architecture (MDA) and Model-Driven Development (MDD)
 
 ### Definition
 Model-Driven Architecture (MDA) is a software design and development approach that focuses on creating and utilizing models to represent different aspects of a system. It is an initiative by the Object Management Group (OMG) to promote a standardized way of developing software systems using models as primary artifacts.
+
+### Key Features
+
+* **Entity Data Modeler**: __codbex__ provides a powerful Entity Data Modeler tool that allows users to visually design data models for their applications. Users can define entities, attributes, relationships, and constraints using an intuitive graphical interface. The Entity Data Modeler simplifies the process of designing and managing complex data structures, enabling developers to focus on higher-level application logic.
+
+* **Generation and Application Templates**: __codbex__ offers built-in generation capabilities and a library of application templates to accelerate development. Users can generate application code, including database schema, backend logic, and frontend components, based on predefined templates and configurations. This reduces the time and effort required to build new applications, ensuring consistency and quality across projects.
+
+* **Predefined Reference and Master Data Modules**: The __codbex__ platform includes a repository of predefined reference and master data modules that cover common business domains and industries. These modules contain standard data structures, rules, and workflows that can be easily integrated into applications. By leveraging these predefined modules, developers can expedite development and ensure compliance with industry standards and best practices.
+
+* **Application Building Blocks Modules**: __codbex__ provides a library of reusable application building blocks, such as authentication, authorization, user management, and reporting modules. These building blocks encapsulate common functionality and business logic, allowing developers to quickly assemble custom applications from pre-existing components. This modular approach promotes code reuse, simplifies maintenance, and accelerates time-to-market for new applications.
+
+![Entity Data Modeler](../images/mdd-sample-model.png)
 
 ### Key Concepts
 
