@@ -199,6 +199,12 @@ The __codbex__ platform offers a wide range of BPM features, including BPMN mode
 
 ![BPMN Modeler](images/bpmn-sample-diagram.png)
 
+#### System Integrations and ETL
+
+the __codbex__ platform offers a rich set of ETL features, including visual route modeling, integration engine based on Apache Camel, extensive library of connectors, and comprehensive admin tools. These features empower users to design, deploy, and manage complex data integration workflows with ease, enabling organizations to efficiently extract, transform, and load data across their IT landscape.
+
+![Routes Modeler](images/camel-sample-flow.png)
+
 ### Extensibility in the Platform
 
 - **[Overview](tooling/extensibility.md#overview):** Explore the extensibility features of the platform, including extension points and extensions.
