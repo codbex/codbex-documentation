@@ -4,6 +4,8 @@
 
 The Integrations Editor in the platform, powered by Apache Karavan, provides a visual environment for modeling integration flows. This powerful tool enables developers to design, configure, and manage integration processes seamlessly. The underlying Apache Camel-based Integration Engine processes the defined flows, facilitating the creation of robust and scalable integration solutions.
 
+![Routes Modeler](images/camel-sample-flow.png)
+
 ## Key Features
 
 ### 1. **Visual Modeling**
