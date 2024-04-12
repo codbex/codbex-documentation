@@ -201,9 +201,15 @@ The __codbex__ platform offers a wide range of BPM features, including BPMN mode
 
 #### System Integrations and ETL
 
-the __codbex__ platform offers a rich set of ETL features, including visual route modeling, integration engine based on Apache Camel, extensive library of connectors, and comprehensive admin tools. These features empower users to design, deploy, and manage complex data integration workflows with ease, enabling organizations to efficiently extract, transform, and load data across their IT landscape.
+The __codbex__ platform offers a rich set of ETL features, including visual route modeling, integration engine based on Apache Camel, extensive library of connectors, and comprehensive admin tools. These features empower users to design, deploy, and manage complex data integration workflows with ease, enabling organizations to efficiently extract, transform, and load data across their IT landscape.
 
 ![Routes Modeler](images/camel-sample-flow.png)
+
+#### Form Designer
+
+The Form Designer in the __codbex__ platform offers a flexible and intuitive solution for designing input forms, enabling users to create visually appealing and highly functional forms for their applications with ease. Whether building simple data entry forms or complex multi-step workflows, the Form Designer provides the tools and capabilities needed to design engaging and user-friendly interfaces for a wide range of business use cases.
+
+![Form Designer](images/form-sample-design.png)
 
 ### Extensibility in the Platform
 

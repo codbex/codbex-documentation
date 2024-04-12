@@ -222,7 +222,10 @@ nav:
     - Integrations: 'tooling/integrations/index.md'
     - Operations: 'tooling/operations/index.md'
     - Terminal: 'tooling/terminal/index.md'
-    - Modeling: 'tooling/modeling.md'
+    - Modeling:
+      - 'tooling/modeling/index.md'
+      - EDM: 'tooling/modeling/edm.md'
+      - Form: 'tooling/modeling/form.md'
     - Extensibility: 'tooling/extensibility.md'
     - Compatibility: 'tooling/compatibility.md'
     - Multitenancy: 'tooling/multitenancy.md'
